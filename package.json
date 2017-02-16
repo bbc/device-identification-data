@@ -1,0 +1,23 @@
+{
+  "name": "device-identification-data",
+  "version": "0.0.0",
+  "description": "Device Identification Data for TVs",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "joi": "^10.2.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbc/device-identification-data.git"
+  },
+  "author": "BBC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bbc/device-identification-data/issues"
+  },
+  "homepage": "https://github.com/bbc/device-identification-data#readme"
+}
