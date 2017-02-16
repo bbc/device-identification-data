@@ -13,17 +13,13 @@ const schema = joi.object({
 glob("./devices/**/*.json", (err, files) => {
   const results = files.map(file => {
     const contents = fs.readFileSync(file, 'utf-8')
-    const error = joi.validate(contents, schema, (err, value) => {
-      console.log('***')
-      console.log(err)
-      console.log(value)
-    })
+    const error = joi.validate(contents, schema, err => err)
 
     return {
       device: file,
       error: error
     }
-  }).filter(result => result.error !== undefined)
+  }).filter(result => result.error !== null)
 
   if (results.length) {
     console.log('Validation errors:')
