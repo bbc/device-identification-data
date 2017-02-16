@@ -18,7 +18,7 @@ glob("./devices/**/*.json", function (err, files) {
     })
 
     return {
-      device : file,
+      device: file,
       result: result
     }
   }).filter(result => result.result !== null)
