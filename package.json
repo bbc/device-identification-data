@@ -8,7 +8,7 @@
     "joi": "^10.2.2"
   },
   "scripts": {
-    "test": "test"
+    "test": "node ./tests/schema-validation"
   },
   "repository": {
     "type": "git",
