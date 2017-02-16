@@ -2,26 +2,33 @@ const joi = require('joi')
 const fs = require('fs')
 const glob = require('glob')
 
-const schemaString = joi.string().regex(/^[-,;+ =\/\.a-zA-Z0-9\(\)]*/)
+const schemaString = joi.string().regex(/^[-,;+ =\/\.a-zA-Z0-9\(\)]*/g)
 
-const schema = joi.object().keys({
-  fuzzy: schemaString.required(),
+const schema = joi.object({
+  fuzzy: schemaString,
   invariants: joi.array().items(schemaString),
   disallowed: joi.array().items(schemaString)
 })
 
-glob("./devices/**/*.json", function (err, files) {
+glob("./devices/**/*.json", (err, files) => {
   const results = files.map(file => {
     const contents = fs.readFileSync(file, 'utf-8')
-    const result = joi.validate(contents, schema, (err, value) => {
-      return err
+    const error = joi.validate(contents, schema, (err, value) => {
+      console.log('***')
+      console.log(err)
+      console.log(value)
     })
 
     return {
       device: file,
-      result: result
+      error: error
     }
-  }).filter(result => result.result !== null)
+  }).filter(result => result.error !== null)
 
-  console.log(results)
+  if (results.length) {
+    console.log('Validation errors:')
+    console.log(results)
+  } else {
+    console.log('No validation errors')
+  }
 })
