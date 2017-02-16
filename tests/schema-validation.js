@@ -2,7 +2,7 @@ const joi = require('joi')
 const fs = require('fs')
 const glob = require('glob')
 
-const schemaString = joi.string().regex(/^[-,;+ =\/\.a-zA-Z0-9\(\)]*/g)
+const schemaString = joi.string().regex(/^[-_,;+ =\/\.a-zA-Z0-9\(\)]+$/g)
 
 const schema = joi.object({
   fuzzy: schemaString,
@@ -23,7 +23,7 @@ glob("./devices/**/*.json", (err, files) => {
       device: file,
       error: error
     }
-  }).filter(result => result.error !== null)
+  }).filter(result => result.error !== undefined)
 
   if (results.length) {
     console.log('Validation errors:')
