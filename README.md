@@ -4,4 +4,4 @@ This project contains data designed to be consumed by [Melanite](https://github.
 
 ## Test It
 
-run `npm test` to check the data against the schema provided.˜
+run `npm test` to check the data against the schema provided.
