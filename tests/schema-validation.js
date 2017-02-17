@@ -25,6 +25,6 @@ glob("./devices/**/*.json", (err, files) => {
     console.log('Validation errors:')
     console.log(results)
   } else {
-    console.log('No validation errors')
+    console.log('Validation successful')
   }
 })
