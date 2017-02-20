@@ -3,7 +3,7 @@ const path = require('path')
 const fs = require('fs')
 
 function getDevices (directory) {
-  return new Promise((resolve, reject) => {
+  return new Promise(resolve => {
     let devices = {}
 
     glob(directory, (err, files) => {
