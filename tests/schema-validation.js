@@ -1,27 +1,12 @@
-const joi = require('joi')
-const fs = require('fs')
-const glob = require('glob')
+#!/usr/bin/env node
+const getDevices = require('../scripts/get-devices')
+const testSchema = require('../scripts/test-schema')
 
-const schemaString = joi.string().regex(/^[-_,;+ =\/\.a-zA-Z0-9\(\)]+$/g)
+const directory = process.argv[2]
+const outputFile = process.argv[3]
 
-const schema = joi.object({
-  fuzzy: schemaString,
-  invariants: joi.array().items(schemaString),
-  disallowed: joi.array().items(schemaString)
-})
-
-const files = process.argv[2]
-
-glob(files, (err, files) => {
-  const results = files.map(file => {
-    const contents = fs.readFileSync(file, 'utf-8')
-    const error = joi.validate(contents, schema, err => err)
-
-    return {
-      device: file,
-      error: error
-    }
-  }).filter(result => result.error !== null)
+getDevices(directory).then(devices => {
+  const results = testSchema(devices)
 
   if (results.length) {
     console.log('Validation errors:')
