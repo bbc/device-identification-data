@@ -4,12 +4,12 @@ const fs = require('fs')
 const glob = require('glob')
 const path = require('path')
 
-const filename = process.argv[2]
+const directory = process.argv[2]
 const outputFile = process.argv[3]
 
 let devices = {}
 
-glob(filename, (err, files) => {
+glob(directory, (err, files) => {
   files.forEach(file => {
     const contents = fs.readFileSync(file, 'utf-8')
 
