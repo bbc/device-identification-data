@@ -10,7 +10,9 @@ const schema = joi.object({
   disallowed: joi.array().items(schemaString)
 })
 
-glob("./devices/**/*.json", (err, files) => {
+const files = process.argv[2]
+
+glob(files, (err, files) => {
   const results = files.map(file => {
     const contents = fs.readFileSync(file, 'utf-8')
     const error = joi.validate(contents, schema, err => err)
