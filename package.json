@@ -2,13 +2,14 @@
   "name": "device-identification-data",
   "version": "0.0.0",
   "description": "Device Identification Data for TVs",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "glob": "^7.1.1",
     "joi": "^10.2.2"
   },
   "scripts": {
-    "test": "node ./tests/schema-validation"
+    "test": "node ./tests/schema-validation ./devices/**/*.json",
+    "build": "./scripts/build.sh"
   },
   "repository": {
     "type": "git",
