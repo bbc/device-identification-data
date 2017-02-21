@@ -8,7 +8,7 @@
     "joi": "^10.2.2"
   },
   "scripts": {
-    "test": "node ./tests/schema-validation \"./devices/**/*.json\"",
+    "test": "node ./tests/schema-validation",
     "build": "./scripts/build.sh"
   },
   "repository": {

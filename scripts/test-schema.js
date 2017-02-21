@@ -15,7 +15,7 @@ function testSchema (devices) {
       device: device,
       error: error
     }
-  }).filter(result => result.error !== null)
+  })
 
   return results
 }
