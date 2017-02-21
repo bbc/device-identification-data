@@ -2,7 +2,7 @@ const joi = require('joi')
 
 const schemaString = joi.string().regex(/^[-_,;+ =\/\.a-zA-Z0-9\(\)]+$/g)
 const schema = joi.object({
-  fuzzy: schemaString,
+  fuzzy: schemaString.allow(''),
   invariants: joi.array().items(schemaString),
   disallowed: joi.array().items(schemaString)
 })
