@@ -5,8 +5,8 @@ const glob = require('glob')
 const schemaString = joi.string().regex(/^[-_,;+ =\/\.a-zA-Z0-9\(\)]+$/g)
 
 const schema = joi.object({
-  fuzzy: schemaString,
-  invariants: joi.array().items(schemaString),
+  fuzzy: schemaString.required(),
+  invariants: joi.array().items(schemaString.required()),
   disallowed: joi.array().items(schemaString)
 })
 
