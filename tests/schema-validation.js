@@ -13,7 +13,7 @@ getDevices(directory).then(devices => {
     console.log('Validation errors:')
     errors.forEach((result) => {
       console.log('', 'Error in', result.device, result.error.details.map((detail) => {
-        return message;
+        return JSON.stringify(detail);
       }).join(', '))
     })
   } else {
