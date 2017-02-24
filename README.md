@@ -1,6 +1,6 @@
 # Device Identification Data
 
-This project contains data designed to be consumed by [Melanite](https://github.com/bbc/melanite), and used by [Matterhorn](https://github.com/bbc/matterhorn)
+This project contains data designed to be consumed by [Melanite](https://github.com/bbc/melanite), and used by [Matterhorn](https://github.com/bbc/matterhorn).
 
 ## Development
 
