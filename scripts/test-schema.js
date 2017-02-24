@@ -2,6 +2,8 @@ const joi = require('joi')
 
 const schemaString = joi.string().regex(/^[-_,;+ =\/\.a-zA-Z0-9\(\)]+$/g)
 const schema = joi.object({
+  brand: joi.string().required(),
+  model: joi.string().required(),
   fuzzy: schemaString.allow('').required(),
   invariants: joi.array().items(schemaString).required(),
   disallowed: joi.array().items(schemaString).required()
