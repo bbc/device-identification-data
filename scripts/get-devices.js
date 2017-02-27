@@ -1,6 +1,5 @@
 const glob = require('glob')
 const path = require('path')
-const fs = require('fs')
 
 function getDevices (directory) {
   return new Promise(resolve => {
