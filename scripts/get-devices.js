@@ -8,7 +8,7 @@ function getDevices (directory) {
 
     glob(directory, (err, files) => {
       files.forEach(file => {
-        let contents = JSON.parse(fs.readFileSync(file, 'utf-8'))
+        let contents = require(`../${file}`)
         const device = path.basename(file, '.json').split('-')
         contents.brand = device[0]
         contents.model = device[1]
