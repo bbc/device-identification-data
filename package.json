@@ -2,10 +2,12 @@
   "name": "device-identification-data",
   "version": "0.0.0",
   "description": "Device Identification Data for TVs",
-  "dependencies": {},
   "devDependencies": {
+    "csv": "^1.1.1",
     "glob": "^7.1.1",
-    "joi": "^10.2.2"
+    "joi": "^10.2.2",
+    "node-fetch": "^1.6.3",
+    "melanite": "^1.0.0"
   },
   "scripts": {
     "test": "node ./tests/schema-validation",
