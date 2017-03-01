@@ -1,0 +1,5 @@
+[{
+  "invariants": ["Manhattan"],
+  "disallowed": [],
+  "fuzzy": "QtWebKit/5.3; freesat/2.0 (0.10.3,0) CTV/1.0 (;Manhattan;7354;15.3.0;Skardin;Wired)"
+}]
