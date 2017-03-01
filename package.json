@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Device Identification Data for TVs",
   "devDependencies": {
+    "colors": "^1.1.2",
     "csv": "^1.1.1",
     "glob": "^7.1.1",
     "joi": "^10.2.2",
