@@ -1,0 +1,22 @@
+[
+  {
+    "invariants": ["Series=(TV)"],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 Series=(TV)"
+  },
+  {
+    "invariants": ["Series=4000(HT)"],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 Series=(TV)"
+  },
+  {
+    "invariants": ["Series=UF6200(TV)"],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 Series=(TV)"
+  },
+  {
+    "invariants": ["modelId=samsung"],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 Series=(TV)"
+  }
+]
