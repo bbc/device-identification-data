@@ -1,0 +1,5 @@
+{
+  "invariants": ["YouViewHTML/"],
+  "disallowed": [],
+  "fuzzy": "YouViewHTML/1.0 AppleWebKit/537.21  (Huawei Technologies Co., Ltd; DN360T.01.02.P; 001; CDS/60.36.10; API/2.8.1; PS/2.8.10) (+DVR+FLASH+HTML+MHEG+IPCMC)"
+}
