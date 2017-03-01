@@ -25,13 +25,10 @@ function testLine (line) {
   const outputDevice = output.find((matcher) => matcher.brand === brand && matcher.model === model)
 
   if (outputDevice) {
-    const outputBrand = outputDevice.brand
-    const outputModel = outputDevice.model
-
-    if (device.brand !== outputBrand || device.model !== outputModel) {
+    if (device.brand !== outputDevice.brand || device.model !== outputDevice.model) {
       return {
         expected: { brand: device.brand, model: device.model },
-        actual: { brand: outputBrand, model: outputModel },
+        actual: { brand: outputDevice.brand, model: outputDevice.model },
         ua: ua
       }
     }
