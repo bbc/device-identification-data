@@ -10,12 +10,14 @@ const schema = joi.object({
 })
 
 function testSchema (devices) {
-  const results = Object.keys(devices).map(device => {
-    const error = joi.validate(devices[device], schema, err => err)
+  const results = Object.keys(devices).map(key => {
+    const device = devices[key]
+    const error = joi.validate(device, schema, err => err)
 
     return {
-      device: device,
-      error: error
+      device,
+      key,
+      error
     }
   })
 
