@@ -12,7 +12,7 @@
   },
   "scripts": {
     "lint": "standard",
-    "test": "node ./tests/schema-validation",
+    "test": "npm run build && node ./tests/schema-validation && node ./tests/matcher-validation && npm run lint",
     "build": "./scripts/build.sh"
   },
   "repository": {
