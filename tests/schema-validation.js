@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+const NL = '\n'
+const colors = require('colors/safe')
 const getDevices = require('../scripts/get-devices')
 const testSchema = require('../scripts/test-schema')
 
@@ -11,20 +13,22 @@ function summarise (results) {
 
   console.log('Validating schemas for device mappings:')
   results.forEach((result) => {
-    console.log('', 'Checked', result.device.brand, result.device.model)
+    console.log('', colors.grey(`Checked #${result.key} ${result.device.brand}-${result.device.model}.json`))
   })
-  console.log(`Checked ${results.length} devices in total`)
+  console.log('')
+  console.log(colors.blue(`Checked ${results.length} devices in total`), NL)
 
   if (errors.length) {
-    console.log(`Found ${errors.length} validation errors:`)
+    console.log(colors.red(`Found ${errors.length} validation errors:`), NL)
     errors.forEach((result) => {
-      console.log(' ', 'Error in', result.device, result.error.details.map((detail) => {
+      const details = result.error.details.map((detail) => {
         return JSON.stringify(detail)
-      }).join(', '))
+      }).join(', ')
+      console.log(colors.red(`  Error in #${result.key} ${result.device.brand}-${result.device.model}.json, ${details}`), NL)
     })
   }
   if (valids) {
-    console.log(`Validation successful for ${valids.length} devices`)
+    console.log(colors.green(`Validation successful for ${valids.length} devices`), NL)
   }
 
   if (errors.length) {
