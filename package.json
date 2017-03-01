@@ -9,13 +9,23 @@
     "joi": "^10.2.2",
     "melanite": "^1.0.0",
     "node-fetch": "^1.6.3",
-    "standard": "^9.0.0"
+    "pre-commit": "^1.2.2",
+    "pre-push": "^0.1.1",
+    "standard": "^9.0.0",
+    "tvp-apache2-license-checker": "^1.0.1"
   },
   "scripts": {
     "lint": "standard",
     "test": "npm run build && node ./tests/schema-validation && node ./tests/matcher-validation && npm run lint",
-    "build": "./scripts/build.sh"
+    "build": "./scripts/build.sh",
+    "check-licenses": "tvp-apache2-license-checker"
   },
+  "pre-commit": [
+    "lint"
+  ],
+  "pre-push": [
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bbc/device-identification-data.git"
