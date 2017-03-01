@@ -6,10 +6,12 @@
     "csv": "^1.1.1",
     "glob": "^7.1.1",
     "joi": "^10.2.2",
+    "melanite": "^1.0.0",
     "node-fetch": "^1.6.3",
-    "melanite": "^1.0.0"
+    "standard": "^9.0.0"
   },
   "scripts": {
+    "lint": "standard",
     "test": "node ./tests/schema-validation",
     "build": "./scripts/build.sh"
   },

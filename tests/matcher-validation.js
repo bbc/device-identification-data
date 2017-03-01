@@ -1,12 +1,12 @@
-const fetch = require('node-fetch');
-const csv = require('csv');
-const melanite = require('melanite');
+const fetch = require('node-fetch')
+const csv = require('csv')
+const melanite = require('melanite')
 
-const output = require('../output/device-identification-data.json');
+const output = require('../output/device-identification-data.json')
 
-const testDataFetch = fetch('https://connected-tv.files.bbci.co.uk/tvp-user-agents/dax.csv');
+const testDataFetch = fetch('https://connected-tv.files.bbci.co.uk/tvp-user-agents/dax.csv')
 
-const match = melanite.match(output);
+const match = melanite.match(output)
 
 function parse (data) {
   return new Promise((resolve, reject) => {
@@ -18,29 +18,29 @@ function parse (data) {
 }
 
 testDataFetch.then((response) => {
-  return response.text();
+  return response.text()
 }).then((testData) => {
   return parse(testData)
 }).then((testDataLines) => {
   testDataLines.forEach((testDataLine) => {
-    const [brand, model, ua] = testDataLine;
+    const [brand, model, ua] = testDataLine
 
-    const device = match(ua);
+    const device = match(ua)
 
-    const outputDevices = output.filter((matcher) => matcher.brand === brand && matcher.model === model);
+    const outputDevices = output.filter((matcher) => matcher.brand === brand && matcher.model === model)
 
     if (outputDevices.length) {
-      const outputBrand = outputDevices[0].brand;
-      const outputModel = outputDevices[0].model;
+      const outputBrand = outputDevices[0].brand
+      const outputModel = outputDevices[0].model
 
       if (device.brand !== outputBrand || device.model !== outputModel) {
         console.error(
           `Bad match: ${outputBrand} ${outputModel}`,
           `Expected to match: ${brand} ${model}`,
           `UA: ${ua}`
-        );
-        process.exit(1);
+        )
+        process.exit(1)
       }
     }
-  });
-});
+  })
+})
