@@ -22,11 +22,11 @@ function testLine (line) {
 
   const device = match(ua)
 
-  const outputDevices = output.find((matcher) => matcher.brand === brand && matcher.model === model)
+  const outputDevice = output.find((matcher) => matcher.brand === brand && matcher.model === model)
 
-  if (outputDevices) {
-    const outputBrand = outputDevices.brand
-    const outputModel = outputDevices.model
+  if (outputDevice) {
+    const outputBrand = outputDevice.brand
+    const outputModel = outputDevice.model
 
     if (device.brand !== outputBrand || device.model !== outputModel) {
       return {
