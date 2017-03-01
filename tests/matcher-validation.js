@@ -30,7 +30,7 @@ function testLine (line) {
 
     if (device.brand !== outputBrand || device.model !== outputModel) {
       return {
-        expected: { brand, model },
+        expected: { brand: device.brand, model: device.model },
         actual: { brand: outputBrand, model: outputModel },
         ua: ua
       }
