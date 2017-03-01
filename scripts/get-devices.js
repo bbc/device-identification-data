@@ -6,6 +6,7 @@ function getDevices (directory) {
     let devices = []
 
     glob(directory, (err, files) => {
+      if (err) throw err
       files.forEach(file => {
         let contents = require(`../${file}`)
         const device = path.basename(file, '.json').split('-')

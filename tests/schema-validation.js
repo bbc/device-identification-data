@@ -3,7 +3,7 @@
 const getDevices = require('../scripts/get-devices')
 const testSchema = require('../scripts/test-schema')
 
-const directory = './devices/**/*.json';
+const directory = './devices/**/*.json'
 
 getDevices(directory).then(devices => {
   const results = testSchema(devices)
@@ -13,13 +13,13 @@ getDevices(directory).then(devices => {
     console.log('Validation errors:')
     errors.forEach((result) => {
       console.log('', 'Error in', result.device, result.error.details.map((detail) => {
-        return JSON.stringify(detail);
+        return JSON.stringify(detail)
       }).join(', '))
     })
   } else {
     console.log('Validation successful')
     results.forEach((result) => {
-      console.log('', 'Checked', result.device);
+      console.log('', 'Checked', result.device)
     })
   }
 })
