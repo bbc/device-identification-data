@@ -16,6 +16,7 @@ getDevices(directory).then(devices => {
         return JSON.stringify(detail)
       }).join(', '))
     })
+    process.exit(1)
   } else {
     console.log('Validation successful')
     results.forEach((result) => {
