@@ -60,7 +60,7 @@ function logFailure (failure) {
   const error = [
     `Bad match: ${expected.brand}-${expected.model}`,
     `UA: ${ua}`,
-    `Expected '${expected.brand}-${expected.model}' to match '${actual.brand}-${actual.model}'`,
+    `Expected '${actual.brand}-${actual.model}' to match '${expected.brand}-${expected.model}'`,
     ``
   ].join(NL)
   console.error(colors.red(error))
