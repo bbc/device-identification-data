@@ -8,7 +8,7 @@ const devices = require('../output/device-identification-data.json')
 const fetchTestData = fetch('https://connected-tv.files.bbci.co.uk/tvp-user-agents/dax.csv')
 const match = melanite.match(devices)
 
-function parse(data) {
+function parse (data) {
   return new Promise((resolve, reject) => {
     csv.parse(data, (err, parsed) => {
       if (err) return reject(err)
@@ -17,7 +17,7 @@ function parse(data) {
   })
 }
 
-function testLine(line) {
+function testLine (line) {
   const [brand, model, ua] = line
 
   const localDevice = devices.find((matcher) => matcher.brand === brand && matcher.model === model)
@@ -51,7 +51,7 @@ function testLine(line) {
   return result
 }
 
-function logFailure(failure) {
+function logFailure (failure) {
   const {
     expected,
     actual,
@@ -66,7 +66,7 @@ function logFailure(failure) {
   console.error(colors.red(error))
 }
 
-function summarise(results) {
+function summarise (results) {
   const failures = results.filter(item => item.fail)
   const successes = results.filter(item => item.success)
   const warnings = results.filter(item => item.warning)
@@ -95,7 +95,7 @@ fetchTestData.then((response) => {
   return parse(testData)
 }).then((testDataLines) => {
   const results = testDataLines.map(testLine)
-  console.log('');
+  console.log('')
   console.log(colors.blue(`Total user-agents: ${testDataLines.length}${NL}`))
   return results
 }).then(summarise).catch((error) => {
