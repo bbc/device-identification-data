@@ -10,9 +10,12 @@ function getDevices (directory) {
       files.forEach(file => {
         let contents = require(`../${file}`)
         const device = path.basename(file, '.json').split('-')
-        contents.brand = device[0]
-        contents.model = device[1]
-        devices.push(contents)
+
+        contents.map(content => {
+          content.brand = device[0]
+          content.model = device[1]
+          devices.push(content)
+        })
       })
 
       resolve(devices)
