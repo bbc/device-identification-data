@@ -12,11 +12,11 @@
     "pre-commit": "^1.2.2",
     "pre-push": "^0.1.1",
     "standard": "^9.0.0",
-    "tvp-apache2-license-checker": "^1.0.1"
+    "tvp-apache2-license-checker": "^1.0.2"
   },
   "scripts": {
     "lint": "standard",
-    "test": "npm run build && node ./tests/schema-validation && node ./tests/matcher-validation && npm run lint",
+    "test": "npm run build && node ./tests/schema-validation && node ./tests/matcher-validation && npm run lint && npm run check-licenses",
     "build": "./scripts/build.sh",
     "check-licenses": "tvp-apache2-license-checker"
   },
