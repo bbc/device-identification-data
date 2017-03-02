@@ -1,0 +1,5 @@
+[{
+  "invariants": ["Web0S", "DTV_W15H"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 49UF770V-ZA; 04.05.35; 1; DTV_W15H); webOS.TV-2015; LG NetCast.TV-2013 Compatible (LGE, 49UF770V-ZA, wired)"
+}]
