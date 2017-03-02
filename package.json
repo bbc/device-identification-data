@@ -16,6 +16,8 @@
   },
   "scripts": {
     "lint": "standard",
+    "test:matcher": "npm run build && node ./tests/matcher-validation",
+    "test:schema": "npm run build && node ./tests/schema-validation",
     "test": "npm run build && node ./tests/schema-validation && node ./tests/matcher-validation && npm run lint && npm run check-licenses",
     "build": "./scripts/build.sh",
     "check-licenses": "tvp-apache2-license-checker"
