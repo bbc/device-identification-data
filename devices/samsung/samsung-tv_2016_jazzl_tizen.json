@@ -1,0 +1,5 @@
+[{
+  "invariants": ["Platform=16_JAZZL"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1 Brand=Samsung Platform=16_JAZZL_UHD Model=UKU6000 Brand=Samsung Platform=16_JAZZL_UHD Model=UKU6000"
+}]
