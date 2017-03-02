@@ -1,0 +1,5 @@
+[{
+  "invariants": ["TOSHIBA-2011-RL"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 ( DL PVR RTSP;Mstar;OWB;;;) TOSHIBA-2011-RL/TL"
+}]
