@@ -17,13 +17,20 @@ function parse (data) {
   })
 }
 
+function microTime () {
+  const hrTime = process.hrtime()
+  return (hrTime[0] * 1000000) + (hrTime[1] / 1000)
+}
+
 function testLine (line) {
   const [brand, model, ua] = line
 
+  const testStart = microTime()
   const localDevice = devices.find((matcher) => matcher.brand === brand && matcher.model === model)
   const matchedDevice = match(ua)
+  const timeTaken = microTime() - testStart
 
-  console.log(colors.grey(['Testing', ua, 'Expecting', brand, model].join(' ')))
+  console.log(colors.grey([`[${timeTaken.toFixed(2)}µs]`, 'Tested', ua, 'Expecting', brand, model].join(' ')))
 
   const result = {
     expected: {
@@ -34,7 +41,8 @@ function testLine (line) {
       brand: matchedDevice.brand,
       model: matchedDevice.model
     },
-    ua: ua
+    ua,
+    timeTaken
   }
 
   if (localDevice) {
@@ -67,6 +75,8 @@ function logFailure (failure) {
 }
 
 function summarise (results) {
+  const timeTaken = ((Date.now() - startTime) / 1000).toFixed(2)
+
   const failures = results.filter(item => item.fail)
   const successes = results.filter(item => item.success)
   const warnings = results.filter(item => item.warning)
@@ -82,6 +92,13 @@ function summarise (results) {
     console.log(colors.yellow(`Warnings: ${warnings.length} (No local matchers)${NL}`))
   }
 
+  const sumTimeTaken = results.reduce((total, item) => {
+    return total + item.timeTaken
+  }, 0)
+
+  console.log(colors.grey(`Sum matcher time: ${(sumTimeTaken / 1000 / 1000).toFixed(2)}s`), NL)
+  console.log(colors.grey(`Overall time taken: ${timeTaken}s`), NL)
+
   if (failures.length) {
     process.exit(1)
   } else {
@@ -89,6 +106,7 @@ function summarise (results) {
   }
 }
 
+const startTime = Date.now()
 fetchTestData.then((response) => {
   return response.text()
 }).then((testData) => {

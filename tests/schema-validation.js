@@ -31,6 +31,9 @@ function summarise (results) {
     console.log(colors.green(`Validation successful for ${valids.length} devices`), NL)
   }
 
+  const timeTaken = ((Date.now() - startTime) / 1000).toFixed(2)
+  console.log(colors.grey(`Time taken: ${timeTaken}s`), NL)
+
   if (errors.length) {
     process.exit(1)
   } else {
@@ -38,6 +41,7 @@ function summarise (results) {
   }
 }
 
+const startTime = Date.now()
 getDevices(directory)
   .then(testSchema)
   .then(summarise)
