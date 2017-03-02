@@ -1,0 +1,5 @@
+[{
+  "invariants": ["GMI-SS-Browser"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (; U; Linux SH4; en) AppleWebkit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 (;GMI-SS-Browser- 3.0; mB/7108;1.0.0;1.00;)"
+}]
