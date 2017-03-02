@@ -1,0 +1,5 @@
+[{
+  "invariants": ["OreganMediaBrowser"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (avdn/onyx.stb.2010;        avui/tv;  avvp/ssl; avrt/cehtml; avkb/pc,B:1572866; avst/off; Onyx/CelloTV(M&S) Windows; U; Windows NT 5.1; en-GB; rv:1.8.1.13) CE-HTML/1.0 OreganMediaBrowser/4.94.20"
+}]
