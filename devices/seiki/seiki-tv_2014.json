@@ -1,0 +1,5 @@
+[{
+  "invariants": ["TFG-OTT"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0(Linuxmipsel;U;en-GB;)AppleWebKit/537.4 (KHTML,likeGecko)HbbTV/1.1.1(;TFG;MWB;;;)TFG-OTT"
+}]
