@@ -1,0 +1,5 @@
+[{
+  "invariants": ["Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.4 (KHTML, like Gecko) Qt/4.8.2 Safari/537.4, HbbTV/1.2.1 (Sharp_UMC_LCDTV"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.4 (KHTML, like Gecko) Qt/4.8.2 Safari/537.4, HbbTV/1.2.1 (Sharp_UMC_LCDTV, LC-43CFF6452K, wired)"
+}]
