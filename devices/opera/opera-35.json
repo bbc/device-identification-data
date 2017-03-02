@@ -1,0 +1,5 @@
+[{
+  "invariants": ["OMI/"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2970.0 Safari/537.36 OPR/44.0.2207.0 OMI/4.10.1.33.master Model/Demo-Rotopipe"
+}]
