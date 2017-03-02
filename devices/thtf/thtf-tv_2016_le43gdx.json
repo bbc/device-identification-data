@@ -1,0 +1,5 @@
+[{
+  "invariants": ["THTF"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0(QtEmbedded;Linux)AppleWebKit/537.4(KHTML,likeGecko)Qt/4.8.2/Safari/537.4, smarttv/7.2.12.0.0.1(SEIKI, MSD6488, wired)THTF-OTT"
+}]
