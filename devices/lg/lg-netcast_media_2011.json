@@ -1,0 +1,33 @@
+[{
+  "invariants": ["HR690"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/of LG Browser/4.1.0( 3D BDP; LGE; Media/HR690; BR.8.42.109.B; 0x00000001;); LG NetCast.Media-2011"
+}, {
+  "invariants": ["BD670"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/of LG Browser/4.1.0( 3D BDP; LGE; Media/HR690; BR.8.42.109.B; 0x00000001;); LG NetCast.Media-2011"
+}, {
+  "invariants": ["HB906"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/of LG Browser/4.1.0( 3D BDP; LGE; Media/HR690; BR.8.42.109.B; 0x00000001;); LG NetCast.Media-2011"
+}, {
+  "invariants": ["HR550"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/of LG Browser/4.1.0( 3D BDP; LGE; Media/HR690; BR.8.42.109.B; 0x00000001;); LG NetCast.Media-2011"
+}, {
+  "invariants": ["ST600"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/of LG Browser/4.1.0( 3D BDP; LGE; Media/HR690; BR.8.42.109.B; 0x00000001;); LG NetCast.Media-2011"
+}, {
+  "invariants": ["BD660"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/of LG Browser/4.1.0( 3D BDP; LGE; Media/HR690; BR.8.42.109.B; 0x00000001;); LG NetCast.Media-2011"
+}, {
+  "invariants": ["HB806"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/of LG Browser/4.1.0( 3D BDP; LGE; Media/HR690; BR.8.42.109.B; 0x00000001;); LG NetCast.Media-2011"
+}, {
+  "invariants": ["BH9540"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux 7630; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/of LG Browser/4.1.0( 3D BDP; LGE; Media/HR690; BR.8.42.109.B; 0x00000001;); LG NetCast.Media-2011"
+}]
