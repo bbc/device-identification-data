@@ -1,0 +1,5 @@
+[{
+  "invariants": ["Opera/9.80 (Linux armv6l; Opera TV Store/5530; Smart-BD; M; Linux/SmartBD; B-HM5160; Mediatek) Presto/2.12.362 Version/12.11 Brand=Samsung Platform=MTK Model=B-HM5160"],
+  "disallowed": [],
+  "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/5530; Smart-BD; M; Linux/SmartBD; B-HM5160; Mediatek) Presto/2.12.362 Version/12.11 Brand=Samsung Platform=MTK Model=B-HM5160"
+}]
