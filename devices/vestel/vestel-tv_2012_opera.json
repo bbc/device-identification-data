@@ -4,7 +4,7 @@
   "fuzzy": "Opera/9.80 (Linux mips; U; ; en) Presto/2.10.287 Version/12.00 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/BUSH-v.tv.2012)"
 },
 {
-  "invariants": [],
+  "invariants": ["(; CUS:BUSH; MB95; 3.1.4.h; 1.0;)"],
   "disallowed": [],
   "fuzzy": "Opera/9.80 (Linux mips; U; ; en) Presto/2.10.287 Version/12.00 HbbTV/1.1.1 (; CUS:BUSH; MB95; 3.1.4.h; 1.0;) CE-HTML/1.0 NETRANGEMMH iplayerV3"
 }]
