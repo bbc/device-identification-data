@@ -1,97 +1,97 @@
 [{
   "invariants": ["32LM6"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D PORTAL_KEY SCREEN TUNER; LGE; 32LM669S-ZC; 04.62.12; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["42LM640S"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D PORTAL_KEY SCREEN TUNER; LGE; 42LM640S-ZA; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["42LM670S"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D PORTAL_KEY SCREEN TUNER; LGE; 42LM670S-ZA; 04.62.12; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["47LM640S"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D PORTAL_KEY SCREEN TUNER; LGE; 47LM640S-ZA; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["55LM760S"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D PORTAL_KEY SCREEN TUNER; LGE; 55LM760S-ZB; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["65LM620S"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D PORTAL_KEY SCREEN TUNER; LGE; 65LM620S-ZB; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["37LM620"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 37LM620S-ZE; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["42LM6"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 42LM620S-ZE; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["42LM7"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 42LM670S-ZA; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["42PM470"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 42PM4700-ZA; 04.41.10; 0x00000011;); LG NetCast.TV-2012"
 }, {
   "invariants": ["47LM6"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 47LM620T-ZE; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["47LM760"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 47LM760T-ZB; 04.60.14; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["50PM470T"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 50PM470T-ZA; 04.41.10; 0x00000011;); LG NetCast.TV-2012"
 }, {
   "invariants": ["50PM6"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 50PM670T-ZA; 04.41.10; 0x00000011;); LG NetCast.TV-2012"
 }, {
   "invariants": ["50PM970"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 50PM970T-ZA; 04.41.13; 0x00000011;); LG NetCast.TV-2012"
 }, {
   "invariants": ["55LM6"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 55LM640T-ZA; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["55LM76"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 55LM760T-ZB; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["60PM6"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 60PM680T-ZF; 04.41.10; 0x00000011;); LG NetCast.TV-2012"
 }, {
   "invariants": ["60PM970T"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 60PM970T-ZA; 04.41.10; 0x00000011;); LG NetCast.TV-2012"
 }, {
   "invariants": ["65LM620T"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; 65LM620T-ZB; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["32LS5"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse PORTAL_KEY SCREEN TUNER; LGE; 32LS570S-ZB; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["42LS5"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse SCREEN TUNER; LGE; 42LS570T-ZB; 04.60.14; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["37LS57"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse SCREEN TUNER; LGE; 37LS575S-ZD; 04.62.12; 0x00000001;); LG NetCast.TV-2012"
 }, {
   "invariants": ["42LS57"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/"
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse SCREEN TUNER; LGE; 42LS575S-ZD; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
 }]
