@@ -1,5 +1,157 @@
 [{
-  "invariants": ["LG Browser/"],
+  "invariants": [],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 Series=5000(TV)"
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["27MT93V-PZQ"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["32LA620V-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["32LA667S-ZB"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["32LN570V-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["39LA620S-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA6208-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA620S-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA620V-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+},  {
+  "invariants": ["42LA640S-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+},  {
+  "invariants": ["42LA640S-ZC"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA640V-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA6418-ZC"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA641V-ZC"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA644V-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA66"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA69"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42LA740V-ZB"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["47LA620"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["47LA64"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["47LA66"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["47LA69"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["47LA740"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["47LN578V-ZE"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["50LA6"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["50PB690V-ZC"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["50PH6"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55LA6"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55LA7"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["60LA620"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["60LA740V-ZA"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["60PB690V-ZC"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["60PH6"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["24MS53V-PZQ"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["24MT3"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["26LN460U-ZJ"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["27MS53V-PZQ"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["27MS73V-PZQ"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["27MT55S-PZQ"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
 }]
