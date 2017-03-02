@@ -1,0 +1,10 @@
+[{
+  "invariants": ["Roku/DVP-2710"],
+  "disallowed": [],
+  "fuzzy": "Roku/DVP-2710X-5.5 (065.05E00428A)"
+},
+{
+  "invariants": ["Roku/DVP-2720"],
+  "disallowed": [],
+  "fuzzy": "Roku/DVP-2720X-6.2 (066.02E03678A)"
+}]
