@@ -1,7 +1,5 @@
-[
-  {
-    "invariants": [],
-    "disallowed": ["HbbTV"],
-    "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/5450; Panasonic.bd2d.2013.Mediatek) Presto/2.12.362 Version/12.10"
-  }
-]
+[{
+  "invariants": ["Panasonic.bd2d.2013.Mediatek"],
+  "disallowed": ["HbbTV"],
+  "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/5450; Panasonic.bd2d.2013.Mediatek) Presto/2.12.362 Version/12.10"
+}]

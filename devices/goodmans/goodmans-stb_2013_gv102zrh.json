@@ -1,5 +1,5 @@
 [{
-  "invariants": [],
+  "invariants": ["ANTGalio"],
   "disallowed": [],
   "fuzzy": "Mozilla/5.0 (compatible; ANTGalio/3.2.0; Linux2.6.32.16/sh4; BU102ZRH)"
 }]
