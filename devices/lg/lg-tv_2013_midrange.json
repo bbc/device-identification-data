@@ -1,8 +1,4 @@
 [{
-  "invariants": [],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
-}, {
   "invariants": ["27MT93V-PZQ"],
   "disallowed": [],
   "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
