@@ -1,0 +1,16 @@
+[{
+  "invariants": ["OPPO"],
+  "disallowed": [],
+  "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4515; U; OPPO PLAYER; Mediatek; en) Presto/2.10.250 Version/11.60"
+},
+{
+  "invariants": ["OPPO", "BDP-105EU"],
+  "disallowed": [],
+  "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4515; U; OPPO PLAYER BDP-105EU; Mediatek; en) Presto/2.10.250 Version/11.60"
+},
+{
+  "invariants": ["OPPO", "BDP-103EU"],
+  "disallowed": [],
+  "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4515; U; OPPO PLAYER BDP-103EU; Mediatek; en) Presto/2.10.250 Version/11.60"
+}
+]
