@@ -1,0 +1,45 @@
+[{
+  "invariants": ["49UB8"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55UB8"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["40UB800V"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["40UB80OV-ZA"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["40UF695V-ZB"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["42UB820V-ZH"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["49UB820V"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["49UF695V-ZA"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55UB820"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55UF695V-ZA"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["60UF695V-ZA"],
+  "disallowed": ["Web0S"],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}]
