@@ -1,0 +1,5 @@
+[{
+  "invariants": ["Web0S", "W3_M2"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.2.1 Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.2.1 ( DRM; LGE; 32LH590U-ZE; WEBOS3.0 03.20.40; W3_M2;)"
+}]
