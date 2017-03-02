@@ -1,0 +1,97 @@
+[{
+  "invariants": ["42LA860W"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["47LA790"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["47LA860"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55EA880"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55EA980W"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55LA790"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55LA860"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55LA965"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55LA970W"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["60LA860W"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["65LA965W"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["65LA970"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["84LM960V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["49UB850"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55EC930"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55UB85"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55UB950V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["55UC970V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["65EC970V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["65UB950V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["65UB980V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["65UC970V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["79UB980V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}, {
+  "invariants": ["84UB980V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/"
+}]
