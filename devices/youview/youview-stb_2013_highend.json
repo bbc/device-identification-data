@@ -1,0 +1,5 @@
+[{
+  "invariants": ["+DVR+FLASH+HTML+MHEG+IPCMC"],
+  "disallowed": [],
+  "fuzzy": "YouViewHTML/1.0 AppleWebKit/537.21 (Humax; DTRT2100; 80B07001; CDS/13.3.0; API/1.5.0; PS/1.5.0) (+DVR+FLASH+HTML+MHEG+IPCMC)"
+}]
