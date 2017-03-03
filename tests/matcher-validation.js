@@ -74,6 +74,21 @@ function logFailure (failure) {
   console.error(colors.red(error))
 }
 
+function logWarning (warning) {
+  const {
+    expected,
+    actual,
+    ua
+  } = warning
+  const warn = [
+    `Expected: ${expected.brand}-${expected.model}`,
+    `Actual: ${actual.brand}-${actual.model}`,
+    `UA: ${ua}`,
+    ``
+  ].join(NL)
+  console.error(colors.yellow(warn))
+}
+
 function summarise (results) {
   const timeTaken = ((Date.now() - startTime) / 1000).toFixed(2)
 
@@ -89,6 +104,7 @@ function summarise (results) {
     console.log(colors.green(`Successful checks: ${successes.length}${NL}`))
   }
   if (warnings.length) {
+    warnings.forEach(logWarning)
     console.log(colors.yellow(`Warnings: ${warnings.length} (No local matchers)${NL}`))
   }
 
