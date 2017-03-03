@@ -116,7 +116,7 @@ function summarise (results) {
   console.log(colors.grey(`Sum matcher time: ${(sumTimeTaken / 1000 / 1000).toFixed(2)}s`), NL)
   console.log(colors.grey(`Overall time taken: ${timeTaken}s`), NL)
 
-  if (failures.length || warnings.length) {
+  if (failures.length) {
     process.exit(1)
   } else {
     process.exit(0)
