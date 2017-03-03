@@ -99,6 +99,7 @@ function summarise (results) {
   if (failures.length) {
     failures.forEach(logFailure)
     console.log(colors.red(['Total failures: ', failures.length, NL].join('')))
+    process.exit(1)
   }
   if (successes.length) {
     console.log(colors.green(`Successful checks: ${successes.length}${NL}`))
