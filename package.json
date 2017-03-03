@@ -20,6 +20,7 @@
     "test:schema": "npm run build && node ./tests/schema-validation",
     "test": "npm run build && node ./tests/schema-validation && node ./tests/matcher-validation && npm run lint && npm run check-licenses",
     "build": "./scripts/build.sh",
+    "release-to-live": "npm test && ./scripts/deploy.sh",
     "check-licenses": "tvp-apache2-license-checker"
   },
   "pre-commit": [
