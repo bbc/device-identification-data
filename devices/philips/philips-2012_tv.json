@@ -1,0 +1,5 @@
+[{
+  "invariants": ["Philips;"],
+  "disallowed": ["PhilipsTV, 6.1.1,", "PHILIPSTV/2.1", "Linux armv7l", "CE-HTML/1.0 NETTV/3.2.4"],
+  "fuzzy": "Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/4.0.1; en) Presto/2.10.250 Version/11.60"
+}]
