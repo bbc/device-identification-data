@@ -22,6 +22,40 @@ function microTime () {
   return (hrTime[0] * 1000000) + (hrTime[1] / 1000)
 }
 
+function checkForUntested (results) {
+  const tested = {}
+  const untested = []
+  results.forEach((result) => {
+    const device = result.expected
+    const key = `${device.brand}-${device.model}`
+    tested[key] = result
+  })
+  devices.forEach((deviceMatcher) => {
+    const key = `${deviceMatcher.brand}-${deviceMatcher.model}`
+    if (!tested[key]) {
+      untested.push(deviceMatcher)
+    }
+  })
+  untested.forEach((deviceMatcher) => {
+    const testStart = microTime()
+    results.push({
+      expected: {
+        brand: 'Brand not tested',
+        model: 'Model not tested'
+      },
+      actual: {
+        brand: deviceMatcher.brand,
+        model: deviceMatcher.model
+      },
+      ua: 'No user-agent specified',
+      timeTaken: microTime() - testStart,
+      warning: true
+    })
+  })
+
+  return results
+}
+
 function testLine (line) {
   const [brand, model, ua] = line
 
@@ -132,7 +166,7 @@ fetchTestData.then((response) => {
   const results = testDataLines.map(testLine)
   console.log('')
   console.log(colors.blue(`Total user-agents: ${testDataLines.length}${NL}`))
-  return results
+  return checkForUntested(results)
 }).then(summarise).catch((error) => {
   console.error('Something went horribly wrong')
   console.error(error)
