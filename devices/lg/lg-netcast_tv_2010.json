@@ -1,5 +1,5 @@
 [{
   "invariants": ["Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.TV-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/"],
   "disallowed": [],
-  "fuzzy": ""
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.TV-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/"
 }]
