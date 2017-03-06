@@ -1,5 +1,5 @@
 [{
-  "invariants": ["sony.hbbtv.tv.2015HE"],
+  "invariants": ["sony.hbbtv.tv.2015HE YouView"],
   "disallowed": [],
-  "fuzzy":  "Mozilla/5.0 (Linux armv7l) AppleWebkit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.69 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.9.7.ALSAN4.55 HbbTV/1.2.1 (; Sony; KD550R415B; PKG4.410EUA; 2015;) sony.hbbtv.tv.2015HE"
+  "fuzzy":  "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.48.ALSAN3.97 HbbTV/1.1.1 (; Sony; N/A; v1.000; 2015;) sony.hbbtv.tv.2015HE YouView"
 }]
