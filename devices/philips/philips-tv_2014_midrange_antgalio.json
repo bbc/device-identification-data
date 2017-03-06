@@ -1,0 +1,5 @@
+[{
+  "invariants": ["HbbTV", "PhilipsTV, 4.1.1", "ANTGalio"],
+  "disallowed": [],
+  "fuzzy": "HbbTV/1.2.1 (;Philips;MT5580; PhilipsTV, 4.1.1;;) ANTGalio/3.4.0.27.00.devel"
+}]
