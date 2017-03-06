@@ -5,7 +5,7 @@ const melanite = require('melanite')
 const NL = '\n'
 
 const devices = require('../output/device-identification-data.json')
-const fetchTestData = fetch('https://connected-tv.files.bbci.co.uk/tvp-user-agents/dax.csv')
+const fetchTestData = fetch('https://connected-tv.files.bbci.co.uk/tvp-user-agents/data.csv')
 const match = melanite.match(devices)
 
 function parse (data) {
