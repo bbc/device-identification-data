@@ -1,5 +1,17 @@
-[{
-  "invariants": ["YouViewHTML/"],
-  "disallowed": [],
-  "fuzzy": "YouViewHTML/1.0 AppleWebKit/537.21  (Huawei Technologies Co., Ltd; DN360T.01.02.P; 001; CDS/60.36.10; API/2.8.1; PS/2.8.10) (+DVR+FLASH+HTML+MHEG+IPCMC)"
-}]
+[
+  {
+    "invariants": ["YouViewHTML/"],
+    "disallowed": [],
+    "fuzzy": "YouViewHTML/1.0 AppleWebKit/537.21  (Huawei Technologies Co., Ltd; DN360T.01.02.P; 001; CDS/60.36.10; API/2.8.1; PS/2.8.10) (+DVR+FLASH+HTML+MHEG+IPCMC)"
+  },
+  {
+    "invariants": ["YouViewHTML/"],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML like Gecko) Chrome/55.0.2883.95 Safari/537.36 YouViewHTML/1.0 AppleWebKit/537.21 (Humax; DTRT1000; 80B07001; CDS/13.3.0; API/1.5.0; PS/1.5.0) (+DVR+FLASH+HTML+MHEG+IPCMC)"
+  },
+  {
+    "invariants": ["YouView"],
+    "disallowed": [],
+    "fuzzy": "YouView (Huawei Technologies Co. Ltd; DN360T.01.01.P; 001; CDS/60.36.60; API/2.8.1; PS/2.8.18) (+FLASH+HTML+MHEG+IPCMC)"
+  }
+]
