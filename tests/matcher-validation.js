@@ -64,8 +64,6 @@ function testLine (line) {
   const matchedDevice = match(ua)
   const timeTaken = microTime() - testStart
 
-  console.log(colors.grey([`[${timeTaken.toFixed(2)}µs]`, 'Tested', ua, 'Expecting', brand, model].join(' ')))
-
   const result = {
     expected: {
       brand,
