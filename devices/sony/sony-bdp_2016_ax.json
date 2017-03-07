@@ -1,10 +1,17 @@
-[{
-  "invariants": ["BDP-S1700"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.57 SonyCEBrowser/1.0 (BDPlayer; BDP-S1700; BDP2016/M30.R.0301; XAE; )"
-},
-{
-  "invariants": ["BDP-S3700"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.57 SonyCEBrowser/1.0 (BDPlayer; BDP-S3700; BDP2016/M36.B.0021; XAE; )"
-}]
+[
+  {
+    "invariants": ["SonyCEBrowser/1.0", "BDPlayer", "BDP2016", "BDP-S1700"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4563; U; SonyCEBrowser/1.0 (BDPlayer; BDP-S1700; BDP2016/M36.D.0020; XAE; ); en) Presto/2.10.250 Version/11.60"
+  },
+  {
+    "invariants": ["SonyCEBrowser/1.0", "BDPlayer", "BDP2016", "BDP-S3700"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4563; U; SonyCEBrowser/1.0 (BDPlayer; BDP-S3700; BDP2016/M36.D.0020; XAE; ); en) Presto/2.10.250 Version/11.60"
+  },
+  {
+    "invariants": ["SonyCEBrowser/1.0", "BDPlayer", "BDP2016", "BDP-BX370"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4563; U; SonyCEBrowser/1.0 (BDPlayer; BDP-BX370; BDP2016/M36.D.0020; XAE; ); en) Presto/2.10.250 Version/11.60"
+  }
+]
