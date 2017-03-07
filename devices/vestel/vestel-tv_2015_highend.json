@@ -1,5 +1,5 @@
 [{
   "invariants": ["VSTVB MB100", "SmartTvA"],
-  "disallowed": [],
+  "disallowed": ["FVC"],
   "fuzzy": "Mozilla/5.0 (Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 OPR/25.0.1620.0 OMI/4.3.18.7.Dominik.0 VSTVB MB100 HbbTV/1.2.1 (; VESTEL; MB100; 0.0.0.0; ;) SmartTvA/3.0.0"
 }]

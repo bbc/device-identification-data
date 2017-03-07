@@ -1,5 +1,12 @@
-[{
-  "invariants": ["VSTVB", "MB100", "FVC/2.0", "HbbTV/1.4.1", "SmartTvA", "MB130"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.91.DOM3.42 Model/Vestel-MB130 VSTVB MB100 FVC/2.0 (VESTEL; MB130; ) HbbTV/1.4.1 (; VESTEL; MB130; 3.12.0.0; _TV_G10_2017; ;) SmartTvA/3.0.0"
-}]
+[
+  {
+    "invariants": ["VSTVB", "MB100", "FVC/2.0", "HbbTV/1.4.1", "SmartTvA", "MB130"],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.91.DOM3.42 Model/Vestel-MB130 VSTVB MB100 FVC/2.0 (VESTEL; MB130; ) HbbTV/1.4.1 (; VESTEL; MB130; 3.12.0.0; _TV_G10_2017; ;) SmartTvA/3.0.0"
+  },
+  {
+    "invariants": ["VSTVB", "MB100", "FVC/2.0", "HbbTV/1.4.1"],
+    "disallowed": [],
+    "fuzzy": "VSTVB MB100 FVC/2.0 (VESTEL; MB130; ) HbbTV/1.4.1 (; VESTEL; MB130; 3.12.0.0; _TV_G10_2017; ;)"
+  }
+]
