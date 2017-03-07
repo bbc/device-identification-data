@@ -1,7 +1,7 @@
 [
   {
     "invariants": ["Brand=Samsung"],
-    "disallowed": ["Platform=NT14M", "Platform=NT14U", "Platform=X12", "Platform=17_KANTM_BDP", "Platform=X14", "Platform=16_HAWKM_FHD"],
+    "disallowed": ["Platform=NT14M", "Platform=NT14U", "Platform=X12", "Platform=17_KANTM_BDP", "Platform=X14", "Platform=16_HAWKM_FHD", "Platform=HAWKP"],
     "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=FoxP Model=UF7500"
   }
 ]
