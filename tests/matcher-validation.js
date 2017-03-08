@@ -93,15 +93,17 @@ function testLine (line) {
 }
 
 function filterDevices (lines) {
-  const brandToInclude = argv['brand-only']
-  if (brandToInclude) {
-    console.log(colors.grey(`Filter applied, only testing ${brandToInclude} devices`))
-    return lines.filter(line => line[0] === brandToInclude)
+  const includeBrand = argv['brand-only']
+  if (includeBrand) {
+    console.log(colors.grey(`Filter applied, only testing ${includeBrand} devices`))
+    const brandsToInclude = includeBrand.split(',')
+    return lines.filter(line => brandsToInclude.includes(line[0]))
   }
-  const brandToExclude = argv['brand-not']
-  if (brandToExclude) {
-    console.log(colors.grey(`Filter applied, not testing ${brandToExclude} devices`))
-    return lines.filter(line => line[0] !== brandToExclude)
+  const excludeBrand = argv['brand-not']
+  if (excludeBrand) {
+    console.log(colors.grey(`Filter applied, not testing ${excludeBrand} devices`))
+    const brandsToExclude = excludeBrand.split(',')
+    return lines.filter(line => !brandsToExclude.includes(line[0]))
   }
   return lines
 }

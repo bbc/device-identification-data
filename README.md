@@ -36,3 +36,5 @@ You can also filter the matcher tests to ignore a specific brand
 ```
 npm run test:matcher -- --brand-not=panasonic
 ```
+
+You can also pass multiple brands to the above commands by comma seperating them
