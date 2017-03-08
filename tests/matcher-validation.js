@@ -92,11 +92,16 @@ function testLine (line) {
   return result
 }
 
-function filterByBrand (lines) {
-  const brandToInclude = argv.brand
+function filterDevices (lines) {
+  const brandToInclude = argv['brand-only']
   if (brandToInclude) {
     console.log(colors.grey(`Filter applied, only testing ${brandToInclude} devices`))
     return lines.filter(line => line[0] === brandToInclude)
+  }
+  const brandToExclude = argv['brand-not']
+  if (brandToExclude) {
+    console.log(colors.grey(`Filter applied, not testing ${brandToExclude} devices`))
+    return lines.filter(line => line[0] !== brandToExclude)
   }
   return lines
 }
@@ -171,7 +176,7 @@ fetchTestData.then((response) => {
 }).then((testData) => {
   return parse(testData)
 }).then((testDataLines) => {
-  const lines = filterByBrand(testDataLines)
+  const lines = filterDevices(testDataLines)
   const results = lines.map(testLine)
   console.log('')
   console.log(colors.blue(`Total user-agents: ${testDataLines.length}${NL}`))

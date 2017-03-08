@@ -26,7 +26,13 @@ To run only the matcher tests, run:
 ```
 npm run test:matcher
 ```
+
 You can also filter the matcher tests to run against a specific brand
 ```
-npm run test:matcher -- --brand=panasonic
+npm run test:matcher -- --brand-only=panasonic
+```
+
+You can also filter the matcher tests to ignore a specific brand
+```
+npm run test:matcher -- --brand-not=panasonic
 ```
