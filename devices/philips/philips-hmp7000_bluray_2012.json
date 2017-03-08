@@ -12,4 +12,10 @@
   "invariants": ["Opera TV Store/"],
   "disallowed": ["Hisense"],
   "fuzzy": "Opera/9.80 (Linux armv7l; Opera TV Store/5588) Presto/2.12.362 Version/12.11"
-}]
+},
+{
+  "invariants": ["PHILIPS-AVM-2012"],
+  "disallowed": [],
+  "fuzzy": "Opera/9.80 (Linux armv7l; U; CE-HTML/1.0 NETTV/3.0.1; PHILIPS-AVM-2012; en) Presto/2.10.250. Version/11.60"
+}
+]
