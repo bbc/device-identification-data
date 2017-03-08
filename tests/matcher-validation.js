@@ -2,6 +2,7 @@ const csv = require('csv')
 const fetch = require('node-fetch')
 const colors = require('colors/safe')
 const melanite = require('melanite')
+const argv = require('yargs').argv
 const NL = '\n'
 
 const devices = require('../output/device-identification-data.json')
@@ -91,6 +92,15 @@ function testLine (line) {
   return result
 }
 
+function filterByBrand (lines) {
+  const brandToInclude = argv.brand
+  if (brandToInclude) {
+    console.log(colors.grey(`Filter applied, only testing ${brandToInclude} devices`))
+    return lines.filter(line => line[0] === brandToInclude)
+  }
+  return lines
+}
+
 function logFailure (failure) {
   const {
     expected,
@@ -161,7 +171,8 @@ fetchTestData.then((response) => {
 }).then((testData) => {
   return parse(testData)
 }).then((testDataLines) => {
-  const results = testDataLines.map(testLine)
+  const lines = filterByBrand(testDataLines)
+  const results = lines.map(testLine)
   console.log('')
   console.log(colors.blue(`Total user-agents: ${testDataLines.length}${NL}`))
   return checkForUntested(results)

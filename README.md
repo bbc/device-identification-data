@@ -20,3 +20,13 @@ To check the data against the schema provided, run:
 ```
 npm test
 ```
+
+#### Matcher testing
+To run only the matcher tests, run:
+```
+npm run test:matcher
+```
+You can also filter the matcher tests to run against a specific brand
+```
+npm run test:matcher -- --brand=panasonic
+```
