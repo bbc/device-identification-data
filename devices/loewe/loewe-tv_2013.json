@@ -1,5 +1,5 @@
 [{
-  "invariants": ["SL22x"],
+  "invariants": ["Opera", "Linux", "HbbTV", "CE-HTML", "Loewe", "LOH"],
   "disallowed": [],
   "fuzzy": "Opera/9.80 (Linux sh4; HbbTV/1.2.1 ( PVR; Loewe; SL22x; LOH/2.4.51.0;;) CE-HTML/1.0 Config(L:eng,CC:GBR) NETRANGEMMH) Presto/2.12.407 Version/12.50"
 }]
