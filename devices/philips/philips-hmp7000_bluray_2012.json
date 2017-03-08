@@ -10,6 +10,6 @@
 },
 {
   "invariants": ["Opera TV Store/"],
-  "disallowed": [],
+  "disallowed": ["Hisense"],
   "fuzzy": "Opera/9.80 (Linux armv7l; Opera TV Store/5588) Presto/2.12.362 Version/12.11"
 }]

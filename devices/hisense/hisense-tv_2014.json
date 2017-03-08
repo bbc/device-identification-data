@@ -1,5 +1,12 @@
-[{
-  "invariants": ["Hisense"],
-  "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Hisense; SmartTV; V00.01.00a.E1015; LTDN40K370WTEU; )) Presto/2.12.407 Version/12.51"
-}]
+[
+  {
+    "invariants": ["Hisense"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Hisense; SmartTV; V00.01.00a.E0630; LTDN50K370WTGEU; )) Presto/2.12.407 Version/12.51"
+  },
+  {
+    "invariants": ["Hisense", "VK_PATCH/1.0", "CE-HTML/1.0", "HbbTV/1.1.1"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv7l) Presto/2.12.407 Version/12.51 VK_PATCH/1.0 CE-HTML/1.0 HbbTV/1.1.1(;Hisense;;;) FXM-U2FsdGVkX1/ar81uYY+V+iAw+9TTf5GM5UvTMnNKkb7eWnsoIxo4gi8OoAzmdAYb-END "
+  }
+]
