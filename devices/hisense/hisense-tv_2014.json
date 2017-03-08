@@ -1,7 +1,7 @@
 [
   {
     "invariants": ["Hisense"],
-    "disallowed": [],
+    "disallowed": ["SmartTV_2015"],
     "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Hisense; SmartTV; V00.01.00a.E0630; LTDN50K370WTGEU; )) Presto/2.12.407 Version/12.51"
   },
   {
