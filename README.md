@@ -37,4 +37,14 @@ You can also filter the matcher tests to ignore a specific brand
 npm run test:matcher -- --brand-not=panasonic
 ```
 
-You can also pass multiple brands to the above commands by comma seperating them
+You can also filter the matcher tests to run against a specific model
+```
+npm run test:matcher -- --model-only=tv_2011
+```
+
+You can also filter the matcher tests to ignore a specific model
+```
+npm run test:matcher -- --model-not=tv_2011
+```
+
+You can also pass multiple brands/models to the above commands by comma seperating them

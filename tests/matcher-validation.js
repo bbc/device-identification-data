@@ -105,6 +105,18 @@ function filterDevices (lines) {
     const brandsToExclude = excludeBrand.split(',')
     return lines.filter(line => !brandsToExclude.includes(line[0]))
   }
+  const includeModel = argv['model-only']
+  if (includeModel) {
+    console.log(colors.grey(`Filter applied, only testing ${includeModel} model`))
+    const modelsToInclude = includeModel.split(',')
+    return lines.filter(line => modelsToInclude.includes(line[1]))
+  }
+  const excludeModel = argv['model-not']
+  if (excludeModel) {
+    console.log(colors.grey(`Filter applied, not testing ${excludeModel} model`))
+    const modelsToExclude = excludeModel.split(',')
+    return lines.filter(line => !modelsToExclude.includes(line[1]))
+  }
   return lines
 }
 
