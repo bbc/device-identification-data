@@ -1,5 +1,12 @@
-[{
-  "invariants": ["Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.TV-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.TV-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/"
-}]
+[
+  {
+    "invariants": ["Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.TV-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/"],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.TV-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/"
+  },
+  {
+    "invariants": ["LG NetCast.TV-2010"],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/LG.TV-2010 avui/tv avvp/ssl avkb/mcrB:461 avrt/html4 avst/off LG Browser/4.0.10(+mouse+SCREEN+TUNER; LGE; 37LE5900-ZA; 03.20.89; 0x00000001;); LG NetCast.TV-2010"
+  }
+]
