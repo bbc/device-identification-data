@@ -154,4 +154,64 @@
   "invariants": ["27MT55S-PZQ"],
   "disallowed": [],
   "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1  (KHTML, like Gecko) Safari/537.1  LG Browser/6.00.00( mouse SCREEN TUNER; LGE; 27MT55S-PZQ; 04.23.50; 0x00000001;); LG NetCast.TV-2013 /04.23.50 (LG, 27MT55S-PZQ, wireless)"
+}, {
+  "invariants": ["PB660V-Z"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 60PB660V-ZD; 04.04.24; 0x00000011;); LG NetCast.TV-2013 /04.04.24 (LG 60PB660V-ZD wireless)"
+}, {
+  "invariants": ["LN57"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 60LN578V-ZE; 04.28.14; 0x00000001;); LG NetCast.TV-2013 /04.28.14 (LG 60LN578V-ZE wireless)"
+}, {
+  "invariants": ["LB58"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 60LB580V; 04.04.18; 0x00000001;); LG NetCast.TV-2013 /04.04.18 (LG 60LB580V wireless)"
+}, {
+  "invariants": ["LF580V"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 55LF580V-ZA; 03.11.30; 0x00000001;); LG NetCast.TV-2013 /03.11.30 (LG 55LF580V-ZA wireless)"
+}, {
+  "invariants": ["LF5809"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 55LF5809-ZA; 03.11.30; 0x00000001;); LG NetCast.TV-2013 /03.11.30 (LG 55LF5809-ZA wireless)"
+}, {
+  "invariants": ["LF5800"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 55LF5800-ZA; 03.10.11; 0x00000001;); LG NetCast.TV-2013 /03.10.11 (LG 55LF5800-ZA wireless)"
+}, {
+  "invariants": ["LB610V-Z"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 55LB610V-ZU; 04.04.25; 0x00000001;); LG NetCast.TV-2013 /04.04.25 (LG 55LB610V-ZU wired)"
+}, {
+  "invariants": ["LB57"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 50LB570V-ZB; 04.04.25; 0x00000001;); LG NetCast.TV-2013 /04.04.25 (LG 50LB570V-ZB wireless)"
+}, {
+  "invariants": ["LN61"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 47LN613V-ZB; 04.28.14; 0x00000001;); LG NetCast.TV-2013 /04.28.14 (LG 47LN613V-ZB wireless)"
+}, {
+  "invariants": ["LF580U"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 32LF580U-ZA; 03.11.32; 0x00000001;); LG NetCast.TV-2013 /03.11.32 (LG 32LF580U-ZA wireless)"
+}, {
+  "invariants": ["MT31S-PZQ"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 29MT31S-PZQ; 04.28.14; 0x00000001;); LG NetCast.TV-2013 /04.28.14 (LG 29MT31S-PZQ wireless)"
+}, {
+  "invariants": ["LN470U-Z"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 29LN470U-ZB; 04.28.14; 0x00000001;); LG NetCast.TV-2013 /04.28.14 (LG 29LN470U-ZB wireless)"
+}, {
+  "invariants": ["LN46"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 29LN460U; 04.28.14; 0x00000001;); LG NetCast.TV-2013 /04.28.14 (LG 29LN460U wireless)"
+}, {
+  "invariants": ["LF491U"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 28LF491U-ZD; 03.11.32; 0x00000001;); LG NetCast.TV-2013 /03.11.32 (LG 28LF491U-ZD wireless)"
+}, {
+  "invariants": ["LB49"],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+mouse+SCREEN+TUNER; LGE; 28LB49U-ZH; 04.04.25; 0x00000001;); LG NetCast.TV-2013 /04.04.25 (LG 28LB49U-ZH wireless)"
 }]
