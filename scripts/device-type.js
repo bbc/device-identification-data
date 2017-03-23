@@ -10,3 +10,4 @@ deviceBrands.forEach(function(brand) {
       var deviceData = JSON.parse(fs.readFileSync(`devices/${brand}/${model}`, 'utf-8'));
     })
 })
+//does commit work
