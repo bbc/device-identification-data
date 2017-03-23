@@ -1,5 +1,10 @@
-[{
-  "invariants": ["Panasonic.tv.mtk.2013"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420  (KHTML, like Gecko)(avdn/Panasonic.tv.mtk.2013)"
-}]
+[
+  {
+    "invariants": [
+      "Panasonic.tv.mtk.2013"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420  (KHTML, like Gecko)(avdn/Panasonic.tv.mtk.2013)",
+    "type": "tv"
+  }
+]

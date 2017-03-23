@@ -1,5 +1,10 @@
-[{
-  "invariants": ["Roku/DVP-4200SK"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-4200SK-5.5 (145.05E03045A)"
-}]
+[
+  {
+    "invariants": [
+      "Roku/DVP-4200SK"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-4200SK-5.5 (145.05E03045A)",
+    "type": "tv"
+  }
+]

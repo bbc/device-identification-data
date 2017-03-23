@@ -1,15 +1,26 @@
-[{
-  "invariants": ["Roku/DVP-2400"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-2400X-5.3 (025.03E03063A)"
-},
-{
-  "invariants": ["Roku/DVP-2450"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-2450X-5.3 (025.03E03063A)"
-},
-{
-  "invariants": ["Roku/DVP-2500"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-2500X-5.3 (025.03E03063A)"
-}]
+[
+  {
+    "invariants": [
+      "Roku/DVP-2400"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-2400X-5.3 (025.03E03063A)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Roku/DVP-2450"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-2450X-5.3 (025.03E03063A)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Roku/DVP-2500"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-2500X-5.3 (025.03E03063A)",
+    "type": "tv"
+  }
+]

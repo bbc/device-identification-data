@@ -1,5 +1,14 @@
-[{
-  "invariants": ["Opera", "Linux", "HbbTV", "CE-HTML", "Sharp"],
-  "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux sh4;  HbbTV/1.2.1 (;Sharp;LE750;v0.100;;) CE-HTML/1.0 Config(L:eng,CC:GBR); NETRANGEMMH; en) Presto/2.12.362 Version/12.10"
-}]
+[
+  {
+    "invariants": [
+      "Opera",
+      "Linux",
+      "HbbTV",
+      "CE-HTML",
+      "Sharp"
+    ],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux sh4;  HbbTV/1.2.1 (;Sharp;LE750;v0.100;;) CE-HTML/1.0 Config(L:eng,CC:GBR); NETRANGEMMH; en) Presto/2.12.362 Version/12.10",
+    "type": "tv"
+  }
+]

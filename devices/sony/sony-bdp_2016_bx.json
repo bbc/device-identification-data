@@ -1,10 +1,18 @@
-[{
-  "invariants": ["BDP-S6700"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.57 SonyCEBrowser/1.0 (BDPlayer; BDP-S6700; BDP2016/M32.R.0380; XAE; )"
-},
-{
-  "invariants": ["UHP-H1"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.57 SonyCEBrowser/1.0 (BDPlayer; UHP-H1; BDP2016/M33.R.0301; XAE; )"
-}]
+[
+  {
+    "invariants": [
+      "BDP-S6700"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.57 SonyCEBrowser/1.0 (BDPlayer; BDP-S6700; BDP2016/M32.R.0380; XAE; )",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "UHP-H1"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.57 SonyCEBrowser/1.0 (BDPlayer; UHP-H1; BDP2016/M33.R.0301; XAE; )",
+    "type": "tv"
+  }
+]

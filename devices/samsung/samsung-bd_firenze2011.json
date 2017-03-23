@@ -1,5 +1,11 @@
-[{
-  "invariants": ["modelId=firenze", "Maple 6.0."],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 6.0.00063 modelId=firenze"
-}]
+[
+  {
+    "invariants": [
+      "modelId=firenze",
+      "Maple 6.0."
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Windows; U; en-US; rv:1.8.1.11; Gecko/20071129; Firefox/2.5.0) Maple 6.0.00063 modelId=firenze",
+    "type": "tv"
+  }
+]

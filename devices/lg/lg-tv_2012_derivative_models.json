@@ -1,52 +1,82 @@
 [
   {
-    "invariants": ["GLOBAL-PLAT4"],
+    "invariants": [
+      "GLOBAL-PLAT4"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; GLOBAL-PLAT4; 04.41.10; 0x00000011;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; GLOBAL-PLAT4; 04.41.10; 0x00000011;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["TM2792S"],
+    "invariants": [
+      "TM2792S"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; TM2792S-SZP; 04.60.17; 0x00000001;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26  (KHTML, like Gecko) Version/5.0 Safari/534.26  LG Browser/5.00.00( mouse 3D SCREEN TUNER; LGE; TM2792S-SZP; 04.60.17; 0x00000001;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["KEY0000010F"],
+    "invariants": [
+      "KEY0000010F"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; KEY0000010F; 04.62.12; 0x00000001;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; KEY0000010F; 04.62.12; 0x00000001;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["60PA660S-ZF"],
+    "invariants": [
+      "60PA660S-ZF"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; 60PA660S-ZF; 04.41.13; 0x00000011;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; 60PA660S-ZF; 04.41.13; 0x00000011;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["42LBS575T-ZD"],
+    "invariants": [
+      "42LBS575T-ZD"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; 42LBS575T-ZD; 04.62.10; 0x00000001;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; 42LBS575T-ZD; 04.62.10; 0x00000001;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["32LS5T-ZD"],
+    "invariants": [
+      "32LS5T-ZD"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; 32LS5T-ZD; 04.62.12; 0x00000001;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+SCREEN+TUNER; LGE; 32LS5T-ZD; 04.62.12; 0x00000001;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 50PM680T; 04.41.13; 0x00000011;); LG NetCast.TV-2012"],
+    "invariants": [
+      "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 50PM680T; 04.41.13; 0x00000011;); LG NetCast.TV-2012"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 50PM680T; 04.41.13; 0x00000011;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 50PM680T; 04.41.13; 0x00000011;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["42ML67OT-ZA"],
+    "invariants": [
+      "42ML67OT-ZA"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 42ML67OT-ZA; 04.62.12; 0x00000001;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 42ML67OT-ZA; 04.62.12; 0x00000001;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["42M620T-ZE"],
+    "invariants": [
+      "42M620T-ZE"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 42M620T-ZE; 04.62.12; 0x00000001;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 42M620T-ZE; 04.62.12; 0x00000001;); LG NetCast.TV-2012",
+    "type": "tv"
   },
   {
-    "invariants": ["42LA620V-ZA"],
+    "invariants": [
+      "42LA620V-ZA"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 42LA620V-ZA; 04.62.12; 0x00000001;); LG NetCast.TV-2012"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/534.26+ (KHTML, like Gecko) Version/5.0 Safari/534.26+ LG Browser/5.00.00(+mouse+3D+SCREEN+TUNER; LGE; 42LA620V-ZA; 04.62.12; 0x00000001;); LG NetCast.TV-2012",
+    "type": "tv"
   }
 ]

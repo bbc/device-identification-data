@@ -1,5 +1,11 @@
-[{
-  "invariants": ["Web0S", "W3_K2L"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.3.1 ( DRM; LGE; 43UH61M1-ZB; WEBOS3.0 02.30.11; W3_K2L;) FVC/2.0 (LGE; WEBOS3.0 ;)"
-}]
+[
+  {
+    "invariants": [
+      "Web0S",
+      "W3_K2L"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36 HbbTV/1.3.1 ( DRM; LGE; 43UH61M1-ZB; WEBOS3.0 02.30.11; W3_K2L;) FVC/2.0 (LGE; WEBOS3.0 ;)",
+    "type": "tv"
+  }
+]

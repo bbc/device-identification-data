@@ -1,5 +1,10 @@
-[{
-  "invariants": ["Technika"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/525.1  (KHTML, like Gecko, Safari/525.1);  Espial Browser/sig3.11.0(Tesco; Technika Media Streamer; TCMSAW11)"
-}]
+[
+  {
+    "invariants": [
+      "Technika"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux mips; en) AppleWebKit/525.1  (KHTML, like Gecko, Safari/525.1);  Espial Browser/sig3.11.0(Tesco; Technika Media Streamer; TCMSAW11)",
+    "type": "tv"
+  }
+]

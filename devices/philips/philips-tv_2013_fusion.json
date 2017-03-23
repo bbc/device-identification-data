@@ -1,5 +1,11 @@
-[{
-  "invariants": ["Linux mips","PhilipsTV"],
-  "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/4.3.3 PHILIPSTV/1.1.1 Firmware/173.60.0 (PhilipsTV, 1.1.1,) en) Presto/2.12.362 Version/12.11"
-}]
+[
+  {
+    "invariants": [
+      "Linux mips",
+      "PhilipsTV"
+    ],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux mips; HbbTV/1.2.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/4.3.3 PHILIPSTV/1.1.1 Firmware/173.60.0 (PhilipsTV, 1.1.1,) en) Presto/2.12.362 Version/12.11",
+    "type": "tv"
+  }
+]

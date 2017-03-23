@@ -1,5 +1,10 @@
-[{
-  "invariants": ["Netbox-n26-1-01-edelweiss"],
-  "disallowed": [],
-  "fuzzy": "Netbox-n26-1-01-edelweiss/7.1.03-18"
-}]
+[
+  {
+    "invariants": [
+      "Netbox-n26-1-01-edelweiss"
+    ],
+    "disallowed": [],
+    "fuzzy": "Netbox-n26-1-01-edelweiss/7.1.03-18",
+    "type": "tv"
+  }
+]

@@ -1,25 +1,50 @@
-[{
-  "invariants": ["BH6520"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BH6520; 9681; abc;); LG NetCast.Media-2011"
-}, {
-  "invariants": ["BH7520"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BH7520; 9681; abc;); LG NetCast.Media-2011"
-}, {
-  "invariants": ["BH8220"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BH8220; 9748; abc;); LG NetCast.Media-2011"
-}, {
-  "invariants": ["BH9520"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BH9520; 9748; abc;); LG NetCast.Media-2011"
-}, {
-  "invariants": ["BP520"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BP520; 9593; abc;); LG NetCast.Media-2011"
-}, {
-  "invariants": ["BH5320"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcrB:461 avrt/html4 avst/on LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; Media/BH5320; 9748; abc;); LG NetCast.Media-2011"
-}]
+[
+  {
+    "invariants": [
+      "BH6520"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BH6520; 9681; abc;); LG NetCast.Media-2011",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "BH7520"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BH7520; 9681; abc;); LG NetCast.Media-2011",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "BH8220"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BH8220; 9748; abc;); LG NetCast.Media-2011",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "BH9520"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BH9520; 9748; abc;); LG NetCast.Media-2011",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "BP520"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/on LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BP520; 9593; abc;); LG NetCast.Media-2011",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "BH5320"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv6l; en) AppleWebKit/531.2+ (KHTML, like Gecko) Safari/531.2+ avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcrB:461 avrt/html4 avst/on LG Browser/4.1.4(+3D+PORTAL_KEY+BDP; LGE; Media/BH5320; 9748; abc;); LG NetCast.Media-2011",
+    "type": "tv"
+  }
+]

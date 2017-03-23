@@ -1,5 +1,10 @@
-[{
-  "invariants": ["GolfP"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2014; Maple2012) AppleWebKit/537.42  (KHTML, like Gecko) SmartTV Safari/537.42  Brand=Samsung Platform=GolfP Model=UHU8700"
-}]
+[
+  {
+    "invariants": [
+      "GolfP"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2014; Maple2012) AppleWebKit/537.42  (KHTML, like Gecko) SmartTV Safari/537.42  Brand=Samsung Platform=GolfP Model=UHU8700",
+    "type": "tv"
+  }
+]
