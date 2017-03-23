@@ -6,7 +6,8 @@ const schema = joi.object({
   model: joi.string().required(),
   fuzzy: schemaString.allow('').required(),
   invariants: joi.array().items(schemaString).required(),
-  disallowed: joi.array().items(schemaString).required()
+  disallowed: joi.array().items(schemaString).required(),
+  type: joi.string().required()
 })
 
 function testSchema (devices) {
