@@ -1,9 +1,8 @@
-[{
-  "invariants": ["BP550"],
+{
+  "invariants": [
+    "LHB750"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/BP550; 23875; abc;); LG NetCast.Media-2011"
-}, {
-  "invariants": ["LHB750"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/LHB750; 23938; abc;); LG NetCast.Media-2011"
-}]
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  avdn/LG.Media-2010 avui/tv avvp/ssl avkb/mcr,B:461 avrt/html4 avst/off LG Browser/4.1.4( 3D PORTAL_KEY BDP; LGE; Media/LHB750; 23938; abc;); LG NetCast.Media-2011",
+  "type": "tv"
+}

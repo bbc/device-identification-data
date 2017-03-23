@@ -1,5 +1,8 @@
-[{
-  "invariants": ["Philips_TV_5593"],
+{
+  "invariants": [
+    "Philips_TV_5593"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36 OPR/34.0.2036.0 OMI/4.6.4.41.Sprinter.8 HbbTV/1.2.1 (; Philips; 49PUS710112; QN163E.0.7.10.1; Philips_TV_5593; ) CE-HTML/1.0 NETTV/6.0.2 SmartTvA/3.0.0"
-}]
+  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36 OPR/34.0.2036.0 OMI/4.6.4.41.Sprinter.8 HbbTV/1.2.1 (; Philips; 49PUS710112; QN163E.0.7.10.1; Philips_TV_5593; ) CE-HTML/1.0 NETTV/6.0.2 SmartTvA/3.0.0",
+  "type": "tv"
+}

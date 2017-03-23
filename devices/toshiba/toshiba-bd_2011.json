@@ -1,5 +1,8 @@
-[{
-  "invariants": ["(Linux armv6l; U; TOSHIBA; BDX2250KB; Mediatek; en)"],
+{
+  "invariants": [
+    "(Linux armv6l; U; TOSHIBA; BDX2250KB; Mediatek; en)"
+  ],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv6l; U; TOSHIBA; BDX2250KB; Mediatek; en) Presto/2.8.115 Version/11.10"
-}]
+  "fuzzy": "Opera/9.80 (Linux armv6l; U; TOSHIBA; BDX2250KB; Mediatek; en) Presto/2.8.115 Version/11.10",
+  "type": "tv"
+}

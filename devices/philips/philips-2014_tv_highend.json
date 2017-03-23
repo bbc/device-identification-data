@@ -1,5 +1,8 @@
-[{
-  "invariants": ["PhilipsTV, 3.1"],
+{
+  "invariants": [
+    "PhilipsTV, 3.1"
+  ],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 28HFL5009D12; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/004.002.031.129 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50"
-}]
+  "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Philips; 28HFL5009D12; ; PHILIPSTV;  CE-HTML/1.0 NETTV/4.4.1 SmartTvA/3.0.0 Firmware/004.002.031.129 (PhilipsTV, 3.1.1,)en) ) Presto/2.12.407 Version/12.50",
+  "type": "tv"
+}

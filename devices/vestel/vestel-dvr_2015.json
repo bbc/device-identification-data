@@ -1,5 +1,8 @@
-[{
-  "invariants": ["VESTEL2015"],
+{
+  "invariants": [
+    "VESTEL2015"
+  ],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 HbbTV/1.1.1 CE-HTML/1.0 freesat/2.0 (1.1/354); (Finlux; S7850; 1.0; pvr; VESTEL2015; wired);"
-}]
+  "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 HbbTV/1.1.1 CE-HTML/1.0 freesat/2.0 (1.1/354); (Finlux; S7850; 1.0; pvr; VESTEL2015; wired);",
+  "type": "tv"
+}

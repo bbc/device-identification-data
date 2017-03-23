@@ -1,5 +1,11 @@
-[{
-  "invariants": ["MB130", "HbbTV/1.2.1"],
-  "disallowed": ["Opera"],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.40.Dominik2.0 VSTVB MB100 HbbTV/1.2.1 (; VESTEL; MB130; 2.12.0.0; ;) SmartTvA/3.0.0"
-}]
+{
+  "invariants": [
+    "MB130",
+    "HbbTV/1.2.1"
+  ],
+  "disallowed": [
+    "Opera"
+  ],
+  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.40.Dominik2.0 VSTVB MB100 HbbTV/1.2.1 (; VESTEL; MB130; 2.12.0.0; ;) SmartTvA/3.0.0",
+  "type": "tv"
+}

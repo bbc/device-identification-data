@@ -1,5 +1,8 @@
-[{
-  "invariants": ["OTT-DTIW384"],
+{
+  "invariants": [
+    "OTT-DTIW384"
+  ],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv7l; Sagemcom-OTT-DTIW384 VF) Presto/2.12.407 Version/12.51"
-}]
+  "fuzzy": "Opera/9.80 (Linux armv7l; Sagemcom-OTT-DTIW384 VF) Presto/2.12.407 Version/12.51",
+  "type": "tv"
+}

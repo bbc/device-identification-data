@@ -1,5 +1,9 @@
-[{
-  "invariants": ["Novatek", "2017 SmartTV"],
+{
+  "invariants": [
+    "Novatek",
+    "2017 SmartTV"
+  ],
   "disallowed": [],
-  "fuzzy": "Novatek, NT72563_RefSW, 2017 SmartTV, 000.001, Wired)"
-}]
+  "fuzzy": "Novatek, NT72563_RefSW, 2017 SmartTV, 000.001, Wired)",
+  "type": "tv"
+}

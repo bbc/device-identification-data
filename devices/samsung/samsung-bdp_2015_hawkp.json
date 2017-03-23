@@ -1,5 +1,8 @@
-[{
-  "invariants": ["Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV+2015; Maple2012) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=Samsung Platform=HAWKP"],
+{
+  "invariants": [
+    "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV+2015; Maple2012) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=Samsung Platform=HAWKP"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2015; Maple2012) AppleWebKit/537.42  (KHTML, like Gecko) SmartTV Safari/537.42  Brand=Samsung Platform=HAWKP Model=F8900"
-}]
+  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2015; Maple2012) AppleWebKit/537.42  (KHTML, like Gecko) SmartTV Safari/537.42  Brand=Samsung Platform=HAWKP Model=F8900",
+  "type": "tv"
+}
