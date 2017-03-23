@@ -1,10 +1,18 @@
-[{
-  "invariants": ["Roku/DVP-3050"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-3050X-7.50 (027.50E04099A)"
-},
-{
-  "invariants": ["Roku/DVP-3100"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-3100X-5.5 (025.05E00410A)"
-}]
+[
+  {
+    "invariants": [
+      "Roku/DVP-3050"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-3050X-7.50 (027.50E04099A)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Roku/DVP-3100"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-3100X-5.5 (025.05E00410A)",
+    "type": "tv"
+  }
+]

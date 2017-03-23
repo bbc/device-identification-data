@@ -1,5 +1,10 @@
-[{
-  "invariants": ["UBP-X800"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.49.ALSAN3.1 SonyCEBrowser/1.0 (BDPlayer; UBP-X800; BDP2017/M31.D.0017; XAE; )"
-}]
+[
+  {
+    "invariants": [
+      "UBP-X800"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36 OPR/19.0.1325.0 OMI/4.1.49.ALSAN3.1 SonyCEBrowser/1.0 (BDPlayer; UBP-X800; BDP2017/M31.D.0017; XAE; )",
+    "type": "tv"
+  }
+]

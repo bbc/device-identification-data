@@ -1,5 +1,10 @@
-[{
-  "invariants": ["Hisense"],
-  "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Hisense; SmartTV_2016; V00.01.00a.G0701; HE32M2161HWTS; )) Presto/2.12.407 Version/12.51"
-}]
+[
+  {
+    "invariants": [
+      "Hisense"
+    ],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Hisense; SmartTV_2016; V00.01.00a.G0701; HE32M2161HWTS; )) Presto/2.12.407 Version/12.51",
+    "type": "tv"
+  }
+]

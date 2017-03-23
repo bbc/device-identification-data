@@ -1,17 +1,26 @@
 [
   {
-    "invariants": ["Roku/DVP-2700"],
+    "invariants": [
+      "Roku/DVP-2700"
+    ],
     "disallowed": [],
-    "fuzzy": "Roku/DVP-2700X-5.5 (065.05E00321A)"
+    "fuzzy": "Roku/DVP-2700X-5.5 (065.05E00321A)",
+    "type": "tv"
   },
   {
-    "invariants": ["Roku/DVP-2710"],
+    "invariants": [
+      "Roku/DVP-2710"
+    ],
     "disallowed": [],
-    "fuzzy": "Roku/DVP-2710X-5.5 (065.05E00428A)"
+    "fuzzy": "Roku/DVP-2710X-5.5 (065.05E00428A)",
+    "type": "tv"
   },
   {
-    "invariants": ["Roku/DVP-2720"],
+    "invariants": [
+      "Roku/DVP-2720"
+    ],
     "disallowed": [],
-    "fuzzy": "Roku/DVP-2720X-6.2 (066.02E03678A)"
+    "fuzzy": "Roku/DVP-2720X-6.2 (066.02E03678A)",
+    "type": "tv"
   }
 ]

@@ -1,10 +1,20 @@
-[{
-  "invariants": ["OMI/", "Model/Demo-Rotopipe"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2970.0 Safari/537.36 OPR/44.0.2207.0 OMI/4.10.1.33.master Model/Demo-Rotopipe"
-},
-{
-  "invariants": ["OMI/", "Model/Sony"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2128.0 OMI/4.8.0.108.INDIGO.16 Model/Sony- SonyCEBrowser/1.0 (; M36.D.0094; USA; en)"
-}]
+[
+  {
+    "invariants": [
+      "OMI/",
+      "Model/Demo-Rotopipe"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2970.0 Safari/537.36 OPR/44.0.2207.0 OMI/4.10.1.33.master Model/Demo-Rotopipe",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "OMI/",
+      "Model/Sony"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2128.0 OMI/4.8.0.108.INDIGO.16 Model/Sony- SonyCEBrowser/1.0 (; M36.D.0094; USA; en)",
+    "type": "tv"
+  }
+]

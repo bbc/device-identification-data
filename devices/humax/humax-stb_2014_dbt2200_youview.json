@@ -1,5 +1,10 @@
-[{
-  "invariants": ["DBT2200"],
-  "disallowed": [],
-  "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Humax; DBT2200; 86B08500; CDS/27.46.0; API/3.1.5; PS/3.1.148) ( FLASH HTML MHEG IPCMC)"
-}]
+[
+  {
+    "invariants": [
+      "DBT2200"
+    ],
+    "disallowed": [],
+    "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Humax; DBT2200; 86B08500; CDS/27.46.0; API/3.1.5; PS/3.1.148) ( FLASH HTML MHEG IPCMC)",
+    "type": "tv"
+  }
+]

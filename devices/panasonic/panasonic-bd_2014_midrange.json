@@ -1,5 +1,10 @@
-[{
-  "invariants": ["Panasonic.bd.pro4p.2014"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420  (KHTML, like Gecko)(avdn/Panasonic.bd.pro4p.2014)"
-}]
+[
+  {
+    "invariants": [
+      "Panasonic.bd.pro4p.2014"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420  (KHTML, like Gecko)(avdn/Panasonic.bd.pro4p.2014)",
+    "type": "tv"
+  }
+]

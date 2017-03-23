@@ -1,12 +1,18 @@
 [
   {
-    "invariants": ["Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;"],
+    "invariants": [
+      "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v2.03;) Config(L:eng,CC:GBR)"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6+ HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;ModelRoca;UQ10E;v2.03;) Config(L:eng,CC:GBR)",
+    "type": "tv"
   },
   {
-    "invariants": ["Mozilla/5.0 (DirectFB; Linux armv6l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6 HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;MODELROCA;"],
+    "invariants": [
+      "Mozilla/5.0 (DirectFB; Linux armv6l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6 HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;MODELROCA;"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv6l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6 HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;MODELROCA;v1.0.0;;) Config(L:eng,CC:GBR)"
+    "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv6l) AppleWebKit/537.6+ (KHTML, like Gecko) Safari/537.6 HbbTV/1.2.1 (; ; ; ; ; ) NETRANGEMMH CE-HTML/1.0 (;Sharp;MODELROCA;v1.0.0;;) Config(L:eng,CC:GBR)",
+    "type": "tv"
   }
 ]

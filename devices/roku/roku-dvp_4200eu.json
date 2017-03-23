@@ -1,15 +1,26 @@
-[{
-  "invariants": ["Roku/DVP-4200X"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-4200X-5.6 (045.06E00060A)"
-},
-{
-  "invariants": ["Roku/DVP-4201SK"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-4201SK-7.0 (107.00E09612A)"
-},
-{
-  "invariants": ["Roku/DVP-4205X"],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-4205X-5.6 (045.06E04022A)"
-}]
+[
+  {
+    "invariants": [
+      "Roku/DVP-4200X"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-4200X-5.6 (045.06E00060A)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Roku/DVP-4201SK"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-4201SK-7.0 (107.00E09612A)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Roku/DVP-4205X"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-4205X-5.6 (045.06E04022A)",
+    "type": "tv"
+  }
+]

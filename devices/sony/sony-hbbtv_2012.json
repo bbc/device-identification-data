@@ -1,5 +1,10 @@
-[{
-  "invariants": ["sony.hbbtv.tv.2012"],
-  "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux mips; U;  HbbTV/1.1.1 (; Sony; KDL22EX553; PKG2.120EUA; 2012;); sony.hbbtv.tv.2012; en) Presto/2.10.250 Version/11.60"
-}]
+[
+  {
+    "invariants": [
+      "sony.hbbtv.tv.2012"
+    ],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux mips; U;  HbbTV/1.1.1 (; Sony; KDL22EX553; PKG2.120EUA; 2012;); sony.hbbtv.tv.2012; en) Presto/2.10.250 Version/11.60",
+    "type": "tv"
+  }
+]

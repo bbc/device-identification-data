@@ -1,5 +1,10 @@
-[{
-  "invariants": ["Panasonic.tv.low.2016"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (FreeBSD; U; Viera; en-IE) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.18.1 Chrome/23.0.1271.97 Safari/537.11; (avdn/Panasonic.tv.low.2016); freetime/2.1 (2.7,dtt-2015120214:35-4b8bfe0); CTV/1.0 (;Panasonic;low;3000;Viera2016;wireless)"
-}]
+[
+  {
+    "invariants": [
+      "Panasonic.tv.low.2016"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (FreeBSD; U; Viera; en-IE) AppleWebKit/537.11 (KHTML, like Gecko) Viera/3.18.1 Chrome/23.0.1271.97 Safari/537.11; (avdn/Panasonic.tv.low.2016); freetime/2.1 (2.7,dtt-2015120214:35-4b8bfe0); CTV/1.0 (;Panasonic;low;3000;Viera2016;wireless)",
+    "type": "tv"
+  }
+]

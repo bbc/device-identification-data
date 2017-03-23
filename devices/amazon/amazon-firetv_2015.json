@@ -1,5 +1,10 @@
-[{
-  "invariants": ["AFTS"],
-  "disallowed": [],
-  "fuzzy": "smarttv_AFTS_Build_565189620_Chromium_34.0.1847.114"
-}]
+[
+  {
+    "invariants": [
+      "AFTS"
+    ],
+    "disallowed": [],
+    "fuzzy": "smarttv_AFTS_Build_565189620_Chromium_34.0.1847.114",
+    "type": "tv"
+  }
+]

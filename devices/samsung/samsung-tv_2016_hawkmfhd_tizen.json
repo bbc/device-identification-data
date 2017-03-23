@@ -1,16 +1,24 @@
 [
   {
     "invariants": [
-      "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebkit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1", "Brand=Samsung", "Platform=16_HAWKM_FHD", "Model="
+      "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebkit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1",
+      "Brand=Samsung",
+      "Platform=16_HAWKM_FHD",
+      "Model="
     ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebkit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1 Brand=Samsung Platform=16_HAWKM_FHD Model=UK5300"
+    "fuzzy": "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebkit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1 Brand=Samsung Platform=16_HAWKM_FHD Model=UK5300",
+    "type": "tv"
   },
   {
     "invariants": [
-      "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1", "Brand=Samsung", "Platform=16_HAWKM_FHD", "Model="
+      "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1",
+      "Brand=Samsung",
+      "Platform=16_HAWKM_FHD",
+      "Model="
     ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1 Brand=Samsung Platform=16_HAWKM_FHD Model=UK5300"
+    "fuzzy": "Mozilla/5.0 (SMART-TV; Linux; Tizen 2.4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/2.4.0 TV Safari/538.1 Brand=Samsung Platform=16_HAWKM_FHD Model=UK5300",
+    "type": "tv"
   }
 ]

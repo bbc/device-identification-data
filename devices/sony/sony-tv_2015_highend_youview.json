@@ -1,5 +1,10 @@
-[{
-  "invariants": ["sony.hbbtv.tv.2015HE YouView"],
-  "disallowed": [],
-  "fuzzy":  "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.48.ALSAN3.97 HbbTV/1.1.1 (; Sony; N/A; v1.000; 2015;) sony.hbbtv.tv.2015HE YouView"
-}]
+[
+  {
+    "invariants": [
+      "sony.hbbtv.tv.2015HE YouView"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.12.48.ALSAN3.97 HbbTV/1.1.1 (; Sony; N/A; v1.000; 2015;) sony.hbbtv.tv.2015HE YouView",
+    "type": "tv"
+  }
+]

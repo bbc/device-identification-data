@@ -1,5 +1,10 @@
-[{
-  "invariants": ["PHILIPS-AVM-2013"],
-  "disallowed": [],
-  "fuzzy": "WebKit/4.2.9, (CE-HTML/1.0 NETTV/3.3.0 NewB) PHILIPS-AVM-2013/1.28 (Philips, HTB3520G, wired)"
-}]
+[
+  {
+    "invariants": [
+      "PHILIPS-AVM-2013"
+    ],
+    "disallowed": [],
+    "fuzzy": "WebKit/4.2.9, (CE-HTML/1.0 NETTV/3.3.0 NewB) PHILIPS-AVM-2013/1.28 (Philips, HTB3520G, wired)",
+    "type": "tv"
+  }
+]

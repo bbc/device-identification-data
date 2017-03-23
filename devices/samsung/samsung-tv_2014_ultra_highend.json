@@ -1,5 +1,10 @@
-[{
-  "invariants": ["Platform=NT14U"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2014; Maple2012) AppleWebKit/537.42  (KHTML, like Gecko) SmartTV Safari/537.42  Brand=Samsung Platform=NT14U Model=UHU6830"
-}]
+[
+  {
+    "invariants": [
+      "Platform=NT14U"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2014; Maple2012) AppleWebKit/537.42  (KHTML, like Gecko) SmartTV Safari/537.42  Brand=Samsung Platform=NT14U Model=UHU6830",
+    "type": "tv"
+  }
+]

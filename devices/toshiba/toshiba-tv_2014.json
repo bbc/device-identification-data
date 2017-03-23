@@ -1,5 +1,10 @@
-[{
-  "invariants": ["TOSHIBA-DTV-2014A"],
-  "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux; U; en-GB) AppleWebKit/537.4 (KHTML, like Gecko) HbbTV/1.1.1 (;TOSHIBA;MWB;;;) TOSHIBA-DTV-2014A (DTV_L6453; 8.1.88.07.01.1; 2014A; EU)"
-}]
+[
+  {
+    "invariants": [
+      "TOSHIBA-DTV-2014A"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux; U; en-GB) AppleWebKit/537.4 (KHTML, like Gecko) HbbTV/1.1.1 (;TOSHIBA;MWB;;;) TOSHIBA-DTV-2014A (DTV_L6453; 8.1.88.07.01.1; 2014A; EU)",
+    "type": "tv"
+  }
+]

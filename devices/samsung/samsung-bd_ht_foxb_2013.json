@@ -1,12 +1,18 @@
 [
   {
-    "invariants": ["Brand=Samsung Platform=FoxB"],
+    "invariants": [
+      "Brand=Samsung Platform=FoxB"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=FoxB Model=BD-F5900"
+    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=FoxB Model=BD-F5900",
+    "type": "tv"
   },
   {
-    "invariants": ["Brand=Samsung Platform=FOXB"],
+    "invariants": [
+      "Brand=Samsung Platform=FOXB"
+    ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=FOXB Model=F8900"
+    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=FOXB Model=F8900",
+    "type": "tv"
   }
 ]
