@@ -1,5 +1,9 @@
-[{
-  "invariants": ["Hisense", "SmartTV_2017"],
+{
+  "invariants": [
+    "Hisense",
+    "SmartTV_2017"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.0.Martell-2.20 HbbTV/1.4.1 ( DL DRM SYNC_SLAVE AFS PVR;Hisense;SmartTV_2017;V0000.01.00a.H0210;HE50K5502UWTS;) FVC/2.0 (Hisense;SmartTV_2017;)"
-}]
+  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.0.Martell-2.20 HbbTV/1.4.1 ( DL DRM SYNC_SLAVE AFS PVR;Hisense;SmartTV_2017;V0000.01.00a.H0210;HE50K5502UWTS;) FVC/2.0 (Hisense;SmartTV_2017;)",
+  "type": "tv"
+}

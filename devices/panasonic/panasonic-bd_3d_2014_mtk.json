@@ -1,5 +1,8 @@
-[{
-  "invariants": ["Panasonic.bd.mtk3d2.2014"],
+{
+  "invariants": [
+    "Panasonic.bd.mtk3d2.2014"
+  ],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv7l; Opera TV Store/5607; Panasonic.bd.mtk3d2.2014; Mediatek) Presto/2.12.362 Version/12.11"
-}]
+  "fuzzy": "Opera/9.80 (Linux armv7l; Opera TV Store/5607; Panasonic.bd.mtk3d2.2014; Mediatek) Presto/2.12.362 Version/12.11",
+  "type": "tv"
+}

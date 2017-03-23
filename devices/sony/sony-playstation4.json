@@ -1,5 +1,8 @@
-[{
-  "invariants": ["PlayStation 4"],
+{
+  "invariants": [
+    "PlayStation 4"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (PlayStation 4) AppleWebKit/531.3 (KHTML, like Gecko) SCEE/1.0 Nuanti/2.0"
-}]
+  "fuzzy": "Mozilla/5.0 (PlayStation 4) AppleWebKit/531.3 (KHTML, like Gecko) SCEE/1.0 Nuanti/2.0",
+  "type": "tv"
+}

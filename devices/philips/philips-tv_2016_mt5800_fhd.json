@@ -1,5 +1,8 @@
-[{
-  "invariants": ["_TV_MT5800"],
+{
+  "invariants": [
+    "_TV_MT5800"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.MOT.41 HbbTV/1.2.1 (;Philips;43PUH6101/88;;_TV_MT5800;) Firmware/TPL161E_012.003.022.001 en"
-}]
+  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.MOT.41 HbbTV/1.2.1 (;Philips;43PUH6101/88;;_TV_MT5800;) Firmware/TPL161E_012.003.022.001 en",
+  "type": "tv"
+}

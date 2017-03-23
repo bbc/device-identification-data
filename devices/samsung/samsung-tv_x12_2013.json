@@ -1,12 +1,8 @@
-[
-  {
-    "invariants": ["Platform=X12"],
-    "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=X12 Model=HB690"
-  },
-  {
-    "invariants": ["Plitform=X12"],
-    "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=X12 Model=HB690"
-  }
-]
+{
+  "invariants": [
+    "Plitform=X12"
+  ],
+  "disallowed": [],
+  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=X12 Model=HB690",
+  "type": "tv"
+}

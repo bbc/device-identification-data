@@ -1,5 +1,8 @@
-[{
-  "invariants": ["sony.hbbtv.tv.2013"],
+{
+  "invariants": [
+    "sony.hbbtv.tv.2013"
+  ],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv7l;  HbbTV/1.1.1 (; Sony; KD65X9005A; PKG4.600EUA; 2013;); sony.hbbtv.tv.2013; ) Presto/2.12.362 Version/12.11"
-}]
+  "fuzzy": "Opera/9.80 (Linux armv7l;  HbbTV/1.1.1 (; Sony; KD65X9005A; PKG4.600EUA; 2013;); sony.hbbtv.tv.2013; ) Presto/2.12.362 Version/12.11",
+  "type": "tv"
+}

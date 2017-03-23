@@ -1,5 +1,8 @@
-[{
-  "invariants": ["PlayStation 3"],
+{
+  "invariants": [
+    "PlayStation 3"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (PlayStation 3) AppleWebKit/531.3 (KHTML, like Gecko) SCEE/1.0NuantiMeta/2.0"
-}]
+  "fuzzy": "Mozilla/5.0 (PlayStation 3) AppleWebKit/531.3 (KHTML, like Gecko) SCEE/1.0NuantiMeta/2.0",
+  "type": "tv"
+}

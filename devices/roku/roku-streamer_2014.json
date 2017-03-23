@@ -1,5 +1,9 @@
-[{
-  "invariants": ["Roku", "DVP-3500X"],
+{
+  "invariants": [
+    "Roku",
+    "DVP-3500X"
+  ],
   "disallowed": [],
-  "fuzzy": "Roku/DVP-3500X-5.2 (095.02E07047A)"
-}]
+  "fuzzy": "Roku/DVP-3500X-5.2 (095.02E07047A)",
+  "type": "tv"
+}

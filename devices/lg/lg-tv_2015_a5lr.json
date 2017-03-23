@@ -1,5 +1,9 @@
-[{
-  "invariants": ["Web0S", "DTV_W15L"],
+{
+  "invariants": [
+    "Web0S",
+    "DTV_W15L"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 24LH480U-PZ; 03.20.26; 1; DTV_W15L); webOS.TV-2015; LG NetCast.TV-2013 Compatible (LGE, 24LH480U-PZ, wireless)"
-}]
+  "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/538.2 (KHTML, like Gecko) Large Screen Safari/538.2 LG Browser/7.00.00(LGE; 24LH480U-PZ; 03.20.26; 1; DTV_W15L); webOS.TV-2015; LG NetCast.TV-2013 Compatible (LGE, 24LH480U-PZ, wireless)",
+  "type": "tv"
+}

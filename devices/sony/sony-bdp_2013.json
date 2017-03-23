@@ -1,5 +1,8 @@
-[{
-  "invariants": ["BDP2013"],
+{
+  "invariants": [
+    "BDP2013"
+  ],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/5599) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 (BDP8G_AX; BDP2013/M14.R.0197; AUS; )"
-}]
+  "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/5599) Presto/2.12.362 Version/12.11 SonyCEBrowser/1.0 (BDP8G_AX; BDP2013/M14.R.0197; AUS; )",
+  "type": "tv"
+}

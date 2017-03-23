@@ -1,5 +1,8 @@
-[{
-  "invariants": ["Roku/DVP-2400SK"],
+{
+  "invariants": [
+    "Roku/DVP-2400SK"
+  ],
   "disallowed": [],
-  "fuzzy": "Roku/DVP-2400SK-4.9 (074.09E08067A)"
-}]
+  "fuzzy": "Roku/DVP-2400SK-4.9 (074.09E08067A)",
+  "type": "tv"
+}

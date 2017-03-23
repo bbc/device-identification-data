@@ -1,5 +1,8 @@
-[{
-  "invariants": ["PhilipsTV, 9.1.1"],
+{
+  "invariants": [
+    "PhilipsTV, 9.1.1"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.46 HbbTV/1.2.1 (;Philips;43PUS610112;;PhilipsTV;) Firmware/ 012.111.666.000 (PhilipsTV, 9.1.1,) en"
-}]
+  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.46 HbbTV/1.2.1 (;Philips;43PUS610112;;PhilipsTV;) Firmware/ 012.111.666.000 (PhilipsTV, 9.1.1,) en",
+  "type": "tv"
+}

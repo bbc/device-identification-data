@@ -1,5 +1,8 @@
-[{
-  "invariants": ["LCD_SS1A); LG SimpleSmart.TV-2016"],
+{
+  "invariants": [
+    "LCD_SS1A); LG SimpleSmart.TV-2016"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+SCREEN+TUNER; LGE; SIMPLE-SMART; 00.00.00; 0x00000001; LCD_SS1A); LG SimpleSmart.TV-2016 /00.00.00 (LG, SIMPLE-SMART, wired)"
-}]
+  "fuzzy": "Mozilla/5.0 (DirectFB; Linux armv7l) AppleWebKit/537.1+ (KHTML, like Gecko) Safari/537.1+ LG Browser/6.00.00(+SCREEN+TUNER; LGE; SIMPLE-SMART; 00.00.00; 0x00000001; LCD_SS1A); LG SimpleSmart.TV-2016 /00.00.00 (LG, SIMPLE-SMART, wired)",
+  "type": "tv"
+}

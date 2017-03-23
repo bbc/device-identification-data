@@ -1,5 +1,8 @@
-[{
-  "invariants": ["Panasonic.tv.volume.2014"],
+{
+  "invariants": [
+    "Panasonic.tv.volume.2014"
+  ],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420  (KHTML, like Gecko)(avdn/Panasonic.tv.volume.2014) Viera/3.10.14 Chrome/23.0.1271.97 Safari/537.11; Freetime/1.0 (ctv); (Panasonic, 2014, idtv, low, wired); (MT5591, 3059);"
-}]
+  "fuzzy": "Mozilla/5.0(compatible; U; InfiNet 0.1; Viera) AppleWebKit/420  (KHTML, like Gecko)(avdn/Panasonic.tv.volume.2014) Viera/3.10.14 Chrome/23.0.1271.97 Safari/537.11; Freetime/1.0 (ctv); (Panasonic, 2014, idtv, low, wired); (MT5591, 3059);",
+  "type": "tv"
+}
