@@ -1,10 +1,5 @@
-{
-  "invariants": [
-    "Humax"
-  ],
-  "disallowed": [
-    "hdr1000s"
-  ],
-  "fuzzy": "Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Humax; HDR-1800T; 1.00.25; 1.0; ); ce-html/1.0; en) Presto/2.10.250 Version/11.60",
-  "type": "tv"
-}
+[{
+  "invariants": ["Humax"],
+  "disallowed": ["hdr1000s"],
+  "fuzzy": "Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Humax; HDR-1800T; 1.00.25; 1.0; ); ce-html/1.0; en) Presto/2.10.250 Version/11.60"
+}]

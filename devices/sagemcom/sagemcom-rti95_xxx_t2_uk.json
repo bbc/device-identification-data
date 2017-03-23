@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "SC604C-RTI95-2012"
-  ],
+[{
+  "invariants": ["SC604C-RTI95-2012"],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux sh4; U; SC604C-RTI95-2012; en) Presto/2.10.250 Version/11.60",
-  "type": "tv"
-}
+  "fuzzy": "Opera/9.80 (Linux sh4; U; SC604C-RTI95-2012; en) Presto/2.10.250 Version/11.60"
+}]

@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "NVIDIA Shield; smart-tv"
-  ],
+[{
+  "invariants": ["NVIDIA Shield; smart-tv"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux; U; Android 5.0.1; NVIDIA Shield; smart-tv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (Linux; U; Android 5.0.1; NVIDIA Shield; smart-tv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36"
+}]

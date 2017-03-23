@@ -1,10 +1,5 @@
-{
-  "invariants": [
-    "v.tv.2013",
-    "Opera",
-    "Broadcast"
-  ],
+[{
+  "invariants": ["v.tv.2013", "Opera", "Broadcast"],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux mips;) Presto/2.12.407 Version/12.50 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/VESTEL-v.tv.2013) Broadcast",
-  "type": "tv"
-}
+  "fuzzy": "Opera/9.80 (Linux mips;) Presto/2.12.407 Version/12.50 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/VESTEL-v.tv.2013) Broadcast"
+}]

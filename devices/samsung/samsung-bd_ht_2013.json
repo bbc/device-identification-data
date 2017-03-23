@@ -1,8 +1,22 @@
-{
-  "invariants": [
-    "Smart-BD; M; Linux/SmartBD; HT-F4500"
-  ],
-  "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4515; U; Smart-BD; M; Linux/SmartBD; HT-F4500; Mediatek; en) Presto/2.10.250 Version/11.60",
-  "type": "tv"
-}
+[
+  {
+    "invariants": ["Smart-BD; M; Linux/SmartBD; BD-F5500"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4515; U; Smart-BD; M; Linux/SmartBD; BD-F5500; Mediatek; en) Presto/2.10.250 Version/11.60"
+  },
+  {
+    "invariants": ["Smart-BD; M; Linux/SmartBD; BD-F5100"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4515; U; Smart-BD; M; Linux/SmartBD; BD-F5100; Mediatek; en) Presto/2.10.250 Version/11.60"
+  },
+  {
+    "invariants": ["Smart-BD; M; Linux/SmartBD; HT-F4200"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4515; U; Smart-BD; M; Linux/SmartBD; HT-F4200; Mediatek; en) Presto/2.10.250 Version/11.60"
+  },
+  {
+    "invariants": ["Smart-BD; M; Linux/SmartBD; HT-F4500"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux armv6l; Opera TV Store/4515; U; Smart-BD; M; Linux/SmartBD; HT-F4500; Mediatek; en) Presto/2.10.250 Version/11.60"
+  }
+]

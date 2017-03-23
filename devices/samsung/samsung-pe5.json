@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "Series=5000"
-  ],
+[{
+  "invariants": ["Series=5000"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 Series=5000(TV)",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV; Maple2012) AppleWebKit/534.7 (KHTML, like Gecko) SmartTV Safari/534.7 Series=5000(TV)"
+}]

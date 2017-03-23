@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "Opera TV/Blinktest OPR/"
-  ],
+[{
+  "invariants": ["Opera TV/Blinktest OPR/"],
   "disallowed": [],
-  "fuzzy": "Opera TV/Blinktest OPR/99.99",
-  "type": "tv"
-}
+  "fuzzy": "Opera TV/Blinktest OPR/99.99"
+}]

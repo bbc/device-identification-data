@@ -1,11 +1,10 @@
-{
-  "invariants": [
-    "HbbTV/1.4.1",
-    "FVC/2.0",
-    "VSTVB",
-    "MB200"
-  ],
+[{
+  "invariants": ["HbbTV/1.4.1", "FVC/1.0"],
   "disallowed": [],
-  "fuzzy": "VSTVB MB200 FVC/2.0 (MITCHELL_BROWN; MB211; ) HbbTV/1.4.1 (;MITCHELL_BROWN; MB211; 0.15.0.0; _TV_NT72563_2017; ;)",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.91.DOM3.42 Model/Vestel-MB130 VSTVB MB100 FVC/2.0 (VESTEL; MB130; ) HbbTV/1.4.1 (; VESTEL; MB130; 3.12.0.0; _TV_G10_2017; ;) SmartTvA/3.0.0"
+},
+{
+  "invariants": ["HbbTV/1.4.1", "FVC/2.0", "VSTVB", "MB200"],
+  "disallowed": [],
+  "fuzzy": "VSTVB MB200 FVC/2.0 (MITCHELL_BROWN; MB211; ) HbbTV/1.4.1 (;MITCHELL_BROWN; MB211; 0.15.0.0; _TV_NT72563_2017; ;)"
+}]

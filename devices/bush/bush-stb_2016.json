@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/534.34 (KHTML, like Gecko, Safari/534.34) PixsanUTK-smarttv_mstar-k3-ekt-dtr-8021-bushx1/"
-  ],
+[{
+  "invariants": ["Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/534.34 (KHTML, like Gecko, Safari/534.34) PixsanUTK-smarttv_mstar-k3-ekt-dtr-8021-bushx1/"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/534.34 (KHTML, like Gecko, Safari/534.34) PixsanUTK-smarttv_mstar-k3-ekt-dtr-8021-bushx1/1.0.106",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (DirectFB; U; Linux armv7l; en) AppleWebKit/534.34 (KHTML, like Gecko, Safari/534.34) PixsanUTK-smarttv_mstar-k3-ekt-dtr-8021-bushx1/1.0.106"
+}]

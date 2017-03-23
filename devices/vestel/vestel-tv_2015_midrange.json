@@ -1,10 +1,5 @@
-{
-  "invariants": [
-    "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51",
-    "VSTVB_MB97",
-    "SmartTvA"
-  ],
+[{
+  "invariants": ["Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51", "VSTVB_MB97", "SmartTvA"],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB97/0.0.3.0 (HITACHI, Si2156LG32, wired) VSTVB_MB97 UID(00:09:df:55:c7:f4/MB97/VESTEL/0.0.3.0)+CE-HTML;MEM:HIGH SmartTvA/3.0.0",
-  "type": "tv"
-}
+  "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB97/0.0.3.0 (HITACHI, Si2156LG32, wired) VSTVB_MB97 UID(00:09:df:55:c7:f4/MB97/VESTEL/0.0.3.0)+CE-HTML;MEM:HIGH SmartTvA/3.0.0"
+}]

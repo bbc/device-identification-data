@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "sony.hbbtv.tv.2014"
-  ],
+[{
+  "invariants": ["sony.hbbtv.tv.2014"],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv7l;  HbbTV/1.1.1 (; Sony; KD49X8505B; PKG2.263EUA; 2014;); sony.hbbtv.tv.2014; ) Presto/2.12.407 Version/12.50",
-  "type": "tv"
-}
+  "fuzzy": "Opera/9.80 (Linux armv7l;  HbbTV/1.1.1 (; Sony; KD49X8505B; PKG2.263EUA; 2014;); sony.hbbtv.tv.2014; ) Presto/2.12.407 Version/12.50"
+}]

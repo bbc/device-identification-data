@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "Panasonic.bd.pxs2p.2016"
-  ],
+[{
+  "invariants": ["Panasonic.bd.pxs2p.2016"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420  (KHTML, like Gecko)(avdn/Panasonic.bd.pxs2p.2016)",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0(compatible; U; InfiNet 0.1; Diga) AppleWebKit/420  (KHTML, like Gecko)(avdn/Panasonic.bd.pxs2p.2016)"
+}]

@@ -1,15 +1,5 @@
-{
-  "invariants": [
-    "Hisense",
-    "Opera/9.80",
-    "Linux",
-    "armv7l",
-    "HbbTV/1.2.1",
-    "Presto/2.12.407",
-    "Version/12.51",
-    "SmartTV_2015"
-  ],
+[{
+  "invariants": ["Hisense", "Opera/9.80", "Linux", "armv7l", "HbbTV/1.2.1", "Presto/2.12.407", "Version/12.51", "SmartTV_2015"],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Hisense; SmartTV_2015; V00.01.00a.F1118; LTDN40K321UWTSEU; )) Presto/2.12.407 Version/12.51 year/2015",
-  "type": "tv"
-}
+  "fuzzy": "Opera/9.80 (Linux armv7l; HbbTV/1.2.1 (; Hisense; SmartTV_2015; V00.01.00a.F1118; LTDN40K321UWTSEU; )) Presto/2.12.407 Version/12.51 year/2015"
+}]

@@ -1,12 +1,5 @@
-{
-  "invariants": [
-    "VSTVB",
-    "MB100",
-    "HbbTV/1.2.1",
-    "SmartTvA",
-    "MB110"
-  ],
+[{
+  "invariants": ["VSTVB", "MB100", "HbbTV/1.2.1", "SmartTvA", "MB110"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.40.Dominik2.0 VSTVB MB100 HbbTV/1.2.1 (;BBC_CUSTOMERS; BOARD_NAME; VERSION; ;) SmartTvA/3.0.0",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36 OPR/31.0.1890.0 OMI/4.6.1.40.Dominik2.0 VSTVB MB100 HbbTV/1.2.1 (;BBC_CUSTOMERS; BOARD_NAME; VERSION; ;) SmartTvA/3.0.0"
+}]

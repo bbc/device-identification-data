@@ -1,8 +1,12 @@
-{
-  "invariants": [
-    "Roku/DVP-3600"
-  ],
-  "disallowed": [],
-  "fuzzy": "Roku/DVP-3600X-7.0 (4660)",
-  "type": "tv"
-}
+[
+  {
+    "invariants": ["Roku/DVP-3600"],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-3600EU-7.0 (4660)"
+  },
+  {
+    "invariants": ["Roku/DVP-3600"],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-3600X-7.0 (4660)"
+  }
+]

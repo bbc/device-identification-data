@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "SL21"
-  ],
+[{
+  "invariants": ["SL21"],
   "disallowed": [],
-  "fuzzy": "Opera/9.80 (Linux sh4; HbbTV/1.2.1 ( PVR; Loewe; SL210; LOH/10.2.1.79;;) CE-HTML/1.0 Config(L:eng,CC:AUS) NETRANGEMMH) Presto/2.12.362 Version/12.10",
-  "type": "tv"
-}
+  "fuzzy": "Opera/9.80 (Linux sh4; HbbTV/1.2.1 ( PVR; Loewe; SL210; LOH/10.2.1.79;;) CE-HTML/1.0 Config(L:eng,CC:AUS) NETRANGEMMH) Presto/2.12.362 Version/12.10"
+}]

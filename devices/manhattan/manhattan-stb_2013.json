@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "Manhattan"
-  ],
+[{
+  "invariants": ["Manhattan"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux MIPS; U; EN-GB) AppleWebKit/537.4 (KHTML, like Gecko) HBBTV/1.1.1 ManhattanMS/1.0 (HDT2)",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (Linux MIPS; U; EN-GB) AppleWebKit/537.4 (KHTML, like Gecko) HBBTV/1.1.1 ManhattanMS/1.0 (HDT2)"
+}]

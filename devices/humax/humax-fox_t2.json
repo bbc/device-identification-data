@@ -1,8 +1,12 @@
-{
-  "invariants": [
-    "DVBViewer"
-  ],
-  "disallowed": [],
-  "fuzzy": "Opera/9.80 HbbTV/1.1.1 ( PVR DL;CMUV;DVBViewer;1.0;1.0;)",
-  "type": "tv"
-}
+[
+  {
+    "invariants": ["FOX T2"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux 7405b0-smp; U; HbbTV/1.1.1 (; Humax; HD-FOX T2; 1.03.02; 1.0; ); ce-html/1.0; en) Presto/2.10.250 Version/11.60"
+  },
+  {
+    "invariants": ["DVBViewer"],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 HbbTV/1.1.1 ( PVR DL;CMUV;DVBViewer;1.0;1.0;)"
+  }
+]

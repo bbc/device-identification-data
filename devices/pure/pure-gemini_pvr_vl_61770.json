@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "Pure"
-  ],
+[{
+  "invariants": ["Pure"],
   "disallowed": [],
-  "fuzzy": "Pure-VL61770-2012-01",
-  "type": "tv"
-}
+  "fuzzy": "Pure-VL61770-2012-01"
+}]

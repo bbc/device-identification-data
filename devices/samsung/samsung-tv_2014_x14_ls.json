@@ -1,10 +1,5 @@
-{
-  "invariants": [
-    "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV",
-    "2014",
-    "Brand=Samsung Platform=X14-LS"
-  ],
+[{
+  "invariants": ["Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV", "2014", "Brand=Samsung Platform=X14-LS"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV+2014; Maple2012) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=Samsung Platform=X14-LS Model=xxxx",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV+2014; Maple2012) AppleWebKit/537.42+ (KHTML, like Gecko) SmartTV Safari/537.42+ Brand=Samsung Platform=X14-LS Model=xxxx"
+}]

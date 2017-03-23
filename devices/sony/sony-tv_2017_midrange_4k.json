@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "sony.hbbtv.tv.2017LE4"
-  ],
+[{
+  "invariants": ["sony.hbbtv.tv.2017LE4"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2128.0 OMI/4.8.0.129.PIXEL.48 HbbTV/1.2.1 (; Sony; KD-43X7000E; vx.xxx; ;) FVC/2.0 (Sony; 2017LE4;) sony.hbbtv.tv.2017LE4",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36 OPR/36.0.2128.0 OMI/4.8.0.129.PIXEL.48 HbbTV/1.2.1 (; Sony; KD-43X7000E; vx.xxx; ;) FVC/2.0 (Sony; 2017LE4;) sony.hbbtv.tv.2017LE4"
+}]

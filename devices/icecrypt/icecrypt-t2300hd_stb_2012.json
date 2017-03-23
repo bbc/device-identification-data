@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "Icecrypt"
-  ],
+[{
+  "invariants": ["Icecrypt"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 ( DL PVR RTSP;Mstar;OWB;;;) IcecryptT2300HD/stbv1.0/LinuxOS",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (X11; U; Linux i686; en) AppleWebKit/534.1 (KHTML, like Gecko) HbbTV/1.1.1 ( DL PVR RTSP;Mstar;OWB;;;) IcecryptT2300HD/stbv1.0/LinuxOS"
+}]

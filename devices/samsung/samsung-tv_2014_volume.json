@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "Platform=NT14M"
-  ],
+[{
+  "invariants": ["Platform=NT14M"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2014; Maple2012) AppleWebKit/537.42  (KHTML, like Gecko) SmartTV Safari/537.42  Brand=Samsung Platform=NT14M Model=UH4500",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2014; Maple2012) AppleWebKit/537.42  (KHTML, like Gecko) SmartTV Safari/537.42  Brand=Samsung Platform=NT14M Model=UH4500"
+}]

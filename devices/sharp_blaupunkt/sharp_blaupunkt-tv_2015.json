@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "UMC-OTT"
-  ],
+[{
+  "invariants": ["UMC-OTT"],
   "disallowed": [],
-  "fuzzy": "Mozilla/5.0(Linuxmipsel;U;en-GB)AppleWebKit/537.4 (KHTML,likeGecko)HbbTV/1.2.1(;UMC;MWB;;;)UMC-OTT V1.00",
-  "type": "tv"
-}
+  "fuzzy": "Mozilla/5.0(Linuxmipsel;U;en-GB)AppleWebKit/537.4 (KHTML,likeGecko)HbbTV/1.2.1(;UMC;MWB;;;)UMC-OTT V1.00"
+}]

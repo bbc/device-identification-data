@@ -1,8 +1,5 @@
-{
-  "invariants": [
-    "AFTRS"
-  ],
+[{
+  "invariants": ["AFTRS"],
   "disallowed": [],
-  "fuzzy": "smarttv_AFTRS_Build_566140820_Chromium_49.0.2623.87",
-  "type": "tv"
-}
+  "fuzzy": "smarttv_AFTRS_Build_566140820_Chromium_49.0.2623.87"
+}]
