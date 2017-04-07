@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "Mozilla/5.0 (SMART-TV; LINUX; Tizen 3.0) AppleWebKit/538.1 (KHTML, like Gecko) SamsungBrowser/1.1 TV Safari/538.1 Brand=Samsung Platform=17_KANTM_UHD-DASH"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 3.0) AppleWebKit/538.1 (KHTML, like Gecko) SamsungBrowser/1.1 TV Safari/538.1 Brand=Samsung Platform=17_KANTM_UHD-DASH Model=xxxxxx",
+    "type": "tv"
+  }
+]
