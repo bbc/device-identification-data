@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "THIS IS A TEST USERAGENT"
+    ],
+    "disallowed": [],
+    "fuzzy": "THIS IS A TEST USERAGENT",
+    "type": "tv"
+  }
+]
