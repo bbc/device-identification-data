@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "HbbTV/1.4.1", "TCL", "MS86", "FVC/2.0"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/48.0 Safari/537.4 HbbTV/1.4.1 (+DRM; TCL; MS86; V8-S586XXX-LF1XXX ; MS86;) FVC/2.0 (TCL; MS86;)",
+    "type": "tv"
+  }
+]
