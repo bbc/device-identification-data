@@ -185,6 +185,7 @@ function summarise (results) {
 }
 
 const startTime = Date.now()
+console.log('Validating matchers for all user agents:')
 fetchTestData.then((response) => {
   return response.text()
 }).then((testData) => {

@@ -28,7 +28,7 @@ function summarise (results) {
     })
   }
   if (valids) {
-    console.log(colors.green(`Validation successful for ${valids.length} devices`), NL)
+    console.log(colors.green(`Schema validation successful for ${valids.length} devices`), NL)
   }
 
   const timeTaken = ((Date.now() - startTime) / 1000).toFixed(2)
