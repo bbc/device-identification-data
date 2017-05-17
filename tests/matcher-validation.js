@@ -22,9 +22,9 @@ function addLocalDevice () {
     let localDevice = {
       brand,
       model,
-      invariants: (localInvariants || '').split(','),
+      invariants: localInvariants ? localInvariants.split(',') : [],
       fuzzy: localFuzzyMatcher,
-      disallowed: (localDisallowed || '').split(','),
+      disallowed: localDisallowed ? localDisallowed.split(',') : [],
       type: localType
     }
 
