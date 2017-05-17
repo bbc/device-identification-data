@@ -57,6 +57,8 @@ function checkForUntested (results) {
   return results
 }
 
+let count = 0
+
 function testLine (line) {
   const [brand, model, ua] = line
 
@@ -88,6 +90,11 @@ function testLine (line) {
     result.warning = true
     result.message = `No local device found for ${brand}-${model}`
   }
+
+  if (count % 100 === 1) {
+    process.stdout.write('.')
+  }
+  count++
 
   return result
 }
@@ -184,12 +191,26 @@ function summarise (results) {
   }
 }
 
+function addLocalUserAgent (userAgents) {
+  let brand = process.env.BRAND
+  let model = process.env.MODEL
+  let localUserAgents = process.env.USER_AGENTS
+  if (brand && model && localUserAgents) {
+    let newEntries = localUserAgents.trim().split(NL).map((userAgent) => {
+      return `"${brand}","${model}","${userAgent}"`
+    })
+    return userAgents.trim() + NL + newEntries.join(NL)
+  }
+  return userAgents
+}
+
 const startTime = Date.now()
 console.log('Validating matchers for all user agents:')
 fetchTestData.then((response) => {
   return response.text()
 }).then((testData) => {
-  return parse(testData)
+  const modifiedTestData = addLocalUserAgent(testData)
+  return parse(modifiedTestData)
 }).then((testDataLines) => {
   const lines = filterDevices(testDataLines)
   const results = lines.map(testLine)
