@@ -117,8 +117,11 @@ function testLine (line) {
     result.message = `No local device found for ${brand}-${model}`
   }
 
-  if (count % 100 === 1) {
+  if (count % 100 === 99) {
     process.stdout.write('.')
+    if (count % 1000 === 999) {
+      process.stdout.write(NL)
+    }
   }
   count++
 
