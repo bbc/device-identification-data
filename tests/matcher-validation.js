@@ -19,14 +19,19 @@ const localType = process.env.TYPE
 
 function addLocalDevice () {
   if (brand && model && localFuzzyMatcher && localType) {
-    devices.push({
+    let localDevice = {
       brand,
       model,
       invariants: (localInvariants || '').split(','),
       fuzzy: localFuzzyMatcher,
       disallowed: (localDisallowed || '').split(','),
       type: localType
-    })
+    }
+
+    console.log('Creating local device:')
+    console.log(JSON.stringify(localDevice, null, 2))
+
+    devices.push(localDevice)
   }
 }
 
