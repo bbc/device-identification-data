@@ -6,8 +6,29 @@ const argv = require('yargs').argv
 const NL = '\n'
 
 const devices = require('../output/device-identification-data.json')
-const fetchTestData = fetch('https://connected-tv.files.bbci.co.uk/tvp-user-agents/data.csv')
-const match = melanite.match(devices)
+const testDataUrl = 'https://connected-tv.files.bbci.co.uk/tvp-user-agents/data.csv'
+
+// Optional environment variables
+const brand = process.env.BRAND
+const model = process.env.MODEL
+const localUserAgents = process.env.USER_AGENTS
+const localFuzzyMatcher = process.env.FUZZY_MATCHER
+const localInvariants = process.env.INVARIANTS
+const localDisallowed = process.env.DISALLOWED
+const localType = process.env.TYPE
+
+function addLocalDevice () {
+  if (brand && model && localFuzzyMatcher && localType) {
+    devices.push({
+      brand,
+      model,
+      invariants: (localInvariants || '').split(','),
+      fuzzy: localFuzzyMatcher,
+      disallowed: (localDisallowed || '').split(','),
+      type: localType
+    })
+  }
+}
 
 function parse (data) {
   return new Promise((resolve, reject) => {
@@ -192,9 +213,6 @@ function summarise (results) {
 }
 
 function addLocalUserAgent (userAgents) {
-  let brand = process.env.BRAND
-  let model = process.env.MODEL
-  let localUserAgents = process.env.USER_AGENTS
   if (brand && model && localUserAgents) {
     let newEntries = localUserAgents.trim().split(NL).map((userAgent) => {
       return `"${brand}","${model}","${userAgent}"`
@@ -205,8 +223,12 @@ function addLocalUserAgent (userAgents) {
 }
 
 const startTime = Date.now()
+addLocalDevice()
+const match = melanite.match(devices)
+
 console.log('Validating matchers for all user agents:')
-fetchTestData.then((response) => {
+console.log('Fetching test data from:', testDataUrl)
+fetch(testDataUrl).then((response) => {
   return response.text()
 }).then((testData) => {
   const modifiedTestData = addLocalUserAgent(testData)
