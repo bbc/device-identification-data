@@ -222,9 +222,16 @@ function summarise (results) {
 
 function addLocalUserAgent (userAgents) {
   if (brand && model && localUserAgents) {
-    let newEntries = localUserAgents.trim().split(NL).map((userAgent) => {
-      return `"${brand}","${model}","${userAgent}"`
-    })
+    let newEntries = localUserAgents.trim()
+      .split(NL)
+      .filter((line) => line.trim())
+      .map((userAgent) => {
+        return `"${brand}","${model}","${userAgent}"`
+      })
+    if (newEntries.length) {
+      console.log('Using custom user agents:')
+      console.log(newEntries.join(NL))
+    }
     return userAgents.trim() + NL + newEntries.join(NL)
   }
   return userAgents
