@@ -14,14 +14,37 @@ Install dependencies:
 npm install
 ```
 
-### Test
+## Test
 
 To check the data against the schema provided, run:
 ```
 npm test
 ```
 
-#### Matcher testing
+### Matcher Testing Tool
+
+A build job [check-device-matchers](https://jenkins.connected-tv.tools.bbc.co.uk/job/check-device-matcher/build) has been provided which allows you to enter in required information about a matcher, and then run the matcher tests in this context. This tool can help you test new matchers before committing to creating files and modifying repos.
+
+Fields are as follows:
+
+| Key | Description |
+| --- | ----------- |
+| BRAND | Brand to be associated with user-agent and matcher |
+| MODEL | Model to be associated with user-agent and matcher |
+| USER_AGENTS | Newline separated list of example user-agents for a new device |
+| INVARIANTS | Comma separated list of invariant strings - strings that MUST appear in the user-agent for a match. |
+| DISALLOWED | Comma separated list of disallowed strings - strings that MUST NOT appear in the user-agent for a match. |
+| FUZZY_MATCHER | An example user-agent to match against |
+| TYPE | The type of the device for iPlayer RW to identify; probably going to be "TV" if its a TAP device. |
+
+**Note:** If any of these are set in your local environment then tests may not run as expected.
+
+**See:** https://jenkins.connected-tv.tools.bbc.co.uk/job/check-device-matcher/build
+
+
+
+### Local Matcher Testing
+
 To run only the matcher tests, run:
 ```
 npm run test:matcher
