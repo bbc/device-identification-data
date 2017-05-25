@@ -7,5 +7,14 @@
     "disallowed": [],
     "fuzzy": "Novatek, NT72563_RefSW, 2017 SmartTV, 000.001, Wired)",
     "type": "tv"
+  },
+  {
+    "invariants": [
+      "Novatek;NT72563_RefSW",
+      "Novatek;2017 SmartTV"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.93.Novatek.11 HbbTV/1.4.1 (+DL+PVR;Novatek;NT72563_RefSW;0.0.0;0.0.0;) FVC/2.0 (Novatek;2017 SmartTV;)",
+    "type": "tv"
   }
 ]
