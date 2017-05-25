@@ -9,5 +9,15 @@
     "disallowed": [],
     "fuzzy": "Mozilla/5.0 (Linux; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36 SRAF/4.0 HbbTV/1.4.1 ((+DRM; SERAPHIC; SERAPHIC; v4.0; v1.0; 2017) CE-HTML/1.0 FVC/2.0 (SERAPHIC; SERAPHIC; 2017)",
     "type": "tv"
+  },
+  {
+    "invariants": [
+      "SRAF/4.0",
+      "HbbTV/1.4.1",
+      "FVC/2.0"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36 SRAF/4.0 HbbTV/1.4.1 (+DRM; SERAPHIC; SERAPHIC; v4.0; v1.0; SERAPHIC;) CE-HTML/1.0 FVC/2.0 (SERAPHIC; SERAPHIC; )",
+    "type": "tv"
   }
 ]
