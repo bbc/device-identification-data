@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "HbbTV",
+      "SureSoft-Browser-3.0",
+      "Manhattan-FVPlay"
+    ],
+    "disallowed": [],
+    "fuzzy": "AppleWebkit/534.1 (KHTML) HbbTV/1.4.1 (+DRM;SureSoft-Browser-3.0;T3;100;;Manhattan-FVPlay;) FVC/2.0(SureSoft-Browser-3.0;Manhattan-FVPlay;)",
+    "type": "tv"
+  }
+]
