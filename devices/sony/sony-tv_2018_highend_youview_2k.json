@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "sony.hbbtv.tv.G2.2018HE.2K"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.69 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.9.7.ALSAN4.55 HbbTV/1.2.1 (; Sony; KDL40HX757; PKG4.410EUA; 2018;) sony.hbbtv.tv.G2.2018HE.2K YouView",
+    "type": "tv"
+  }
+]
