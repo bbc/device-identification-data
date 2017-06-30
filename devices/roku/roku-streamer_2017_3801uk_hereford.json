@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Roku",
+      "DVP-3801UK"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-3801UK-7.7 (1234)",
+    "type": "tv"
+  }
+]
