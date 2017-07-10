@@ -2,10 +2,10 @@
   {
     "invariants": [
       "Roku",
-      "DVP-3900X"
+      "DVP-3900EU"
     ],
     "disallowed": [],
-    "fuzzy": "Roku/DVP-3900X-7.7 (1234)",
+    "fuzzy": "Roku/DVP-3900EU-7.7 (1234)",
     "type": "tv"
   }
 ]
