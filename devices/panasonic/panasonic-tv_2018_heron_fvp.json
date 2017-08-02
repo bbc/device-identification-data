@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "Panasonic.Viera2018mid"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (;Panasonic;Viera2018mid;32.201;6101-0003 1000-0000;Viera2018;) FVC/2.0 (Panasonic;Viera2018;)(avdn/Panasonic.Viera2018mid) Mozilla/5.0 (Linux; U; Viera; en-GB) AppleWebKit/537.36 (KHTML, like Gecko) Viera/4.0.0 Chrome/51.0.2704.100 Safari/537.36",
+    "type": "tv"
+  }
+]
