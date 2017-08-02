@@ -8,5 +8,22 @@
     "disallowed": [],
     "fuzzy": "Opera/9.80 (Linux mips;) Presto/2.12.407 Version/12.50 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/VESTEL-v.tv.2013) Broadcast",
     "type": "tv"
+  },
+  {
+    "invariants": [
+      "NETRANGEMMH iplayerV3"
+    ],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (LINSAR, Si2156LG32, wired)HbbTV/1.1.1 (; CUS:LINSAR; MB95; 3.4.9.j; 1.0CE-HTML/1.0 NETRANGEMMH iplayerV3",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "MB9",
+      "MEM:HIGH"
+    ],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/3.4.9.j (TOSHIBA, Si2156LG32, wired) DTV_L34(00:09:4e:4a:14:d4/MB95/TOSHIBA-DTV/3.4.9.j)+CE-HTML;MEM:HIGH",
+    "type": "tv"
   }
 ]

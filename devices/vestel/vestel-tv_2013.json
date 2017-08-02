@@ -3,24 +3,21 @@
     "invariants": [
       "v.tv.2013"
     ],
-    "disallowed": [],
+    "disallowed": [
+      "Broadcast"
+    ],
     "fuzzy": "Opera/9.80 (Linux mips; U; ; en) Presto/2.10.287 Version/12.00 (avkb/pc,B:461;avvp/ssl;avui/tv;avst/off;avdn/AKAI-v.tv.2013)",
     "type": "tv"
   },
   {
     "invariants": [
-      "Opera/9.80 (Linux mips; ) Presto/2.12.407"
+      "Si2157LG32"
     ],
-    "disallowed": [],
-    "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB90/3.3.6.N (SHARP, Si2156LG32, wireless) HbbTV/1.1.1 (; CUS:SHARP; MB90; 3.3.6.N; 1.0;) CE-HTML/1.0 NETRANGEMMH iplayerV3",
-    "type": "tv"
-  },
-  {
-    "invariants": [
-      "iplayerV3"
+    "disallowed": [
+      "NETRANGEMMH iplayerV3",
+      "MEM:HIGH"
     ],
-    "disallowed": [],
-    "fuzzy": "Opera/9.80 (Linux mips; U; ; en) Presto/2.10.287 Version/12.00 HbbTV/1.1.1 (; CUS:DIGIHOME; MB95; 3.2.9.r; 1.0;) CE-HTML/1.0 NETRANGEMMH iplayerV3",
+    "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB91R3/3.7.5.r (FINLUX, Si2157LG32, wireless)",
     "type": "tv"
   }
 ]
