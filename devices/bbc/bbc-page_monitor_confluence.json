@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Page Monitor",
+      "confluence"
+    ],
+    "disallowed": [],
+    "fuzzy": "Page Monitor (https://confluence.dev.bbc.co.uk/display/men/Page+Monitor)",
+    "type": "page_monitor"
+  }
+]

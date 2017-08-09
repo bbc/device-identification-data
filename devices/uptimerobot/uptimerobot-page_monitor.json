@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "UptimeRobot"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)",
+    "type": "page_monitor"
+  }
+]

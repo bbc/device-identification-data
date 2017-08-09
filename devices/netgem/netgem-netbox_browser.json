@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Netgem",
+      "Netbox"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/4.0 (compatible; MSIE 5.01; Windows 98; Linux 3.3.8-3.3) [Netgem; 7.6.01-57; Netbox; ee]",
+    "type": "unknown"
+  }
+]

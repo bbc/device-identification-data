@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "BBC",
+      "Forge"
+    ],
+    "disallowed": [],
+    "fuzzy": "BBC-Forge-URL-Monitor-Twisted",
+    "type": "page_monitor"
+  }
+]

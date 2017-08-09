@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Dalvik",
+      "Android"
+    ],
+    "disallowed": [],
+    "fuzzy": "Dalvik/1.6.0 (Linux; U; Android 4.4.2; h3 Build/KOT49H)",
+    "type": "unknown"
+  }
+]
