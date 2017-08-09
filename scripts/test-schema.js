@@ -1,6 +1,6 @@
 const joi = require('joi')
 
-const schemaString = joi.string().regex(/^[-_,;+ =/.a-zA-Z0-9()#&:]+$/g)
+const schemaString = joi.string().regex(/^[-_,;+ =/.A-z0-9()#&:[\]]+$/g)
 const schema = joi.object({
   brand: joi.string().required(),
   model: joi.string().required(),
