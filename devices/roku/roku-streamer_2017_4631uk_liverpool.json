@@ -1,0 +1,18 @@
+[
+  {
+    "invariants": [
+      "Roku/DVP-4631UK"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-4631UK-7.7 (1234)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Roku/DVP-4630X"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-4630X-7.7 (1234)",
+    "type": "tv"
+  }
+]
