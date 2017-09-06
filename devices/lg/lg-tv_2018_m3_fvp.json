@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "W4_M3",
+      "HbbTV",
+      "Web0S"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36 HbbTV/1.4.1 (+DRM; LGE; WEBOS4.0; WEBOS4.0 01.00.59; W4_M3;) FVC/3.0 (LGE; WEBOS4.0 ;)",
+    "type": "tv"
+  }
+]
