@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "AFTA"
+    ],
+    "disallowed": [],
+    "fuzzy": "smarttv_AFTA_Build_535062120_Chromium_55.0.2883.91",
+    "type": "tv"
+  }
+]
