@@ -1,11 +1,11 @@
 [
   {
     "invariants": [
-      "FVC1/",
+      "FVC/",
       "LOEWE-SL4"
     ],
     "disallowed": [],
-    "fuzzy": "    Mozilla/5.0 (Linux; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36 OPR/46.0.2207.0 LOEWE-SL420/4.3.3.0 HbbTV/1.3.1 (; LOEWE; SL420; LOH/4.3.3.0;;) FVC1/2.0 (LOEWE; SL420;) CE-HTML/1.0 Config(L:eng,CC:DEU) NETRANGEMM",
+    "fuzzy": "    Mozilla/5.0 (Linux; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.109 Safari/537.36 OPR/46.0.2207.0 LOEWE-SL420/4.3.3.0 HbbTV/1.3.1 (; LOEWE; SL420; LOH/4.3.3.0;;) FVC/2.0 (LOEWE; SL420;) CE-HTML/1.0 Config(L:eng,CC:DEU) NETRANGEMMH",
     "type": "tv"
   }
 ]
