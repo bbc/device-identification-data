@@ -1,10 +1,10 @@
 [
   {
     "invariants": [
-      "Panasonic.Viera2018low"
+      "Panasonic; SmartTV2018low;"
     ],
     "disallowed": [],
-    "fuzzy": "HbbTV/1.4.1 (; Panasonic; Viera2018low; 3.000; 0000-1111 222-3333; Viera2018;) FVC/3.0 (Panasonic; Viera2018;) (avdn/Panasonic.Viera2018low)",
+    "fuzzy": "HbbTV/1.4.1 (+DRM; Panasonic; SmartTV2018low; 3.000; 0000-1111 222-3333; SmartTV2018;)FVC/3.0 (Panasonic; SmartTV2018;)",
     "type": "tv"
   }
 ]
