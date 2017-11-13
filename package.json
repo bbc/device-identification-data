@@ -11,6 +11,8 @@
     "node-fetch": "^1.6.3",
     "pre-commit": "^1.2.2",
     "pre-push": "^0.1.1",
+    "promise-path": "^1.2.6",
+    "prompt": "^1.0.0",
     "standard": "^9.0.0",
     "tvp-apache2-license-checker": "^1.0.2",
     "yargs": "^7.0.1"
@@ -22,7 +24,8 @@
     "test": "npm run build && node ./tests/schema-validation && node ./tests/matcher-validation && npm run lint",
     "build": "./scripts/build.sh",
     "release-to-live": "npm test && ./scripts/deploy.sh",
-    "check-licenses": "tvp-apache2-license-checker"
+    "check-licenses": "tvp-apache2-license-checker",
+    "create": "node ./scripts/create-new-matcher.js || true"
   },
   "pre-commit": [
     "lint"

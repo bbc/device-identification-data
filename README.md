@@ -21,6 +21,16 @@ To check the data against the schema provided, run:
 npm test
 ```
 
+### Create a new matcher
+
+To create a new matcher, run:
+
+```
+npm run create
+```
+
+Then follow the prompt to enter a brand and model.
+
 #### Matcher testing
 To run only the matcher tests, run:
 ```
