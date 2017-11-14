@@ -10,7 +10,8 @@
       "Platform=17_KANTM_BDP",
       "Platform=X14",
       "Platform=16_HAWKM_FHD",
-      "Platform=HAWKP"
+      "Platform=HAWKP",
+      "Platform=18_KANTM2_UHD"
     ],
     "fuzzy": "Mozilla/5.0 (SmartHub; SMART-TV; U; Linux/SmartTV 2013; Maple2012) AppleWebKit/535.20  (KHTML, like Gecko) SmartTV Safari/535.20  Brand=Samsung Platform=FoxP Model=UF7500",
     "type": "tv"
