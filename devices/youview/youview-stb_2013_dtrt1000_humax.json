@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "YouView",
+      "Humax",
+      "DTRT1000"
+    ],
+    "disallowed": [],
+    "fuzzy": "YouView (Humax; DTRT1000; 80B07000; CDS/20.9.0; API/2.8.1; PS/2.8.18) (+DVR+FLASH+HTML+MHEG+IPCMC)",
+    "type": "tv"
+  }
+]

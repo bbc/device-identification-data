@@ -1,0 +1,14 @@
+[
+  {
+    "invariants": [
+      "YouView",
+      "Humax",
+      "DBT22"
+    ],
+    "disallowed": [
+      "DBT2200"
+    ],
+    "fuzzy": "YouView (Humax; DBT2210; 86B08530; CDS/22.17.0; API/2.10.4; PS/2.10.28) (+FLASH+HTML+MHEG+IPCMC)",
+    "type": "tv"
+  }
+]

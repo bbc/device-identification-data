@@ -1,7 +1,8 @@
 [
   {
     "invariants": [
-      "Humax"
+      "Humax",
+      "HDR-"
     ],
     "disallowed": [
       "hdr1000s"
