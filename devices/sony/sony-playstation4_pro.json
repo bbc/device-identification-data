@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "PlayStation 4",
+      "HEVC"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (PlayStation 4 PRO) AppleWebKit/531.3 (KHTML, like Gecko, HEVC, HDR, UHD) SCEE/1.0 Nuanti/2.0",
+    "type": "tv"
+  }
+]
