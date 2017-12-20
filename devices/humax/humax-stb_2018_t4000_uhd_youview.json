@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "YouViewHTML/1.0",
+	  "+UHD+DASH"
+    ],
+    "disallowed": [],
+    "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Humax; DTRT4000; 87B08502; CDS/31.8.0; API/3.1.5; PS/3.5.20) (+DVR+FLASH+HTML+MHEG+IPCMC+UHD+DASH)",
+    "type": "tv"
+  }
+]
