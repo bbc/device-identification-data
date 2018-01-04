@@ -3,7 +3,7 @@
     "invariants": [
       "_TV_MT5802"
     ],
-    "disallowed": [],
+    "disallowed": ["_TV_MT5802_2018"],
     "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36 OPR/29.0.1803.0 OMI/4.5.23.37.ALSAN5.46 HbbTV/1.4.1 (;Philips;43PUS626212; 012.002.000.000; _TV_MT5802;) FVC/2.0 (Philips; com.tpv-tech.TPM177E;)",
     "type": "tv"
   }
