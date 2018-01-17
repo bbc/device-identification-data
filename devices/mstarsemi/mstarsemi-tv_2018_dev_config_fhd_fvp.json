@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "2KTV18",
+      "MStar"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36 SRAF/4.0 HbbTV/1.4.1 (+DRM; MStar; 2KTV18; 1.0; 1.0; com.mstarsemi.smarttv; ) CE-HTML/1.0 FVC/3.0 (MStar; com.mstarsemi.smarttv; )",
+    "type": "tv"
+  }
+]
