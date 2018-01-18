@@ -2,7 +2,7 @@
   {
     "invariants": [
       "Roku",
-      "DVP-3810EU"
+      "DVP-3810"
     ],
     "disallowed": [],
     "fuzzy": "Roku/DVP-3810EU-7.7 (1234)",

@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "TP.MS6586",
+      "UMC-Sharp"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/48.0 Safari/537.4 HbbTV/1.4.1 (+DRM; UMC-Sharp; FVP6586; 1.00; TP.MS6586.U705, LC-50UI8652E, wired) FVC/1.0 (UMC-Sharp; FVP6586; )",
+    "type": "tv"
+  }
+]
