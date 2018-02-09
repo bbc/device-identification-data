@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "AFTBAMR311"
+    ],
+    "disallowed": [],
+    "fuzzy": "smarttv_AFTBAMR311_Build_535062120_Chromium_59.0.2883.91",
+    "type": "tv"
+  }
+]
