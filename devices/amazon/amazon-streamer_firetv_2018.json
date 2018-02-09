@@ -1,10 +1,10 @@
 [
   {
     "invariants": [
-      "AFTMST12"
+      "AFTKMST12"
     ],
     "disallowed": [],
-    "fuzzy": "smarttv_AFTMST12_Build_535062120_Chromium_59.0.2883.91",
+    "fuzzy": "smarttv_AFTKMST12_Build_535062120_Chromium_59.0.2883.91",
     "type": "tv"
   }
 ]
