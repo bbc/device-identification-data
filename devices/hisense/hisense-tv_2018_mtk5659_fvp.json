@@ -4,8 +4,10 @@
       "Hisense",
       "SmartTV_2018"
     ],
-    "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.176.Martell-2.116 HbbTV/1.4.1 (+DRM+AFS+SYNC_SLAVE;Hisense;SmartTV_2018;V0000.01.00aH1030;HE39A5600FWTS;SmartTV_2018;) FVC/3.0 (Hisense;SmartTV_2018;)",
+    "disallowed": [
+      "SmartTV_2018_5658"
+    ],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36 OPR/46.0.2207.0 OMI/4.113.41.Martell-3.37 HbbTV/1.4.1 (+DRM;Hisense;SmartTV_2018;V0000.01.00A.I0222;HE39A5600FWTS;SmartTV_2018;) FVC/3.0 (Hisense;SmartTV_2018;)",
     "type": "tv"
   }
 ]
