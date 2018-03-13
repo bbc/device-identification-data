@@ -4,7 +4,7 @@
       "Platform=18_KANTSU_UHD_BASIC"
     ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/4.0 TV Safari/538.1 Brand=Samsung Platform=18_KANTS_UHD Model=UN6500",
+    "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/4.0 TV Safari/538.1 Brand=Samsung Platform=18_KANTSU_UHD_BASIC Model=UNU7090",
     "type": "tv"
   }
 ]
