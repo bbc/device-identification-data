@@ -1,0 +1,50 @@
+[
+  {
+    "invariants": [
+      "_TV_NT72563_2017",
+      "VSTVB",
+      "MB200",
+      "ORION",
+      "BBC_CUSTOMERS"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.176.DOM3.109 Model/Vestel-MB211 VSTVB MB200 FVC/2.0 (BBC_CUSTOMERS; MB211; ) HbbTV/1.4.1 (; BBC_CUSTOMERS; MB211; 0.41.100.0; _TV_NT72563_2017;) SmartTvA/3.0.0",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "_TV_NT72563_2017",
+      "VSTVB",
+      "MB200",
+      "ORION",
+      "VESTEL"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.176.DOM3.109 Model/Vestel-MB211 VSTVB MB200 FVC/2.0 (VESTEL; MB211; ) HbbTV/1.4.1 (; VESTEL; MB211; 1.13.0.0_ORION; _TV_NT72563_2017;) SmartTvA/3.0.0",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "_TV_NT72563_2017",
+      "VSTVB",
+      "MB200",
+      "ORION",
+      "MITCHELL_BROWN"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.176.DOM3.109 Model/Vestel-MB211 VSTVB MB200 FVC/2.0 (MITCHELL_BROWN; MB211; ) HbbTV/1.4.1 (;MITCHELL_BROWN; MB211; 1.13.0.0_ORION; _TV_NT72563_2017;) SmartTvA/3.0.0",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "_TV_NT72563_2017",
+      "VSTVB",
+      "MB200",
+      "ORION",
+      "DIXONS-LOGIK"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 OPR/40.0.2207.0 OMI/4.9.0.176.DOM3.109 Model/Vestel-MB211 VSTVB MB200 FVC/2.0 (DIXONS-LOGIK; MB211; ) HbbTV/1.4.1 (;DIXONS-LOGIK; MB211; 1.13.0.0_ORION; _TV_NT72563_2017;) SmartTvA/3.0.0",
+    "type": "tv"
+  }
+]
