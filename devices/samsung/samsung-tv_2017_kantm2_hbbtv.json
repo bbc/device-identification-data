@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "KantM;urn:samsungtv:familyname:KANTM:2018"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+CPAS 2.0.1;Samsung;SmartTV2018;T-KTMDEUC-0801.10;KantM;urn:samsungtv:familyname:KANTM:2018;) Tizen/4.0 (+TVPLUS+SmartHubLink+360avc) Chrome/56",
+    "type": "tv"
+  }
+]
