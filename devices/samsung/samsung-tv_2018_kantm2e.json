@@ -14,5 +14,13 @@
     "disallowed": ["Platform=18_KANTME_UHD_BASIC"],
     "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/4.0 TV Safari/538.1 Brand=Samsung Platform=18_KANTME_UHD",
     "type": "tv"
+  },
+  {
+    "invariants": [
+      "Platform=18_KANTM2_QTV"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/4.0 TV Safari/538.1 Brand=Samsung Platform=18_KANTM2_QTV Model=QNQ9S",
+    "type": "tv"
   }
 ]
