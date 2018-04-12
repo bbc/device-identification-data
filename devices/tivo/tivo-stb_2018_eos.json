@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "VirginMedia_STB",
+      "Mozilla/5.0 (Linux; x86_64 GNU/Linux)",
+      "EOSSTB_liberty"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux; x86_64 GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) WPE/0.1 (Linux armv7l ; U; en), VirginMedia_STB_05.4525.9616.13/DCX960__-mon-dbg-00.01-000-aa-AL-20180319210000-un000 (EOSSTB_liberty,DCX960,Wired)",
+    "type": "stb"
+  }
+]
