@@ -5,7 +5,7 @@
       "HbbTV",
       "Web0S"
     ],
-    "disallowed": [],
+    "disallowed": ["W4_M16PP_HOTEL"],
     "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36 HbbTV/1.4.1 (+DRM; LGE; WEBOS4.0; WEBOS4.0 01.00.59; W4_M16PP;) FVC/3.0 (LGE; WEBOS4.0 ;)",
     "type": "tv"
   }
