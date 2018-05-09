@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "UMC-Sharp",
+      "FVP6486X"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux; WOW64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36 SRAF/4.0 HbbTV/1.4.1 (+DRM; UMC-Sharp; FVP6486X; 1.00; 1.00; TP.MS6486X.U705,LC-40FI5242E; ) CE-HTML/1.0 FVC/3.0 (UMC-Sharp; FVP6486X;)",
+    "type": "tv"
+  }
+]
