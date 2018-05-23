@@ -1,12 +1,11 @@
 [
   {
     "invariants": [
-      "HbbTV",
-      "SureSoft-Browser-3.0",
-      "Manhattan-FVPlay"
-    ],
+      "Manhattan",
+      "com.manhattan-tv.g3"
+        ],
     "disallowed": [],
-    "fuzzy": "AppleWebkit/534.1 (KHTML) HbbTV/1.4.1 (+DRM;SureSoft-Browser-3.0;T3;100;;Manhattan-FVPlay;) FVC/2.0(SureSoft-Browser-3.0;Manhattan-FVPlay;)",
+    "fuzzy": "HbbTV/1.4.1 (+DRM; Manhattan; T3; 0100; 1.0; com.manhattan-tv.g3; ) FVC/3.0 (Manhattan; com.manhattan-tv.g3; ) AppleWebkit/534.1 (KHTML)",
     "type": "tv"
   }
 ]
