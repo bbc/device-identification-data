@@ -18,5 +18,25 @@
     "disallowed": [],
     "fuzzy": "Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.69 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.9.7.ALSAN4.55 HbbTV/1.2.1 (; Sony; KD-49XE8505; PKG4.410EUA; 2018;) sony.hbbtv.tv.G2.2017HE.4K YouView",
     "type": "tv"
+  },
+  {
+    "invariants": [
+      "sony.hbbtv.tv.2016HE",
+      "XE90"
+
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.69 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.9.7.ALSAN4.55 HbbTV/1.2.1 (; Sony; KD-4KD-49XE9005; PKG4.410EUA; 2016;) sony.hbbtv.tv.2016HE",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "sony.hbbtv.tv.2016HE",
+      "XE85"
+
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.69 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.9.7.ALSAN4.55 HbbTV/1.2.1 (; Sony; KD-49XE8505; PKG4.410EUA; 2016;) sony.hbbtv.tv.2016HE",
+    "type": "tv"
   }
 ]
