@@ -6,5 +6,13 @@
     "disallowed": [],
     "fuzzy": "smarttv_AFTBAMR311_Build_535062120_Chromium_59.0.2883.91",
     "type": "tv"
+  },
+  {
+    "invariants": [
+      "AFTEAMR311"
+    ],
+    "disallowed": [],
+    "fuzzy": "smarttv_AFTEAMR311_Build_535062120_Chromium_59.0.2883.91",
+    "type": "tv"
   }
 ]
