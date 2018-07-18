@@ -3,7 +3,7 @@
     "invariants": [
       "Platform=18_KANTM2_UHD"
     ],
-    "disallowed": [],
+    "disallowed": ["Platform=18_KANTME_UHD_HOTEL"],
     "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/4.0 TV Safari/538.1 Brand=Samsung Platform=18_KANTM2_UHD Model=UNU8000",
     "type": "tv"
   },
@@ -11,7 +11,10 @@
     "invariants": [
       "Platform=18_KANTME_UHD"
     ],
-    "disallowed": ["Platform=18_KANTME_UHD_BASIC"],
+    "disallowed": [
+      "Platform=18_KANTME_UHD_BASIC",
+      "Platform=18_KANTME_UHD_HOTEL"
+    ],
     "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/4.0 TV Safari/538.1 Brand=Samsung Platform=18_KANTME_UHD",
     "type": "tv"
   },
@@ -19,7 +22,7 @@
     "invariants": [
       "Platform=18_KANTM2_QTV"
     ],
-    "disallowed": [],
+    "disallowed": ["Platform=18_KANTME_UHD_HOTEL"],
     "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/4.0 TV Safari/538.1 Brand=Samsung Platform=18_KANTM2_QTV Model=QNQ9S",
     "type": "tv"
   },
@@ -27,7 +30,7 @@
     "invariants": [
       "Platform=18_KANTM2_FRAME"
     ],
-    "disallowed": [],
+    "disallowed": ["Platform=18_KANTME_UHD_HOTEL"],
     "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/538.1 (KHTML, like Gecko) Version/4.0 TV Safari/538.1 Brand=Samsung Platform=18_KANTM2_FRAME Model=ULS03NU",
     "type": "tv"
   }

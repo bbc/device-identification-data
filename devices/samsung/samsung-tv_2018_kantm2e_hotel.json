@@ -4,7 +4,6 @@
       "Platform=18_KANTME_UHD_HOTEL"
     ],
     "disallowed": [
-      "Platform=18_KANTM2_UHD"
     ],
     "fuzzy": "Mozilla/5.0 (SMART-TV; LINUX; Tizen 4.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 TV Safari/537.36 Brand=Samsung Platform=18_KANTME_UHD_HOTEL Model=HJ690U",
     "type": "tv"
