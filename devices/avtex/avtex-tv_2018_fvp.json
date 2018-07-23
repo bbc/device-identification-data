@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "AVTEX",
+      "4KAvtexFRHD18",
+      "uk.co.avtex.fvptv"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36 SRAF/4.0 HbbTV/1.4.1 (+DRM;AVTEX; 4KAvtexFRHD18; 1.0; 1.0; uk.co.avtex.fvptv ; ) CE-HTML/1.0 FVC/3.0 (AVTEX; uk.co.avtex.fvptv; )",
+    "type": "tv"
+  }
+]
