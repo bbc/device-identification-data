@@ -3,11 +3,12 @@
     "invariants": [
       "Web0S",
       "HbbTV",
-      "W4_M16P3"
+      "W45_M16P3",
+      "WEBOS4.5"
     ],
     "disallowed": [
     ],
-    "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36 HbbTV/1.4.1 (+DRM; LGE; WEBOS4.5; WEBOS4.5 02.01.54; W4_M16P3; W4_M16P3;) FVC/3.0 (LGE; WEBOS4.5 ;)",
+    "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.34 Safari/537.36 HbbTV/1.4.1 (+DRM; LGE; WEBOS4.5; WEBOS4.5 00.00.00; W45_M16P3; DTV_W19H;) FVC/3.0 (LGE; WEBOS4.5 ;)",
     "type": "tv"
   }
 ]
