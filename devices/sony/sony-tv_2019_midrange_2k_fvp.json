@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "sony.hbbtv.tv.2019LE"
+    ],
+    "disallowed": ["sony.hbbtv.tv.2019LE4"],
+    "fuzzy": "HbbTV/1.4.1 (+DRM; Sony; MODEL_NAME; PKG_VERSION;;2019LE;) FVC/2.0 (Sony; 2019LE;) sony.hbbtv.tv.2019LE",
+    "type": "tv"
+  }
+]
