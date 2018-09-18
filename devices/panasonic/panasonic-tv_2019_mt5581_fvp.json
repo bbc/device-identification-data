@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Panasonic",
+      "SmartTV2019FHD"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM; Panasonic; SmartTV2019FHD; 3.000; 0000-1111 222-3333; SmartTV2018;) FVC/4.0 (Panasonic; SmartTV2019;)",
+    "type": "tv"
+  }
+]
