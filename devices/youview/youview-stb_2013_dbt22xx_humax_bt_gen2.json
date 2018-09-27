@@ -1,0 +1,15 @@
+[
+  {
+    "invariants": [
+      "YouView",
+      "Humax",
+      "DBT22",
+      "+DASH"
+    ],
+    "disallowed": [
+      "DBT2200"
+    ],
+    "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Humax; DBT2210; 86B08530; CDS/31.8.0; API/3.1.5; PS/3.5.20) (+DVR+FLASH+HTML+MHEG+IPCMC+DASH)",
+    "type": "tv"
+  }
+]

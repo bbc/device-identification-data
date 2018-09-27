@@ -5,7 +5,9 @@
       "Humax",
       "DTRT2000"
     ],
-    "disallowed": [],
+    "disallowed": [
+    "+DASH"
+    ],
     "fuzzy": "YouView (Humax; DTRT2000; 84B07000; CDS/21.10.0; API/2.9.4; PS/2.9.24) (+DVR+FLASH+HTML+MHEG+IPCMC)",
     "type": "tv"
   }

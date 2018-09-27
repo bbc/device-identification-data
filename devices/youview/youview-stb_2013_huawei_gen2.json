@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "YouView",
+      "Huawei",
+      "+DASH"
+    ],
+    "disallowed": [],
+    "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Huawei Technologies Co., Ltd; DN372T.01.01.T; 001; CDS/72.43.60; API/3.1.5; PS/3.1.73) (+DVR+HTML+FLASH+MHEG+IPCMC+DASH)",
+    "type": "tv"
+  }
+]
