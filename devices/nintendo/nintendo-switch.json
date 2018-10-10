@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "Nintendo Switch"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/601.6 (KHTML, like Gecko) NF/4.0.0.10.13 NintendoBrowser/5.1.0.17805",
+    "type": "tv"
+  }
+]
