@@ -2,7 +2,8 @@
   {
     "invariants": [
       "FVP_STB_",
-      "Netgem"
+      "Netgem",
+      "N7800"
     ],
     "disallowed": [],
     "fuzzy": "chromium/55, FVP_STB_BCM7250B0/8.2.01 (Netgem, N7800, Wired) FVC/3.0 (Netgem; com.netgem.7800;)",
