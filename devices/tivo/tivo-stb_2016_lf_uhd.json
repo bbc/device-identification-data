@@ -3,9 +3,7 @@
     "invariants": [
       "VirginMedia_STB"
     ],
-    "disallowed": [
-      "Leapfrog"
-    ],
+    "disallowed": [],
     "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2623.112 Safari/537.36 OPR/34.0.2128.0 OMI/4.8.0.129.JFK.421 TiVo, VirginMedia_STB_BCM7252S/20.7.6.RC20-VMB-11 (VirginMedia, TCDC68000, wired)",
     "type": "tv"
   }
