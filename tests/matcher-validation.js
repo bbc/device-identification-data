@@ -6,7 +6,7 @@ const argv = require('yargs').argv
 const NL = '\n'
 
 const devices = require('../output/device-identification-data.json')
-const fetchTestData = fetch('https://itv-static-dev-tools.s3.amazonaws.com/tvp-user-agents/data.csv')
+const fetchTestData = fetch('https://www.live.bbctvapps.co.uk/tools/tvp-user-agents/data.csv')
 const match = melanite.match(devices)
 
 function parse (data) {
