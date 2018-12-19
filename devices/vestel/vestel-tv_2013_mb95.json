@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "4.6.3.J",
+      "MB95"
+    ],
+    "disallowed": [],
+    "fuzzy": "Opera/9.80 (Linux mips; ) Presto/2.12.407 Version/12.51 MB95/4.6.3.J (HITACHI, Si2156LG32, wired) UID(00:09:df:18:28:81/MB95/HITACHI/4.6.3.J)+CE-HTML;MEM:HIGH SmartTvA/3.0.0",
+    "type": "tv"
+  }
+]
