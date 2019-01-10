@@ -3,13 +3,36 @@
     "invariants": [
       "YouView",
       "Humax",
-      "DBT22",
+      "DBT2200",
+      "86B08500",
       "+DASH"
     ],
-    "disallowed": [
-      "DBT2200"
+    "disallowed": [],
+    "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Humax; DBT2200; 86B08500; CDS/31.8.0; API/3.1.5; PS/3.5.20) (+DVR+FLASH+HTML+MHEG+IPCMC+DASH)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "YouView",
+      "Humax",
+      "DBT2210",
+      "86B08530",
+      "+DASH"
     ],
+    "disallowed": [],
     "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Humax; DBT2210; 86B08530; CDS/31.8.0; API/3.1.5; PS/3.5.20) (+DVR+FLASH+HTML+MHEG+IPCMC+DASH)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "YouView",
+      "Humax",
+      "DBT2220",
+      "86B08520",
+      "+DASH"
+    ],
+    "disallowed": [],
+    "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Humax; DBT2220; 86B08520; CDS/31.8.0; API/3.1.5; PS/3.5.20) (+DVR+FLASH+HTML+MHEG+IPCMC+DASH)",
     "type": "tv"
   }
 ]
