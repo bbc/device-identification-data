@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "com.roku.D000X"
+    ],
+    "disallowed": [],
+    "fuzzy": "RokuBrowser/68.0.1 (D000X-539.80E00175A) Chrome/68.0.3440.106 HbbTV/1.5.1 (+DRM; Hisense; 55A6104EER; 539.80E00175A-68.0.1; ; com.roku.D000X;) FVC/4.0 (Hisense; com.roku.D000X;)",
+    "type": "tv"
+  }
+]
