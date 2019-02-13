@@ -6,13 +6,5 @@
     "disallowed": [],
     "fuzzy": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.6.0 Chrome/45.0.2454.101 Safari/537.36 GW-Device/1.0.0 (Sky, ES130, )",
     "type": "tv"
-  },
-  {
-    "invariants": [
-      "MR-Device/1.0.0 (Sky, EM150, )"
-    ],
-    "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.6.0 Chrome/45.0.2454.101 Safari/537.36 MR-Device/1.0.0 (Sky, EM150, )",
-    "type": "tv"
   }
 ]
