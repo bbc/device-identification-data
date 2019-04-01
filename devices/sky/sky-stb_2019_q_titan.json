@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "GW-Device/1.0.0 (Sky, ES340, )"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.9.7 Chrome/69.0.3497.113 Safari/537.36 GW-Device/1.0.0 (Sky, ES340, )",
+    "type": "tv"
+  }
+]
