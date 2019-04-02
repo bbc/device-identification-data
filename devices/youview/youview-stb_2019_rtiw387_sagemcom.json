@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "YouViewHTML/1.0",
+      "Sagemcom",
+      "RTIW387"
+    ],
+    "disallowed": [],
+    "fuzzy": "YouViewHTML/1.0 AppleWebKit/538.1 (Sagemcom; RTIW387; RTIW387.001.P; CDS/32.14.0; API/3.1.5; PS/3.6.0) (+DVR+HTML+IPCMC+UHD+DASH+DRM)",
+    "type": "tv"
+  }
+]
