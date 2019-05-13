@@ -3,9 +3,7 @@
     "invariants": [
       "AFTSO001"
     ],
-    "disallowed": [
-      "AFTS"
-    ],
+    "disallowed": [],
     "fuzzy": "smarttv_AFTSO001_Build_535062120_Chromium_59.0.2883.91",
     "type": "tv"
   }
