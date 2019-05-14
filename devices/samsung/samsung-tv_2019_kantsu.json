@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "(+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:URU7000;T-KTSUDEUC-0421.50;KantSU;urn:samsungtv:familyname:19_KANTSU_UHD_BASIC:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63 VID/3",
+    "type": "tv"
+  }
+]
