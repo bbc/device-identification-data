@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "CVTE",
+      "FVP6683"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv8l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (+DRM; CVTE; FVP6683; 1.00;1.00; CVTE_GoogleTV_2019;HKC_DSG;) FVC/4.0 (CVTE; CVTE_GoogleTV_2019;)",
+    "type": "tv"
+  }
+]
