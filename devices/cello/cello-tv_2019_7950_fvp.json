@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "FVP_TV_BCM7260",
+      "N7950"
+    ],
+    "disallowed": [],
+    "fuzzy": "chromium/55 FVP_TV_BCM7260A0/8.4.12-10 HbbTV/1.4.1 (+DRM; Netgem; N7950; 8.4.12-10; 1.0; com.netgem.7950) FVC/3.0 (Netgem; com.netgem.7950; )",
+    "type": "tv"
+  }
+]
