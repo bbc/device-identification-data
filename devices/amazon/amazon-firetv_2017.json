@@ -3,7 +3,7 @@
     "invariants": [
       "AFTRS"
     ],
-    "disallowed": [],
+    "disallowed": ["smarttv_AFTR_Build"],
     "fuzzy": "smarttv_AFTRS_Build_566140820_Chromium_49.0.2623.87",
     "type": "tv"
   }
