@@ -6,7 +6,8 @@
     "disallowed": [
       "PhilipsTV, 6.1.1,",
       "PHILIPSTV/2.1",
-      "Linux armv7l"
+      "Linux armv7l",
+      "_TV_NT72671_2020"
     ],
     "fuzzy": "Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/3.2.4; en) Presto/2.6.33 Version/10.70",
     "type": "tv"
