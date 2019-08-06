@@ -29,7 +29,7 @@
       "19_MUSEM_WALL"
     ],
     "disallowed": [],
-    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_8K:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_WALL:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
     "type": "tv"
   },
   {
@@ -37,7 +37,7 @@
       "19_MUSEM_SERIF"
     ],
     "disallowed": [],
-    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_8K:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_SERIF:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
     "type": "tv"
   },
   {
@@ -45,7 +45,7 @@
       "19_MUSEM_FRAME"
     ],
     "disallowed": [],
-    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_8K:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_FRAME:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
     "type": "tv"
   },
   {
@@ -53,7 +53,7 @@
       "19_MUSEM_QTV_B2B"
     ],
     "disallowed": [],
-    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_8K:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_QTV_B2B:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
     "type": "tv"
   },
   {
@@ -61,7 +61,7 @@
       "19_MUSEM_UHD_ARIA"
     ],
     "disallowed": [],
-    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_8K:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_UHD_ARIA:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
     "type": "tv"
   }
 ]
