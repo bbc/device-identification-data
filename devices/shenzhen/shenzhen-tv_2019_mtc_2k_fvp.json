@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "2K_Android_TV_V01",
+      "MS66830-ZC01-01"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv8l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (+DRM; MTC; 2K_Android_TV_V01; 1.001;MS66830-ZC01-01; Reference_2K19;) FVC/4.0 (MTC; Reference_2K19;)",
+    "type": "tv"
+  }
+]
