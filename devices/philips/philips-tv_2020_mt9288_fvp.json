@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "_TV_MT9288_2020"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11;Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (;Philips;32PFS680512; 019.001.230.000; _TV_MT9288_2020;) FVC/5.0 (Philips; com.tpv-tech.TPM207E;)",
+    "type": "tv"
+  }
+]

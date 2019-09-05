@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "19_MUSEM_WALL"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2019:RU8000;T-MUSEDEUC-0421.50;MuseM;urn:samsungtv:familyname:19_MUSEM_WALL:2019;) Tizen/5.0 (+TVPLUS+SmartHubLink+360avc) Chrome/63",
+    "type": "tv"
+  }
+]
