@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Samsung;SmartTV2020",
+      "20_KANTSU2_UHD_BASIC"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2020:TU7000;T-TBDDEUC-0421.50;KantSU2;urn:samsungtv:familyname:20_KANTSU2_UHD_BASIC:2020;) Tizen/5.5 (+TVPLUS+SmartHubLink+360avc) Chrome/69",
+    "type": "tv"
+  }
+]

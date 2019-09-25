@@ -1,0 +1,47 @@
+[
+  {
+    "invariants": [
+      "Samsung;SmartTV2020",
+      "20_NIKEM_QTV"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2020:TBD;T-TBDDEUC-0421.50;MikeM;urn:samsungtv:familyname:20_NIKEM_QTV:2020;) Tizen/5.5 (+TVPLUS+SmartHubLink+360avc) Chrome/69",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Samsung;SmartTV2020",
+      "20_NIKEM_8K"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2020:TBD;T-TBDDEUC-0421.50;MikeM;urn:samsungtv:familyname:20_NIKEM_8K:2020;) Tizen/5.5 (+TVPLUS+SmartHubLink+360avc) Chrome/69",
+    "type": "tv"
+  },
+  { 
+    "invariants": [
+      "Samsung;SmartTV2020",
+      "20_NIKEM_SERO"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2020:TBD;T-TBDDEUC-0421.50;MikeM;urn:samsungtv:familyname:20_NIKEM_SERO:2020;) Tizen/5.5 (+TVPLUS+SmartHubLink+360avc) Chrome/69",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Samsung;SmartTV2020",
+      "20_NIKEM_FRAME"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2020:TBD;T-TBDDEUC-0421.50;MikeM;urn:samsungtv:familyname:20_NIKEM_FRAME:2020;) Tizen/5.5 (+TVPLUS+SmartHubLink+360avc) Chrome/69",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Samsung;SmartTV2020",
+      "20_NIKEM_SERIF"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2020:TBD;T-TBDDEUC-0421.50;MikeM;urn:samsungtv:familyname:20_NIKEM_SERIF:2020;) Tizen/5.5 (+TVPLUS+SmartHubLink+360avc) Chrome/69",
+    "type": "tv"
+  }
+]

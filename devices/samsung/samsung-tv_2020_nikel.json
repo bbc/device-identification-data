@@ -1,0 +1,20 @@
+[
+  {
+    "invariants": [
+      "Samsung;SmartTV2020",
+      "20_NIKEL_UHD"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2020:TU8000;T-TBDDEUC-0421.50;MikeM;urn:samsungtv:familyname:20_NIKEL_UHD:2020;) Tizen/5.5 (+TVPLUS+SmartHubLink+360avc) Chrome/69",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Samsung;SmartTV2020",
+      "20_NIKEL_UHD_BASIC"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM+PVR+CPAS 2.0.1;Samsung;SmartTV2020:TU8000;T-TBDDEUC-0421.50;MikeM;urn:samsungtv:familyname:20_NIKEL_UHD_BASIC:2020;) Tizen/5.5 (+TVPLUS+SmartHubLink+360avc) Chrome/69",
+    "type": "tv"
+  }
+]

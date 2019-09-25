@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "sony.hbbtv.tv.G3.2020HE.4K"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (linux armv7I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.69 Safari/537.36 OPR/22.0.1481.0 OMI/4.2.9.7.ALSAN4.55 HbbTV/1.5.1 ( ; Sony; KDL40HX757; PKG4.410EUA;; com.sony.HE.G3.4K;) sony.hbbtv.tv.G3.2020HE.4K YouView",
+    "type": "tv"
+  }
+]
