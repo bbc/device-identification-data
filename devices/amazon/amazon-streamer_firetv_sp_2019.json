@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "AFTMM-Anker-AK-D3000111"
+    ],
+    "disallowed": [],
+    "fuzzy": "smarttv_AFTMM-Anker-AK-D3000111_Build_1234_Chromium_41.0.2250.2",
+    "type": "tv"
+  }
+]

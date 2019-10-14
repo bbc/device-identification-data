@@ -5,7 +5,8 @@
     ],
     "disallowed": [
       "smarttv_AFTM_Build",
-      "AFTMM-TCL-TS8011"
+      "AFTMM-TCL-TS8011",
+      "AFTMM-Anker-AK-D3000111"
     ],
     "fuzzy": "smarttv_AFTMM_Build_535062120_Chromium_59.0.2883.91",
     "type": "tv"
