@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "AFTMM-TCL-TS8011"
+    ],
+    "disallowed": [],
+    "fuzzy": "smarttv_AFTMM-TCL-TS8011_Build_1234_Chromium_41.0.2250.2",
+    "type": "tv"
+  }
+]
