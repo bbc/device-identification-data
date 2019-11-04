@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Hisense;",
+      "SmartTV_2020"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Unknown; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36 OPR/46.0.2207.0 OMI/4.20.0.358.Catcher2.8 HbbTV/1.5.1 (+DRM+SYNC_SLAVE;Hisense;SmartTV_2020;V0000.01.00a.J0918;HE55A7000EUWTS;SmartTV_2020;) FVC/4.0 (Hisense;SmartTV_2020;)",
+    "type": "tv"
+  }
+]
