@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Reference2K20",
+      "MediaTek"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv8l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 HbbTV/1.5.1 (+DRM; MediaTek; MT5870; V0.1.0.0.M001; 1.0; Reference2K20;) FVC/5.0 (MediaTek; Reference2K20;)",
+    "type": "tv"
+  }
+]
