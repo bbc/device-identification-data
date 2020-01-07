@@ -5,7 +5,7 @@
       "UMC-Sharp"
     ],
     "disallowed": [],
-    "fuzzy": "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (+DRM; UMC-Sharp; FVP6683;1.0.0.0;1.0.0.0; UMC_GoogleTV_2019;UMC_SHARP;) FVC/4.0 (UMC; UMC_GoogleTV_2019;)",
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv8l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (+DRM; UMC-Sharp; FVP6683;1.0.0.0;1.0.0.0; UMC_2KAndroidTV_2019;UMC_SHARP;) FVC/4.0 (UMC-Sharp; UMC_2KAndroidTV_2019;)",
     "type": "tv"
   }
 ]
