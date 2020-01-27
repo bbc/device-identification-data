@@ -1,6 +1,6 @@
 {
   "name": "device-identification-data",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Device Identification Data for TVs",
   "devDependencies": {
     "colors": "^1.1.2",
