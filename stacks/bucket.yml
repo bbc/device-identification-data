@@ -26,11 +26,6 @@ Resources:
               AWS:
                 - !Ref DevelopmentAccount
                 - !Ref ProductionAccount
-            Condition:
-              ForAnyValue:ArnLike:
-                aws:PrincipalArn:
-                  - "arn:aws:iam::119990297419:role/test-matterhorn-main-ComponentRole-*"
-                  - "arn:aws:iam::198243407611:role/live-matterhorn-main-ComponentRole-*"
             Action:
               - s3:GetObject
             Resource:
