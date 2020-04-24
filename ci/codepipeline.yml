@@ -67,6 +67,9 @@ Resources:
           - Name: BUCKET_NAME
             Value: !Ref TestBucketName
             Type: PLAINTEXT
+          - Name: BUCKET_UPLOAD_ROLE_ARN
+            Value: arn:aws:iam::119990297419:role/device-identification-data-bucket-upload-role
+            Type: PLAINTEXT
       Source:
         Type: CODEPIPELINE
       TimeoutInMinutes: 5
@@ -113,6 +116,9 @@ Resources:
           - Name: BUCKET_NAME
             Value: !Ref LiveBucketName
             Type: PLAINTEXT
+          - Name: BUCKET_UPLOAD_ROLE_ARN
+            Value: arn:aws:iam::198243407611:role/device-identification-data-bucket-upload-role
+            Type: PLAINTEX
       Source:
         Type: CODEPIPELINE
       TimeoutInMinutes: 5

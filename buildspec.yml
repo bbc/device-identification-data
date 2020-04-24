@@ -5,6 +5,7 @@ phases:
     commands:
       - n 12
       - npm test
+      - aws sts assume-role --role-arn $BUCKET_UPLOAD_ROLE_ARN --role-session-name codebuild-session
       - aws s3 cp output/device-identification-data.json s3://$BUCKET_NAME/device-identification-data/data.json --cache-control max-age=60 --acl private
 artifacts:
   files: "**/*"
