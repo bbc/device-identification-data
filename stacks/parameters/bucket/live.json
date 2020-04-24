@@ -5,15 +5,5 @@
     "BBCEnvironment": "live",
     "BBCProject": "interactive-tv-iptv",
     "BBCOwner": "bad-horses"
-  },
-  "StackPolicy": {
-    "Statement": [
-      {
-        "Effect": "Allow",
-        "Action": "Update:*",
-        "Principal": "*",
-        "Resource": "*"
-      }
-    ]
   }
 }
