@@ -170,7 +170,7 @@ Resources:
                 TemplateConfiguration: GitHubSource::stacks/parameters/bucket/test.json
               RoleArn: !Sub "arn:aws:iam::${DevelopmentAccount}:role/codepipeline-execution-role"
             - Name: Deploy-Data
-              RunOrder: 1
+              RunOrder: 2
               ActionTypeId:
                 Category: Build
                 Owner: AWS
@@ -201,7 +201,7 @@ Resources:
                 TemplateConfiguration: GitHubSource::stacks/parameters/bucket/live.json
               RoleArn: !Sub "arn:aws:iam::${ProductionAccount}:role/codepipeline-execution-role"
             - Name: Deploy-Data
-              RunOrder: 1
+              RunOrder: 2
               ActionTypeId:
                 Category: Build
                 Owner: AWS
