@@ -118,7 +118,7 @@ Resources:
             Type: PLAINTEXT
           - Name: BUCKET_UPLOAD_ROLE_ARN
             Value: arn:aws:iam::198243407611:role/device-identification-data-bucket-upload-role
-            Type: PLAINTEX
+            Type: PLAINTEXT
       Source:
         Type: CODEPIPELINE
       TimeoutInMinutes: 5
