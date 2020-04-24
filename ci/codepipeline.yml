@@ -55,7 +55,7 @@ Resources:
   TestCodeBuildProject:
     Type: AWS::CodeBuild::Project
     Properties:
-      Name: device-identification-data
+      Name: test-device-identification-data
       Description: CodeBuild project for device-identification-data
       ServiceRole: !GetAtt TestCodeBuildRole.Arn
       Environment:
@@ -101,7 +101,7 @@ Resources:
   LiveCodeBuildProject:
     Type: AWS::CodeBuild::Project
     Properties:
-      Name: device-identification-data
+      Name: live-device-identification-data
       Description: CodeBuild project for device-identification-data
       ServiceRole: !GetAtt LiveCodeBuildRole.Arn
       Environment:
