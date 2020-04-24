@@ -141,7 +141,7 @@ Resources:
                 StackName: test-device-identification-data
                 RoleArn: !Sub "arn:aws:iam::${DevelopmentAccount}:role/codepipeline-cloudformation-role"
                 TemplatePath: GitHubSource::stacks/bucket.yml
-                TemplateConfiguration: GitHubSource::parameters/bucket/test.json
+                TemplateConfiguration: GitHubSource::stacks/parameters/bucket/test.json
               RoleArn: !Sub "arn:aws:iam::${DevelopmentAccount}:role/codepipeline-execution-role"
             # - Name: CodeBuild
             #   RunOrder: 1
@@ -172,7 +172,7 @@ Resources:
                 StackName: live-device-identification-data
                 RoleArn: !Sub "arn:aws:iam::${ProductionAccount}:role/codepipeline-cloudformation-role"
                 TemplatePath: GitHubSource::stacks/bucket.yml
-                TemplateConfiguration: GitHubSource::parameters/bucket/live.json
+                TemplateConfiguration: GitHubSource::stacks/parameters/bucket/live.json
               RoleArn: !Sub "arn:aws:iam::${ProductionAccount}:role/codepipeline-execution-role"
             # - Name: CodeBuild
             #   RunOrder: 1
