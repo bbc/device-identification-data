@@ -45,3 +45,25 @@ Resources:
             Resource:
               - !Sub "${Bucket.Arn}/*"
             Effect: Allow
+  BucketUploadRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              AWS:
+                - 979446310614
+      RoleName: device-identification-data-bucket-upload-role
+      Policies:
+        - PolicyName: bucket-upload-policy
+          PolicyDocument:
+            Statement:
+              - Action:
+                  - s3:PutObject
+                  - s3:PutObjectAcl
+                Resource:
+                  - !Sub "${Bucket.Arn}/*"
+                Effect: Allow
