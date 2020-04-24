@@ -12,10 +12,14 @@ Parameters:
     Type: String
     Description: Name of Git branch to build from
     Default: master
-  # BucketName:
-  #   Type: String
-  #   Description: Name of the bucket where data is deployed too
-  #   Default: TODO
+  TestBucketName:
+    Type: String
+    Description: Name of the test bucket where data is deployed too
+    Default: test-device-identification-data-bucket-1u0gmv027tr5a
+  LiveBucketName:
+    Type: String
+    Description: Name of the live bucket where data is deployed too
+    Default: live-device-identification-data-bucket-8wua42dtu3nc
   DevelopmentAccount:
     Type: String
     Default: 119990297419
@@ -23,7 +27,7 @@ Parameters:
     Type: String
     Default: 198243407611
 Resources:
-  CodeBuildRole:
+  TestCodeBuildRole:
     Type: AWS::IAM::Role
     Properties:
       AssumeRolePolicyDocument:
@@ -34,65 +38,87 @@ Resources:
               Service: codebuild.amazonaws.com
       ManagedPolicyArns:
         - arn:aws:iam::979446310614:policy/CodeBuildBasePolicy
-      # Policies:
-      #   - PolicyName: device-identification-data-codebuild-policy
-      #     PolicyDocument:
-      #       Version: "2012-10-17"
-      #       Statement:
-      #         - Effect: Allow
-      #           Action:
-      #             - s3:PutObject
-      #             - s3:PutObjectAcl
-      #           Resource: !Sub "arn:aws:s3:::${BucketName}/*"
-      #         - Effect: Allow
-      #           Action:
-      #             - s3:ListBucket
-      #           Resource: !Sub "arn:aws:s3:::${BucketName}"
-  CodeBuildProject:
+      Policies:
+        - PolicyName: device-identification-data-codebuild-policy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:PutObjectAcl
+                Resource: !Sub "arn:aws:s3:::${TestBucketName}/*"
+              - Effect: Allow
+                Action:
+                  - s3:ListBucket
+                Resource: !Sub "arn:aws:s3:::${TestBucketName}"
+  TestCodeBuildProject:
     Type: AWS::CodeBuild::Project
     Properties:
       Name: device-identification-data
       Description: CodeBuild project for device-identification-data
-      ServiceRole: !GetAtt CodeBuildRole.Arn
+      ServiceRole: !GetAtt TestCodeBuildRole.Arn
       Environment:
         Type: LINUX_CONTAINER
         ComputeType: BUILD_GENERAL1_SMALL
         ImagePullCredentialsType: SERVICE_ROLE
         Image: 979446310614.dkr.ecr.eu-west-1.amazonaws.com/itv-ci-images-node:latest
+        EnvironmentVariables:
+          - Name: BUCKET_NAME
+            Value: !Ref TestBucketName
+            Type: PLAINTEXT
       Source:
         Type: CODEPIPELINE
       TimeoutInMinutes: 5
       EncryptionKey: "alias/codepipeline-kms-key"
       Artifacts:
         Type: CODEPIPELINE
-  PRCheckerCodeBuildProject:
+  LiveCodeBuildRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service: codebuild.amazonaws.com
+      ManagedPolicyArns:
+        - arn:aws:iam::979446310614:policy/CodeBuildBasePolicy
+      Policies:
+        - PolicyName: device-identification-data-codebuild-policy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:PutObject
+                  - s3:PutObjectAcl
+                Resource: !Sub "arn:aws:s3:::${LiveBucketName}/*"
+              - Effect: Allow
+                Action:
+                  - s3:ListBucket
+                Resource: !Sub "arn:aws:s3:::${LiveBucketName}"
+  LiveCodeBuildProject:
     Type: AWS::CodeBuild::Project
     Properties:
-      Name: !Sub ${AWS::StackName}-PRCheckerCodeBuild
-      Description: !Sub PR Checker ${AWS::StackName}
-      ServiceRole: !GetAtt "CodeBuildRole.Arn"
+      Name: device-identification-data
+      Description: CodeBuild project for device-identification-data
+      ServiceRole: !GetAtt LiveCodeBuildRole.Arn
       Environment:
         Type: LINUX_CONTAINER
         ComputeType: BUILD_GENERAL1_SMALL
         ImagePullCredentialsType: SERVICE_ROLE
         Image: 979446310614.dkr.ecr.eu-west-1.amazonaws.com/itv-ci-images-node:latest
-      Artifacts:
-        Type: NO_ARTIFACTS
+        EnvironmentVariables:
+          - Name: BUCKET_NAME
+            Value: !Ref LiveBucketName
+            Type: PLAINTEXT
       Source:
-        Type: GITHUB
-        Location: !Sub "https://github.com/${GitHubOrganisationName}/${GitHubRepositoryName}.git"
-        GitCloneDepth: 1
-        Auth:
-          Type: OAUTH
-        BuildSpec: buildspec.pull_requests.yml
-      Triggers:
-        Webhook: true
-        FilterGroups:
-          - - Type: EVENT
-              Pattern: PULL_REQUEST_CREATED,PULL_REQUEST_UPDATED
-            - Type: BASE_REF
-              Pattern: ^refs/heads/master$
-              ExcludeMatchedPattern: false
+        Type: CODEPIPELINE
+      TimeoutInMinutes: 5
+      EncryptionKey: "alias/codepipeline-kms-key"
+      Artifacts:
+        Type: CODEPIPELINE
   CodePipeline:
     Type: AWS::CodePipeline::Pipeline
     Properties:
@@ -143,17 +169,17 @@ Resources:
                 TemplatePath: GitHubSource::stacks/bucket.yml
                 TemplateConfiguration: GitHubSource::stacks/parameters/bucket/test.json
               RoleArn: !Sub "arn:aws:iam::${DevelopmentAccount}:role/codepipeline-execution-role"
-            # - Name: CodeBuild
-            #   RunOrder: 1
-            #   ActionTypeId:
-            #     Category: Build
-            #     Owner: AWS
-            #     Version: "1"
-            #     Provider: CodeBuild
-            #   InputArtifacts:
-            #     - Name: GitHubSource
-            #   Configuration:
-            #     ProjectName: !Ref "CodeBuildProject"
+            - Name: Deploy-Data
+              RunOrder: 1
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Version: "1"
+                Provider: CodeBuild
+              InputArtifacts:
+                - Name: GitHubSource
+              Configuration:
+                ProjectName: !Ref TestCodeBuildProject
 
         - Name: Deploy-To-Live
           Actions:
@@ -174,17 +200,17 @@ Resources:
                 TemplatePath: GitHubSource::stacks/bucket.yml
                 TemplateConfiguration: GitHubSource::stacks/parameters/bucket/live.json
               RoleArn: !Sub "arn:aws:iam::${ProductionAccount}:role/codepipeline-execution-role"
-            # - Name: CodeBuild
-            #   RunOrder: 1
-            #   ActionTypeId:
-            #     Category: Build
-            #     Owner: AWS
-            #     Version: "1"
-            #     Provider: CodeBuild
-            #   InputArtifacts:
-            #     - Name: GitHubSource
-            #   Configuration:
-            #     ProjectName: !Ref "CodeBuildProject"
+            - Name: Deploy-Data
+              RunOrder: 1
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Version: "1"
+                Provider: CodeBuild
+              InputArtifacts:
+                - Name: GitHubSource
+              Configuration:
+                ProjectName: !Ref LiveCodeBuildProject
 
   GithubWebhook:
     Type: AWS::CodePipeline::Webhook

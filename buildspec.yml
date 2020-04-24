@@ -5,5 +5,6 @@ phases:
     commands:
       - n 12
       - npm test
+      - aws s3 cp output/device-identification-data.json s3://$BUCKET_NAME/device-identification-data/data.json --cache-control max-age=60 --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers
 artifacts:
   files: "**/*"
