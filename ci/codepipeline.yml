@@ -1,0 +1,201 @@
+Description: CI definition for device-identification-data
+Parameters:
+  GitHubOrganisationName:
+    Type: String
+    Description: Name of organisation to which the repository belongs (e.g. bbc)
+    Default: bbc
+  GitHubRepositoryName:
+    Type: String
+    Description: Name of GitHub Repository
+    Default: device-identification-data
+  GitHubRepositoryBranchName:
+    Type: String
+    Description: Name of Git branch to build from
+    Default: master
+  # BucketName:
+  #   Type: String
+  #   Description: Name of the bucket where data is deployed too
+  #   Default: TODO
+  DevelopmentAccount:
+    Type: String
+    Default: 119990297419
+  ProductionAccount:
+    Type: String
+    Default: 198243407611
+Resources:
+  CodeBuildRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+          - Action: sts:AssumeRole
+            Effect: Allow
+            Principal:
+              Service: codebuild.amazonaws.com
+      ManagedPolicyArns:
+        - arn:aws:iam::979446310614:policy/CodeBuildBasePolicy
+      # Policies:
+      #   - PolicyName: device-identification-data-codebuild-policy
+      #     PolicyDocument:
+      #       Version: "2012-10-17"
+      #       Statement:
+      #         - Effect: Allow
+      #           Action:
+      #             - s3:PutObject
+      #             - s3:PutObjectAcl
+      #           Resource: !Sub "arn:aws:s3:::${BucketName}/*"
+      #         - Effect: Allow
+      #           Action:
+      #             - s3:ListBucket
+      #           Resource: !Sub "arn:aws:s3:::${BucketName}"
+  CodeBuildProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Name: device-identification-data
+      Description: CodeBuild project for device-identification-data
+      ServiceRole: !GetAtt CodeBuildRole.Arn
+      Environment:
+        Type: LINUX_CONTAINER
+        ComputeType: BUILD_GENERAL1_SMALL
+        ImagePullCredentialsType: SERVICE_ROLE
+        Image: 979446310614.dkr.ecr.eu-west-1.amazonaws.com/itv-ci-images-node:latest
+      Source:
+        Type: CODEPIPELINE
+      TimeoutInMinutes: 5
+      EncryptionKey: "alias/codepipeline-kms-key"
+      Artifacts:
+        Type: CODEPIPELINE
+  PRCheckerCodeBuildProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Name: !Sub ${AWS::StackName}-PRCheckerCodeBuild
+      Description: !Sub PR Checker ${AWS::StackName}
+      ServiceRole: !GetAtt "CodeBuildRole.Arn"
+      Environment:
+        Type: LINUX_CONTAINER
+        ComputeType: BUILD_GENERAL1_SMALL
+        ImagePullCredentialsType: SERVICE_ROLE
+        Image: 979446310614.dkr.ecr.eu-west-1.amazonaws.com/itv-ci-images-node:latest
+      Artifacts:
+        Type: NO_ARTIFACTS
+      Source:
+        Type: GITHUB
+        Location: !Sub "https://github.com/${GitHubOrganisationName}/${GitHubRepositoryName}.git"
+        GitCloneDepth: 1
+        Auth:
+          Type: OAUTH
+        BuildSpec: buildspec.pull_requests.yml
+      Triggers:
+        Webhook: true
+        FilterGroups:
+          - - Type: EVENT
+              Pattern: PULL_REQUEST_CREATED,PULL_REQUEST_UPDATED
+            - Type: BASE_REF
+              Pattern: ^refs/heads/master$
+              ExcludeMatchedPattern: false
+  CodePipeline:
+    Type: AWS::CodePipeline::Pipeline
+    Properties:
+      Name: device-identification-data
+      RestartExecutionOnUpdate: true
+      RoleArn: !Sub "arn:aws:iam::${AWS::AccountId}:role/codepipeline-execution-role"
+      ArtifactStore:
+        Type: S3
+        Location: itv-ci-jobs-artifactsbucket-oqsnfnwyfn4z
+        EncryptionKey:
+          Id: "arn:aws:kms:eu-west-1:979446310614:alias/codepipeline-kms-key"
+          Type: "KMS"
+      Stages:
+        - Name: Source
+          Actions:
+            - Name: Clone-From-GitHub
+              RunOrder: 1
+              ActionTypeId:
+                Category: Source
+                Owner: ThirdParty
+                Version: "1"
+                Provider: GitHub
+              OutputArtifacts:
+                - Name: GitHubSource
+              Configuration:
+                Owner: !Ref GitHubOrganisationName
+                Repo: !Ref GitHubRepositoryName
+                Branch: !Ref GitHubRepositoryBranchName
+                OAuthToken: "{{resolve:secretsmanager:/CodeBuild/Github:SecretString:GithubAccessToken}}"
+                PollForSourceChanges: false
+
+        - Name: Deploy-To-Test
+          Actions:
+            - Name: Deploy-Stack
+              RunOrder: 1
+              ActionTypeId:
+                Category: Deploy
+                Owner: AWS
+                Version: "1"
+                Provider: CloudFormation
+              InputArtifacts:
+                - Name: GitHubSource
+              Configuration:
+                ActionMode: REPLACE_ON_FAILURE
+                Capabilities: CAPABILITY_NAMED_IAM
+                StackName: test-device-identification-data
+                RoleArn: !Sub "arn:aws:iam::${DevelopmentAccount}:role/codepipeline-cloudformation-role"
+                TemplatePath: GitHubSource::stacks/bucket.yml
+                TemplateConfiguration: GitHubSource::parameters/bucket/test.json
+              RoleArn: !Sub "arn:aws:iam::${DevelopmentAccount}:role/codepipeline-execution-role"
+            # - Name: CodeBuild
+            #   RunOrder: 1
+            #   ActionTypeId:
+            #     Category: Build
+            #     Owner: AWS
+            #     Version: "1"
+            #     Provider: CodeBuild
+            #   InputArtifacts:
+            #     - Name: GitHubSource
+            #   Configuration:
+            #     ProjectName: !Ref "CodeBuildProject"
+
+        - Name: Deploy-To-Live
+          Actions:
+            - Name: Deploy-Stack
+              RunOrder: 1
+              ActionTypeId:
+                Category: Deploy
+                Owner: AWS
+                Version: "1"
+                Provider: CloudFormation
+              InputArtifacts:
+                - Name: GitHubSource
+              Configuration:
+                ActionMode: REPLACE_ON_FAILURE
+                Capabilities: CAPABILITY_NAMED_IAM
+                StackName: live-device-identification-data
+                RoleArn: !Sub "arn:aws:iam::${ProductionAccount}:role/codepipeline-cloudformation-role"
+                TemplatePath: GitHubSource::stacks/bucket.yml
+                TemplateConfiguration: GitHubSource::parameters/bucket/live.json
+              RoleArn: !Sub "arn:aws:iam::${ProductionAccount}:role/codepipeline-execution-role"
+            # - Name: CodeBuild
+            #   RunOrder: 1
+            #   ActionTypeId:
+            #     Category: Build
+            #     Owner: AWS
+            #     Version: "1"
+            #     Provider: CodeBuild
+            #   InputArtifacts:
+            #     - Name: GitHubSource
+            #   Configuration:
+            #     ProjectName: !Ref "CodeBuildProject"
+
+  GithubWebhook:
+    Type: AWS::CodePipeline::Webhook
+    Properties:
+      Authentication: GITHUB_HMAC
+      AuthenticationConfiguration:
+        SecretToken: "{{resolve:secretsmanager:/CodeBuild/Github:SecretString:GithubWebhookSecret}}"
+      Filters:
+        - JsonPath: "$.ref"
+          MatchEquals: refs/heads/master
+      TargetPipeline: !Ref CodePipeline
+      TargetAction: Clone-From-GitHub
+      TargetPipelineVersion: !GetAtt CodePipeline.Version
+      RegisterWithThirdParty: true

@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - n 12
+      - npm test
+artifacts:
+  files: "**/*"

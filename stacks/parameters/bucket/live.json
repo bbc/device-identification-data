@@ -1,0 +1,10 @@
+{
+  "Parameters": {},
+  "Tags": {
+    "BBCComponent": "device-identification-data",
+    "BBCEnvironment": "live",
+    "BBCProject": "interactive-tv-iptv",
+    "BBCOwner": "bad-horses"
+  },
+  "StackPolicy": {}
+}

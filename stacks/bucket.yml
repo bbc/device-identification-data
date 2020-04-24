@@ -1,0 +1,35 @@
+Description: Defines S3 infrastructure for device-identification-data
+Parameters:
+  DevelopmentAccount:
+    Type: String
+    Default: 119990297419
+  ProductionAccount:
+    Type: String
+    Default: 198243407611
+Resources:
+  Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: Private
+      MetricsConfigurations:
+        - Id: MonitorEntireBucket
+  BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref Bucket
+      PolicyDocument:
+        Statement:
+          - Principal:
+              AWS:
+                - !Ref DevelopmentAccount
+                - !Ref ProductionAccount
+            Condition:
+              ForAnyValue:ArnLike:
+                aws:PrincipalArn:
+                  - "arn:aws:iam::119990297419:role/test-matterhorn-main-ComponentRole-*"
+                  - "arn:aws:iam::198243407611:role/live-matterhorn-main-ComponentRole-Y9HM8TAW5LXN"
+            Action:
+              - s3:GetObject
+            Resource:
+              - !Sub "${Bucket.Arn}/*"
+            Effect: Allow

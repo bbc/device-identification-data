@@ -25,7 +25,8 @@
     "build": "./scripts/build.sh",
     "release-to-live": "npm test && ./scripts/deploy.sh",
     "check-licenses": "tvp-apache2-license-checker",
-    "create": "node ./scripts/create-new-matcher.js || true"
+    "create": "node ./scripts/create-new-matcher.js || true",
+    "pipeline": "npx bbc/tvr-codepipeline-updater#semver:^2.0 979446310614 device-identification-data ci/codepipeline.yml"
   },
   "pre-commit": [
     "lint"
