@@ -9,6 +9,9 @@ Parameters:
   PipelineAccount:
     Type: String
     Default: 979446310614
+  SharedDevAccount:
+    Type: String
+    Default: 219028824415
 Resources:
   Bucket:
     Type: AWS::S3::Bucket
@@ -27,6 +30,7 @@ Resources:
                 - !Ref DevelopmentAccount
                 - !Ref ProductionAccount
                 - !Ref PipelineAccount
+                - !Ref SharedDevAccount
             Action:
               - s3:GetObject
             Resource:
