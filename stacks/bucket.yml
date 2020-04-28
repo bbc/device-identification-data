@@ -26,6 +26,7 @@ Resources:
               AWS:
                 - !Ref DevelopmentAccount
                 - !Ref ProductionAccount
+                - !Ref PipelineAccount
             Action:
               - s3:GetObject
             Resource:
