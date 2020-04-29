@@ -47,11 +47,8 @@ Resources:
                 Action:
                   - s3:PutObject
                   - s3:PutObjectAcl
-                Resource: !Sub "arn:aws:s3:::${TestBucketName}/*"
-              - Effect: Allow
-                Action:
-                  - s3:ListBucket
-                Resource: !Sub "arn:aws:s3:::${TestBucketName}"
+                Resource:
+                  - arn:aws:s3:::itv-cdn-fronted/device-identification-data/*
   TestCodeBuildProject:
     Type: AWS::CodeBuild::Project
     Properties:
@@ -96,11 +93,8 @@ Resources:
                 Action:
                   - s3:PutObject
                   - s3:PutObjectAcl
-                Resource: !Sub "arn:aws:s3:::${LiveBucketName}/*"
-              - Effect: Allow
-                Action:
-                  - s3:ListBucket
-                Resource: !Sub "arn:aws:s3:::${LiveBucketName}"
+                Resource:
+                  - arn:aws:s3:::itv-cdn-fronted/device-identification-data/*
   LiveCodeBuildProject:
     Type: AWS::CodeBuild::Project
     Properties:
