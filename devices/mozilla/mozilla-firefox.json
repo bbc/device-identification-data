@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Firefox",
+      "Macintosh; Intel Mac OS X"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:76.0) Gecko/20100101 Firefox/76.0",
+    "type": "unknown"
+  }
+]
