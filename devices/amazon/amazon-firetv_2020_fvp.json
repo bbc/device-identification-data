@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "AFTWMST22"
+    ],
+    "disallowed": [],
+    "fuzzy": "smarttv_AFTWMST22_Build_0017381305986_Chromium_41.0.2250.2",
+    "type": "tv"
+  }
+]
