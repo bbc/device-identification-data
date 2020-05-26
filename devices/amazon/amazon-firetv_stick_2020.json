@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "AFTSS"
+    ],
+    "disallowed": [
+    ],
+    "fuzzy": "smarttv_AFTSS_Build_535062120_Chromium_55.0.2883.91",
+    "type": "tv"
+  }
+]

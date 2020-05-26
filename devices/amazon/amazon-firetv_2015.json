@@ -4,7 +4,8 @@
       "AFTS"
     ],
     "disallowed": [
-      "AFTSO001"
+      "AFTSO001",
+      "AFTSS"
     ],
     "fuzzy": "smarttv_AFTS_Build_565189620_Chromium_34.0.1847.114",
     "type": "tv"
