@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "PlayStation; PlayStation 5"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (PlayStation; PlayStation 5/1.00) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0 Safari/605.1.15",
+    "type": "tv"
+  }
+]
