@@ -1,0 +1,13 @@
+[
+  {
+    "invariants": [
+      "HbbTV/1.5.1",
+      "TCL",
+      "RT51M",
+      "FVC/4.0"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/48.0 Safari/537.4 HbbTV/1.5.1 (+DRM; TCL; RT51M; V8-R51MT02-LF1XXX ; RT51M; com.tcl.RT51M;) FVC/4.0 (TCL; com.tcl.RT51M;)",
+    "type": "tv"
+  }
+]
