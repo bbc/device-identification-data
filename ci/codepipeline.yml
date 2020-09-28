@@ -211,6 +211,9 @@ Resources:
                 - Name: GitHubSource
               Configuration:
                 ProjectName: !Ref LiveCodeBuildProject
+      Tags:
+        - Key: "DeploymentTracker.Enabled"
+          Value: "true"
 
   GithubWebhook:
     Type: AWS::CodePipeline::Webhook
