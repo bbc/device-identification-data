@@ -1,0 +1,13 @@
+[
+  {
+    "invariants": [
+      "Web0S",
+      "HbbTV",
+      "W60_K7LP",
+      "WEBOS6.0"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 HbbTV/1.5.1 (+DRM; LGE; modelName; WEBOS6.0 02.02.91; W60_K7LP; DTV_W21P;) FVC/6.0 (LGE; WEBOS6.0 ;)",
+    "type": "tv"
+  }
+]
