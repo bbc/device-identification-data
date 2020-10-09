@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "RokuBrowser",
+      "STB-394",
+      "Chrome"
+    ],
+    "disallowed": [],
+    "fuzzy": "RokuBrowser/68.0.48 (STB-3940X-9.80.9999) Chrome/68.0.3440.18",
+    "type": "streamer"
+  }
+]
