@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "com.sony.HE.TLS.2K"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11;Linux armv8l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (+DRM; Sony; KD-32W800; braviatl_00003; com.sony.HE.TLS.2K;) FVC/5.0 (Sony; com.tpv-tech.TPM219E;) LaTivu_1.0.1_2021",
+    "type": "tv"
+  }
+]
