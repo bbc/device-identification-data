@@ -7,7 +7,7 @@
       "VIP5002W"
     ],
     "disallowed": [],
-    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/602.1.28+ (KHTML, like Gecko) Version/9.1 Safari/601.5.17, VirginMedia_STB_/VIP5002W-ben-dbg-00.01-000-aa-AL-20200918210000-un000 (Arris_liberty,VIP5002W-DEV,Wired) HZN/4.30 (MN=VIP5002W;PC=APLSTB;FV=VIP5002W-ben-dbg-00.01-000-aa-AL-20200918210000-un000;)",
+    "fuzzy": "Mozilla/5.0 (Linux armv7l) AppleWebKit/602.1.28+ (KHTML, like Gecko) Version/9.1 Safari/601.5.17, VirginMedia_STB_/VIP5002W-ben-dbg-00.01-000-aa-AL-20201022210000-un000 (Arris_liberty,VIP5002W-DEV,Wired) HZN/4.31 (MN=VIP5002W-DEV;PC=APLSTB;FV=VIP5002W-ben-dbg-00.01-000-aa-AL-20201022210000-un000;)",
     "type": "stb"
   }
 ]
