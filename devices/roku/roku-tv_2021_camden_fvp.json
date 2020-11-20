@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "FVC/4.0",
+      "com.roku.C000XHD"
+    ],
+    "disallowed": [],
+    "fuzzy": "Roku/DVP-9.80 (AF9.80E99999XAF9.80E99999X) HbbTV/1.5.1 (+DRM; Hisense; 43A6102EER; 9.80.9999; ; com.roku.C000XHD; ) FVC/4.0 (Hisense; com.roku.C000XHD; )",
+    "type": "tv"
+  }
+]
