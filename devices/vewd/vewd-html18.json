@@ -3,7 +3,7 @@
     "invariants": [
       "VEWD_BBC_PRECERT"
     ],
-    "disallowed": [],
+    "disallowed": ["VEWD_BBC_PRECERT_NATIVE"],
     "fuzzy": "VEWD_BBC_PRECERT",
     "type": "tv"
   }

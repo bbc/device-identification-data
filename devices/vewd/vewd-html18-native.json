@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "VEWD_BBC_PRECERT_NATIVE"
+    ],
+    "disallowed": [],
+    "fuzzy": "VEWD_BBC_PRECERT_NATIVE",
+    "type": "tv"
+  }
+]
