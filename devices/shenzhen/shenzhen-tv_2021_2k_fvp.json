@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Ref+2.0_2KAndroidTV_V01",
+      "MT92161-ZC01-01"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (+DRM; MTC; Ref+2.0_2KAndroidTV_V01; V0.1.0.0.M001; MT92161-ZC01-01; Reference2K21;) FVC/6.0 (MTC; Reference2K21;)",
+    "type": "tv"
+  }
+]
