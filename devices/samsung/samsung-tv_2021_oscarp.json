@@ -7,4 +7,14 @@
     "disallowed": [],
     "fuzzy": "HbbTV/1.4.1 (+DRM;Samsung;SmartTV2021:QAQ80;T-NKMDEUC-0706.90;NikeM;urn:samsungtv:familyname:21_OSCARP_8K:2021;)",
     "type": "tv"
-  }]
+  },
+  {
+    "invariants": [
+      "Samsung;SmartTV2021",
+      "21_OSCARP_WALL"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM;Samsung;SmartTV2021:QAQ80;T-NKMDEUC-0706.90;OscarP;urn:samsungtv:familyname:21_OSCARP_WALL:2021;)",
+    "type": "tv"
+  }
+]
