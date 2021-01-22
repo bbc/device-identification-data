@@ -3,7 +3,7 @@
     "invariants": [
       "com.roku.C000X"
     ],
-    "disallowed": [],
+    "disallowed": ["com.roku.C000XHD"],
     "fuzzy": "RokuBrowser/68.0.1 (C000X-AF9.80E00175A) Chrome/68.0.3440.106 HbbTV/1.5.1 (+DRM; Hisense; 55A6104EER; AF9.80E00175A-68.0.1; ; com.roku.C000X;) FVC/4.0 (Hisense; com.roku.C000X;)",
     "type": "tv"
   }
