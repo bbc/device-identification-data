@@ -1,0 +1,12 @@
+[
+  {
+    "invariants": [
+      "Samsung;SmartTV2021",
+      "21_NIKEM2_FRAME",
+      "LS03A"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.5.1 (+DRM;Samsung;SmartTV2021:LS03A;T-NKM2DEUC-0308.90;NikeM2;urn:samsungtv:familyname:21_NIKEM2_FRAME:2021;) Tizen/6.0 (+TVPLUS+SmartHubLink+360avc) Chrome/76 LaTivu_1.0.1_2021",
+    "type": "tv"
+  }
+]
