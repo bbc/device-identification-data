@@ -5,6 +5,25 @@
       "21_KANTSU2E_UHD_BASIC"
     ],
     "disallowed": [],
-    "fuzzy": "HbbTV/1.4.1 (+DRM;Samsung;SmartTV2021:QAQ80;T-NKMDEUC-0706.90;NikeM;urn:samsungtv:familyname:21_KANTSU2E_UHD_BASIC:2021;)",
+    "fuzzy": "HbbTV/1.5.1 (+DRM;Samsung;SmartTV2021:UAU7000;;KantSU2e;urn:samsungtv:familyname:21_KANTSU2E_UHD_BASIC:2021;) Tizen/6.0 (+TVPLUS+SmartHubLink) Chrome/76 LaTivu_1.0.1_2021",
     "type": "tv"
-  }]
+  },
+  {
+    "invariants": [
+      "Samsung;SmartTV2021",
+      "21_KANTSU2E_UHD_VOICE"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.5.1 (+DRM;Samsung;SmartTV2021:UAU7700;;KantSU2e;urn:samsungtv:familyname:21_KANTSU2E_UHD_VOICE:2021;) Tizen/6.0 (+TVPLUS+SmartHubLink) Chrome/76 LaTivu_1.0.1_2021",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "Samsung;SmartTV2021",
+      "21_KANTSU2E_UHD_QTV"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.5.1 (+DRM;Samsung;SmartTV2021:QA60Q;;KantSU2e;urn:samsungtv:familyname:21_KANTSU2E_UHD_QTV:2021;) Tizen/6.0 (+TVPLUS+SmartHubLink) Chrome/76 LaTivu_1.0.1_2021",
+    "type": "tv"
+  }
+]
