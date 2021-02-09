@@ -1,0 +1,40 @@
+[
+  {
+    "invariants": [
+      "VSTVB",
+      "MB100",
+      "FVC/5.0",
+      "HbbTV/1.5.1",
+      "_TV_G31_2020",
+      "SmartTvA/3.0.0"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36 OPR/46.0.2207.0 OMI/4.20.2.31.LIMA_DEV.24 Model/Vestel-MB180 VSTVB MB100 FVC/5.0 (BBC_CUSTOMERS; MB180; ) HbbTV/1.5.1 (+DRM; BBC_CUSTOMERS; MB180; 1.4.0.0; ; _TV_G31_2020;) SmartTvA/3.0.0",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "VSTVB",
+      "MB100",
+      "FVC/5.0",
+      "HbbTV/1.5.1",
+      "_TV_G31_2020"
+    ],
+    "disallowed": [],
+    "fuzzy": "VSTVB MB100 FVC/5.0 (BBC_CUSTOMERS; MB180; ) HbbTV/1.5.1 (+DRM; BBC_CUSTOMERS; MB180; 1.4.0.0; ; _TV_G31_2020;)",
+    "type": "tv"
+  },
+  {
+    "invariants": [
+      "VSTVB",
+      "MB100",
+      "FVC/5.0",
+      "HbbTV/1.5.1",
+      "_TV_G31_2020",
+      "SmartTvA/3.0.0"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (Linux ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36 OPR/46.0.2207.0 OMI/4.20.2.31.LIMA_DEV.24 Model/Vestel-MB180 VSTVB MB100 FVC/5.0 (VESTEL; MB180; ) HbbTV/1.5.1 (+DRM; VESTEL; MB180; 1.4.0.0; ; _TV_G31_2020;) SmartTvA/3.0.0",
+    "type": "tv"
+  }
+]

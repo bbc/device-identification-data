@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Samsung;SmartTV2021",
+      "21_OSCARS_8K"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM;Samsung;SmartTV2021:QAQ700;T-OSCPDEUC-0706.90;OscarS;urn:samsungtv:familyname:21_OSCARS_8K:2021;)",
+    "type": "tv"
+  }
+]
