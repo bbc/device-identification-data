@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Samsung;SmartTV2021",
+      "21_KANTSU2E_FHD_QTV"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.5.1 (+DRM;Samsung;SmartTV2021:QAQ60;;KantSU2e;urn:samsungtv:familyname:21_KANTSU2E_FHD_QTV:2021;) Tizen/6.0 (+TVPLUS+SmartHubLink) Chrome/76 LaTivu_1.0.1_2021",
+    "type": "tv"
+  }
+]
