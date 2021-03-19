@@ -1,0 +1,13 @@
+[
+  {
+    "invariants": [
+      "HbbTV/1.5.1",
+      "TCL",
+      "MT9615",
+      "FVC/5.0"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (QtEmbedded; Linux) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0 Safari/537.36 HbbTV/1.5.1 (+DRM; TCL; MT9615; V8-T615T01-LF1xxxx; MT9615; com.tcl.MT9615;) FVC/5.0 (TCL; com.tcl.MT9615;)",
+    "type": "tv"
+  }
+]
