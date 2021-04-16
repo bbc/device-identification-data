@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Samsung;SmartTV2021",
+      "21_NIKEL_UHD_B2B"
+    ],
+    "disallowed": [],
+    "fuzzy": "HbbTV/1.4.1 (+DRM;Samsung;SmartTV2021:HQ60A ;T-NKLADEUC-0706.90;NikeL;urn:samsungtv:familyname:21_NIKEL_UHD_B2B:2021;)",
+    "type": "tv"
+  }
+]
