@@ -1,0 +1,10 @@
+[
+  {
+    "invariants": [
+      "_TV_T32_PANA_2021"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv8l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (+DRM; Panasonic; TX-50JX700E; TPM218E_R.101.000.175.000;; _TV_T32_PANA_2021;) FVC/5.0 (Panasonic; com.tpv-tech.TPM218E;) LaTivu_1.0.1_2021",
+    "type": "tv"
+  }
+]
