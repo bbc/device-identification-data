@@ -1,0 +1,13 @@
+[
+  {
+    "invariants": [
+     
+      "AFTKA"   
+     
+    ],
+    "disallowed": [
+    ],
+    "fuzzy": "smarttv_AFTKA_Build_0017381305986_Chromium_88.0.4324.152",
+    "type": "streamer"
+  }
+]
