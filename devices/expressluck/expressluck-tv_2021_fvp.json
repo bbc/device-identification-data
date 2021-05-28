@@ -1,0 +1,13 @@
+[
+  {
+    "invariants": [
+      "+DRM",
+      "Expressluck",
+      "2KTV",
+      "Reference2K21"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Safari/537.36 HbbTV/1.5.1 (+DRM; Expressluck; 2KTV; V0.1.0.0.E001; 1.0; Reference2K21;) FVC/6.0 (Expressluck; Reference2K21;)",
+    "type": "tv"
+  }
+]
