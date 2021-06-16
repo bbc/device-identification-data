@@ -1,0 +1,11 @@
+[
+  {
+    "invariants": [
+      "Hisense;",
+      "SmartTV_2022_3"
+    ],
+    "disallowed": [],
+    "fuzzy": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 HbbTV/1.6.1 (+DRM;Hisense;SmartTV_2022_3;V0000.01.00L.L0607;75U9KAAT;SmartTV_2022_3;) FVC/7.0 (Hisense;SmartTV_2022_3;) LaTivu_1.0.1_2022",
+    "type": "tv"
+  }
+]
